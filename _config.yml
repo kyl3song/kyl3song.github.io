@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Welcom to Kyle Station"
+title                    : "Welcom to Kyle's DForensics Station"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : #"Kyle Kwangkeun Song"
@@ -108,14 +108,14 @@ analytics:
 # Site Author
 author:
   name             : "Kyle Song"
-  avatar           : "/assets/photo/KyleSong.jpg"
+  avatar           : "/assets/photo/bio-photo.jpg"
   bio              : "In the world of emoticons, I'm colon captial D :D"
   location         : "Somewhere"
   email            : "fkilla8210@naver.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:fkilla8210@naver.com
+      #url: mailto:fkilla8210@naver.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -127,7 +127,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/kyl3song"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
