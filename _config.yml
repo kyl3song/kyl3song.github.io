@@ -26,7 +26,7 @@ baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "https://github.com/kyl3song"
 teaser                   : "/assets/photo/bio-photo.jpg"
 logo                     : "/assets/photo/bio-photo-2.jpg"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+masthead_title           : "Hello World" # "overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -109,7 +109,7 @@ analytics:
 author:
   name             : "Kyle Song"
   avatar           : "/assets/photo/bio-photo.jpg"
-  bio              : "In the world of emoticons, I'm colon captial D :D"
+  bio              : "All Digital Pieces Rolled into One!"
   location         : "Seoul, South Korea"
   email            : #"fkilla8210@naver.com"
   links:
