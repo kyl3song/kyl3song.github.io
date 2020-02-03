@@ -26,7 +26,7 @@ baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "https://github.com/kyl3song"
 teaser                   : "/assets/photo/bio-photo.jpg"
 logo                     : "/assets/photo/bio-photo-2.jpg"
-masthead_title           : "Hello World" # "overrides the website title displayed in the masthead, use " " for no title
+masthead_title           : "Kyle's D-Forensics Station" # "overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
