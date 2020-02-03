@@ -111,11 +111,11 @@ author:
   avatar           : "/assets/photo/bio-photo.jpg"
   bio              : "In the world of emoticons, I'm colon captial D :D"
   location         : "Seoul, South Korea"
-  email            : "fkilla8210@naver.com"
+  email            : #"fkilla8210@naver.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      #url: mailto:fkilla8210@naver.com
+      url: mailto:fkilla8210@naver.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
