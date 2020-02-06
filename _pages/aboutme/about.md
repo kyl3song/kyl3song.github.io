@@ -14,7 +14,7 @@ header:
 
 
 ## Work Experience
----
+
 - AhnLab, Software Security Team (2011. 3. ~ 2011. 8.)
   - Software Engineer
 ##
@@ -35,7 +35,7 @@ header:
   - IoT Forensics
 
 ## Certifications
----
+
 - CCNA, Cisco Certified Network Associate (CISCO)
 - CCNP, Cisco Certified Network Professional (CISCO)
 - CCIE R&S, Cisco Certified Internetwork Expert (CISCO)
@@ -44,13 +44,12 @@ header:
 - EnCE, EnCase Certified Examiner (OpenText)
 
 ## Awards
----
 
 - 2018.11.27. Digital Forensics Challenge 2018 (KIISC) 3rd Place
 
 
 ## Mini Research
----
+
 - 모바일 앱 최근 실행 내역 연계 분석 방안 (2018. 12.)
 - OCR을 통한 영상 시간값 추출 방안 (2019. 2.)
 - IMERCURY 블랙박스 음성 복원 방안 (2019. 6.)
@@ -66,17 +65,17 @@ header:
 
 
 ## Research
----
+
 - To be Updated...
 
 ## Other Activities
----
+
 - 2018년도 제67기 경찰간부후보생 선발 사이버분야 문제출제위원 (2017. 9. 15. ~ 2017. 9. 27.)
   - 시스템네트워크, 데이터베이스 분야 문제 출제
 
 
 ## Contact
----
+
 - Email
   - fkilla8210@gmail.com
 ##
