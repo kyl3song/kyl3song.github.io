@@ -14,15 +14,19 @@ header:
 
 
 ## Work Experience
+- 2011. 3. ~ 2011. 8.   
+TEST
 
-- AhnLab, Software Security Team (2011. 3. ~ 2011. 8.)
+- AhnLab (2011. 3. ~ 2011. 8.)
+  - Software Security Team
   - Software Engineer
-##
-- AhnLab, G-TAC & Network Security Team (2011. 9. ~ 2015. 12.)
+  
+- AhnLab (2011. 9. ~ 2015. 12.)
+  - G-TAC & Network Security Team 
   - Security Architect & Network Engineer
   - Global TAC (Technical Assistance Center)
   - Pre-sales
-##
+
 - SMPA, Seoul Seocho Police Station (2016. 7. ~ 2018. 1)
   - Cybercrime Investigator
   
@@ -81,5 +85,4 @@ header:
 ##
 - Github Page
   - [Github](https://github.com/kyl3song)
-
 
