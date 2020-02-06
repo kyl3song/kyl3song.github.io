@@ -1,9 +1,9 @@
 ---
 layout: single
 permalink: /about/
-title: "Who Am I"
+title:
 header:
-  #overlay_image: /assets/images/staff_sbnu.jpg
+  #overlay_image: /assets/images/test.jpg
 ---
 
 # Kyle Song (KwangKeun Song)
@@ -20,7 +20,7 @@ header:
 
 ## Experience
 
-- AAAAA **인턴**, 2000.1 ~
+- AAAAA **WORKPLACE**, 2000.1 ~
 
 ## Contact
 
