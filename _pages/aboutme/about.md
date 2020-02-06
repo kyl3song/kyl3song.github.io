@@ -1,5 +1,12 @@
+---
+layout: single
+permalink: /about/
+title: WHO AM I
+header:
+  overlay_image: /assets/images/about.png
+---
 
-# WHO AM I
+# kyle Song (Kwangkeun Song)
 
 > 오랫동안 꿈을 그리는 사람은 마침내 그 꿈을 닮아간다
 
