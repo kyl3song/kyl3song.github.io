@@ -2,11 +2,11 @@
 layout: single
 permalink: /about/
 #title:
-header:
+#header:
   #overlay_image: /assets/images/test.jpg
 ---
 
-# Kyle Song (KwangKeun Song)
+# WHO AM I
 
 > 오랫동안 꿈을 그리는 사람은 마침내 그 꿈을 닮아간다
 
