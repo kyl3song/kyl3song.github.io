@@ -18,15 +18,15 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 locale                   : "en-US"
 title                    : "Digital Forensics Station"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+subtitle                 : Kyle's D-Forensics Station # site tagline that appears below site title in masthead
 name                     : #"Kyle Kwangkeun Song"
 description              : "Digital Forensics Blog"
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://kyl3song.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "https://github.com/kyl3song"
-teaser                   : #"/assets/photo/bio-photo.jpg"
+teaser                   : #"/assets/photo/bio-photo.jpg" # 한 개의 포스트 맨 아래에 있는 다음글, 이전글 관련된 사진
 logo                     : "/assets/photo/logo.png"
-masthead_title           : "Kyle Station" # "overrides the website title displayed in the masthead, use " " for no title
+masthead_title           : "Kyl3s0n9'5 T3cHn1C41 B1o9"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -86,7 +86,7 @@ naver_site_verification  :
 twitter:
   username               :
 facebook:
-  username               : &facebook "Kyle Song"
+  username               : #&facebook "Kyle Song"
   app_id                 :
   publisher              :
 og_image                 : # Open Graph/Twitter default site image
