@@ -5,7 +5,7 @@ main:
     url: /about/
   - title: "Posts"
     url: /year-archive/
-  - title: "GitHub"
+  - title: "Github"
     url: https://github.com/kyl3song/
 
 # sidebar navigation list sample
