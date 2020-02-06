@@ -26,7 +26,6 @@ header:
 
 - Email
 
-  - me@ansubin.com
-  - subinium@gmail.com
+  - kylesong@gmail.com
 
-- Facebook : [안수빈](https://www.facebook.com/subinium)
+
