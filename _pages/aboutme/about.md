@@ -1,10 +1,3 @@
----
-layout: single
-permalink: /about/
-#title:
-#header:
-  #overlay_image: /assets/images/test.jpg
----
 
 # WHO AM I
 
