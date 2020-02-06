@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Kyle's DForensics Station"
+title                    : "Digital Forensics Station"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : #"Kyle Kwangkeun Song"
@@ -109,7 +109,7 @@ analytics:
 author:
   name             : "Kyle Song"
   avatar           : "/assets/photo/kylesong.png"
-  bio              : "All Digital Pieces Rolled into One!"
+  bio              : "All Digital Pieces Rolled into One"
   location         : "Seoul, South Korea"
   email            : #"fkilla8210@gmail.com"
   links:
