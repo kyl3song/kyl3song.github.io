@@ -1,13 +1,10 @@
 # main links links
 main:
+  # 메인 프레임 상단 제목
   - title: "About"
     url: /about/
   - title: "Posts"
     url: /year-archive/
-  - title: "Collections"
-    url: /collection-archive/
-  - title: "Sitemap"
-    url: /sitemap/
 
 # sidebar navigation list sample
 sidebar-about:
