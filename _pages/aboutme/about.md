@@ -15,25 +15,27 @@ header:
 
 ## Work Experience
 
-- 2018.2 ~ : SMPA Digital Forensics Investigation Unit
+- SMPA Digital Forensics Investigation Unit (2018.2 ~ )
   - Digital Forensics Investigator
   - Computer Forensics
   - Mobile Forensics
   - Car Blackbox & DVR(Digital Video Recoder) Forensics
   - IoT Forensics
 
-- 2016.7. ~ 2018.1: SMPA, Seoul Seocho Police Station 
-  - @Cybercrime Investigation Team
+- SMPA, Seoul Seocho Police Station (2016.7. ~ 2018.1)  
+  @ Cybercrime Investigation Team
+  
   - Cybercrime Investigator
 
-- AhnLab (2011. 9. ~ 2015. 12.)
-  - @G-TAC & Network Security Team 
+- AhnLab (2011.9. ~ 2015.12.)  
+  @ Global Technical Assistance Center  
+  @ Network Security Team
   - Security Architect & Network Engineer
-  - Global TAC (Technical Assistance Center)
+  - Global Partner Support
   - Pre-sales
 
-- AhnLab (2011. 3. ~ 2011. 8.)
-  - @Software Security Team
+- AhnLab (2011.3. ~ 2011.8.)  
+  @ Software Security Team
   - Software Engineer
 
 ## Certifications
@@ -72,8 +74,8 @@ header:
 
 ## Other Activities
 
-- 2018년도 제67기 경찰간부후보생 선발 사이버분야 문제출제위원 (2017. 9. 15. ~ 2017. 9. 27.)
-  - 시스템네트워크, 데이터베이스 분야 문제 출제
+- 2018년도 제67기 경찰간부후보생 선발 사이버분야 문제출제위원 (2017. 9. 15. ~  9. 27.)  
+  \- 시스템네트워크, 데이터베이스 분야
 
 
 ## Contact
