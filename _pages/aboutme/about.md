@@ -14,29 +14,27 @@ header:
 
 
 ## Work Experience
-- 2011. 3. ~ 2011. 8.   
-TEST
 
-- AhnLab (2011. 3. ~ 2011. 8.)
-  - Software Security Team
-  - Software Engineer
-  
-- AhnLab (2011. 9. ~ 2015. 12.)
-  - G-TAC & Network Security Team 
-  - Security Architect & Network Engineer
-  - Global TAC (Technical Assistance Center)
-  - Pre-sales
-
-- SMPA, Seoul Seocho Police Station (2016. 7. ~ 2018. 1)
-  - Cybercrime Investigator
-  
-##
-- SMPA Digital Forensics Investigation Unit (2018. 2. ~ Now)
+- 2018.2 ~ : SMPA Digital Forensics Investigation Unit
   - Digital Forensics Investigator
   - Computer Forensics
   - Mobile Forensics
   - Car Blackbox & DVR(Digital Video Recoder) Forensics
   - IoT Forensics
+
+- 2016.7. ~ 2018.1: SMPA, Seoul Seocho Police Station 
+  - @Cybercrime Investigation Team
+  - Cybercrime Investigator
+
+- AhnLab (2011. 9. ~ 2015. 12.)
+  - @G-TAC & Network Security Team 
+  - Security Architect & Network Engineer
+  - Global TAC (Technical Assistance Center)
+  - Pre-sales
+
+- AhnLab (2011. 3. ~ 2011. 8.)
+  - @Software Security Team
+  - Software Engineer
 
 ## Certifications
 
