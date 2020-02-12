@@ -95,8 +95,9 @@ og_image                 : # Open Graph/Twitter default site image
 social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
-  links: "https://www.facebook.com/fkilla8210" # An array of links to social media profiles
-
+  links: # An array of links to social media profiles
+    - "https://www.facebook.com/subinium"
+  
 # Analytics
 analytics:
   provider               : google # false (default), "google", "google-universal", "custom"
