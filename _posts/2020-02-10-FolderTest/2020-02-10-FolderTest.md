@@ -1,17 +1,18 @@
 ﻿---
-title:  DFIR Blog TEST
+title:  "DFIR Blog TEST"
 category:
   - DFIR
 tag: 
   - TEST
   - DFI
+  - AAA
 sidebar_main: true
 author_profile: true
 use_math: true
 header:
   overlay_image : /assets/images/post.jpg
   overlay_filter: 0.5
-published: true
+#published: true
 ---
 20200203 블로그
 
