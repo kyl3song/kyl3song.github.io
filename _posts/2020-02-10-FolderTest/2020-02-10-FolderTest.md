@@ -2,10 +2,6 @@
 title:  DFIR Blog TEST
 categories:
   - DFIR
-tags: 
-  - TEST
-  - DFI
-
 sidebar_main:  true
 author_profile:  true
 use_math:  true
@@ -13,6 +9,9 @@ header:
   overlay_image : /assets/images/post.jpg
   overlay_filter: 0.5
 published:  true
+tags: 
+  - TEST
+  - DFI
 ---
 
 20200203 블로그

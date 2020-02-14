@@ -7,6 +7,9 @@ header:
 ---
 
 # kyle Song (Kwangkeun Song)
+##
+
+<img src="/assets/photo/logo_1024x1024.png" width="50%" height="50%" alt="DUCKDuck"></img>
 
 > Think outside the Box
 
@@ -81,8 +84,8 @@ header:
 ## Contact
 
 - Email
-  - fkilla8210@gmail.com
+  - <fkilla8210@gmail.com>
 ##
-- Github Page
-  - [Github](https://github.com/kyl3song)
+- Github
+  - [Kyl3song](https://github.com/kyl3song)
 
