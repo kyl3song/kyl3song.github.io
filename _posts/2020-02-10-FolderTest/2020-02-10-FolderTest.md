@@ -1,16 +1,16 @@
 ﻿---
-title:  CTF Blog TEST
+title:  DFIR Blog TEST
 categories:
-  - CTF
+  - DFIR
 tags: 
   - TEST
-  - DF
-  - Kernel
+  - DFI
 
 sidebar_main:  true
 author_profile:  true
 use_math:  true
 header:
+  overlay_image : /assets/images/post.jpg
   overlay_filter: 0.5
 published:  true
 ---
@@ -18,21 +18,20 @@ published:  true
 
 ![TEST]
 
-Capture The Flag
+DFIR POST TEST
 
-## CTF System
+## System
 
  구체적인 정보를 확인할 수 있습니다.
 
 - Comp, Dis
-- em style='color#5ac995' TEST1   em style='color#0bf'TESST2   em style='color#95628f'TESTT3  em style='color#f96517'TESTT4  em style='color#dca917'TEST5
 
 
-## FLAG FLAG
+## DFIR
 
- 재미로 읽어주시면 감사하겠습니다.
+ Hello World!
 
-### Winner Solution & High Score
+### Solution & High
 
 ###![](a.png){height=64px width=64px}
 
@@ -62,4 +61,4 @@ Capture The Flag
 
 ---
 
-CTF 꼬리말 꼬리말 꼬리말 꼬리말꼬리말
+DFIR_TAG 꼬리말 꼬리말 꼬리말 꼬리말꼬리말
