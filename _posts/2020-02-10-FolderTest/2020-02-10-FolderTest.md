@@ -9,7 +9,8 @@ sidebar_main : true
 author_profile : true
 #use_math : true
 header:
-  overlay_image : /assets/images/post.jpg
+  overlay_image : https://www.kaggle.com/static/images/tiers-example.png
+  #overlay_image : /assets/images/post.jpg
   overlay_filter: 0.5
 #published : true
 ---
