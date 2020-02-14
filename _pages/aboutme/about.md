@@ -10,7 +10,7 @@ header:
 
 > Think outside the Box
 
-![title](/assets/photo/logo_1024x1024.png)
+<center><img src="/assets/photo/logo.png"></center>
 
 테스트입니다.
 
