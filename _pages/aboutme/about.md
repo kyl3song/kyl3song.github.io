@@ -9,8 +9,7 @@ header:
 # kyle Song (Kwangkeun Song)
 
 > Think outside the Box
-
-<center><img src="/assets/photo/logo.png"></center>
+<img src="/assets/photo/logo.png">
 
 테스트입니다.
 
