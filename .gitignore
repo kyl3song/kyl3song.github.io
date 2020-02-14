@@ -2,6 +2,9 @@
 *~
 *.sw[p_]
 
+# ignore all files in the build/ directory
+draft/
+
 # Sublime Text
 *.sublime-project
 *.sublime-workspace
