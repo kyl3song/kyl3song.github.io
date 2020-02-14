@@ -7,11 +7,9 @@ header:
 ---
 
 # kyle Song (Kwangkeun Song)
-##
 
-<img src="/assets/photo/logo_1024x1024.png" width="50%" height="50%" alt="DUCKDuck">
-
-<center><img src="/assets/photo/logo_1024x1024.png" width="300" height="300"></center>
+![title](/assets/photo/logo_1024x1024.png){: width="100" height="100"}
+![title](/assets/photo/logo_1024x1024.png){: width="50%" height="50%"}
 
 > Think outside the Box
 
