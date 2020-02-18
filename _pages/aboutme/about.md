@@ -8,11 +8,11 @@ header:
 
 # kyle Song (Kwangkeun Song)
 
-> Think outside the Box
+> Think outside the Box & Stay Positive
 
 <img src="/assets/photo/logo.png">
 
-테스트입니다.
+
 
 
 ## Work Experience
