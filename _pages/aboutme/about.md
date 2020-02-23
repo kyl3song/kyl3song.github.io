@@ -10,8 +10,7 @@ header:
 
 > Think outside the Box & Stay Positive
 
-<img src="/assets/photo/logo.png">
-
+<center><img src="/assets/photo/logo.png" width="400" height="300"></center>
 
 
 
@@ -25,20 +24,22 @@ header:
   - IoT Forensics
 
 - SMPA, Seoul Seocho Police Station (2016.7. ~ 2018.1)  
-  @ Cybercrime Investigation Team
-  
-  - Cybercrime Investigator
-
-- AhnLab (2011.9. ~ 2015.12.)  
-  @ Global Technical Assistance Center  
+  @ Cybercrime Investigation Team 
+  - Cybercrime Investigator   
+   
+- AhnLab (2011.3. ~ 2015.12.)  
+  @ Global Technical Assistance Center
+    - Security Architect & Network Engineer
+    - Global Partner Technical Support in Appliances
+    - Pre-sales Technical Engineer
+    - Exhibitor at cybersecurity conferences (RSAC, Infosecurity, etc.)
+    
   @ Network Security Team
   - Security Architect & Network Engineer
-  - Global Partner Support
-  - Pre-sales
 
-- AhnLab (2011.3. ~ 2011.8.)  
   @ Software Security Team
-  - Software Engineer
+  - Security Architect & Software Engineer
+
 
 ## Certifications
 
@@ -56,23 +57,23 @@ header:
 
 ## Mini Research
 
-- 모바일 앱 최근 실행 내역 연계 분석 방안 (2018. 12.)
-- OCR을 통한 영상 시간값 추출 방안 (2019. 2.)
-- IMERCURY 블랙박스 음성 복원 방안 (2019. 6.)
+- 모바일 앱 최근 실행 내역 연계 분석 (2018. 12.)
+- OCR을 통한 영상 시간값 추출 (2019. 2.)
+- IMERCURY 블랙박스 음성 복원 (2019. 6.)
 - uTorrent 분석 방안 (2019. 7.)
 - FocusH&S DVR 복원율 향상 방안 (2019. 8.)
 - Pandas로 108배 빠른 분석 성능 내기 (2019. 9.)
-- KAPE(Kroll Artifact Parser and Extractor) 도구 소개 및 분석 방안 (2019. 10.)
+- KAPE(Kroll Artifact Parser and Extractor) 활용 분석 (2019. 10.)
 - 영상 처리 기술을 통한 특정 기간의 영상 분할 방안 (2019. 11.)
 - AHD Prestige DVR 영상 파일(.dmd) 분석 (2019. 12.)
-- 채널별 저장된 MP4 타입 블랙박스 영상 복원 방안 (2020. 1.)
+- 채널별 저장된 MP4 타입 블랙박스 영상 복원 (2020. 1.)
 - 보안USB 분석 TIP (2020. 2.)
 - To Be Updated..
 
 
 ## Research
 
-- To be Updated...
+- To Be Updated...
 
 ## Other Activities
 
