@@ -10,7 +10,7 @@ header:
 
 > Think outside the Box & Stay Positive
 
-<center><img src="/assets/photo/logo.png" width="400" height="300"></center>
+<center><img src="/assets/photo/logo.png"></center>
 
 
 
@@ -23,21 +23,19 @@ header:
   - Car Blackbox & DVR(Digital Video Recoder) Forensics
   - IoT Forensics
 
-- SMPA, Seoul Seocho Police Station (2016.7. ~ 2018.1)  
-  @ Cybercrime Investigation Team 
-  - Cybercrime Investigator   
-   
-- AhnLab (2011.3. ~ 2015.12.)  
-  @ Global Technical Assistance Center
-    - Security Architect & Network Engineer
-    - Global Partner Technical Support in Appliances
-    - Pre-sales Technical Engineer
-    - Exhibitor at cybersecurity conferences (RSAC, Infosecurity, etc.)
-    
-  @ Network Security Team
+- SMPA, Seoul Seocho Police Station Cybercrime Investigation Team (2016.7. ~ 2018.1)
+  - Cybercrime Investigation
+  
+- AhnLab Global Technical Assistance Center (2011.3. ~ 2015.12.)
+  - Security Architect & Network Engineer
+  - Global Partner Technical Support in Appliances
+  - Pre-sales Technical Engineer
+  - Exhibitor at cybersecurity conferences (RSAC, Infosecurity, etc.)
+
+- AhnLab Network Security Team
   - Security Architect & Network Engineer
 
-  @ Software Security Team
+- AhnLab Software Security Team
   - Security Architect & Software Engineer
 
 
