@@ -126,6 +126,8 @@ blockquote {
 /* links */
 
 a {
+  /* text-decoration: none => 블로그 포스트 제목의 하이퍼링크 밑줄 없애기 */
+  text-decoration: none;
   &:focus {
     @extend %tab-focus;
   }
@@ -312,10 +314,6 @@ nav {
 
   a {
     text-decoration: none;
-    /* 아래 하이퍼링크 밑줄 없애기(포스트 제목부분)*/
-    &:focus {
-      @extend %tab-focus;
-    }
   }
 
   /* override white-space for nested lists */
