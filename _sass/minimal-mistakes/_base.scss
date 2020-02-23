@@ -315,6 +315,7 @@ nav {
     /* 아래 하이퍼링크 밑줄 없애기(포스트 제목부분)*/
     &:focus {
       @extend %tab-focus;
+    }
   }
 
   /* override white-space for nested lists */
