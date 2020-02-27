@@ -43,7 +43,7 @@ The Basics of Car Blackbox Forensics
 아래는 EnCase에서 확인한 블랙박스 메모리 128GB MicroSD의 볼륨 정보를 확인한 것이다. 볼륨은 단일 볼륨으로 FAT32 파일시스템을 사용하고 있다.
 <center><img src="https://i.imgur.com/GgJmqyR.png"></center>   
 
-### 
+
 
 윈도우를 조금 관심 있게 썼거나 64GB 이상 USB를 윈도우 운영체제에서 포맷해본 사람이라면 다 아는 내용이지만 윈도우에서는 기본적으로 64GB 이상의 저장매체를 FAT32로 포맷할 수 없게 되어있다.
 
@@ -53,7 +53,7 @@ The Basics of Car Blackbox Forensics
 본론으로 돌아와서 OEM Version으로 mkfs.fat가 보인다면 리눅스 시스템에서 포맷이 이뤄진 것으로 볼 수 있다. 즉 블랙박스 시스템에서 포맷이 이뤄졌다는 의미이다.
 <center><img src="https://i.imgur.com/RhWtiFU.png"></center>  
 
-### 
+
 
 OEM ID는 VBR(Volume Boot Record)에 존재하는 값으로 해당 값을 이용하여 저장매체의 볼륨을 포맷한 운영체제를 대략적으로 판단할 수 있다. 아래는 각 운영체제에서 포맷했을 때 확인되는 OEM ID 값이다. 
 - MSWIN4.0 (Windows 95)
@@ -64,7 +64,7 @@ OEM ID는 VBR(Volume Boot Record)에 존재하는 값으로 해당 값을 이용
 
 <center><img src="https://i.imgur.com/cMDJD13.png"></center>  
 
-### 
+
 
 만일 제출된 블랙박스 메모리카드의 OEM ID가 MSDOS5.0 등과 같이 윈도우 시스템에서 이뤄졌다면 일단 의심해볼 여지가 있다.
 
@@ -85,8 +85,8 @@ mkfs.fat -F 32 /dev/sdb1
 
 <center><img src="https://i.imgur.com/GZCOqT9.png"></center>  
 
-### 
 
+   
 이 경우에는 임시 파일 형태로 영상파일을 저장하다가 완료가 되면 정상적인 영상 파일로 덮어쓰는 형태일 것이다. 덮어쓰기가 완료되면 사용됐던 임시파일은 파일시스템에서 삭제가 되는데 그 과정에서 디렉터리 엔트리의 삭제 플래그 값만 변경하기 때문에 파일이 그대로 남아 있는 경우가 다수이다.
 
 사고 당시의 영상이 저장되지 않는 부분이 단순한 단점일지 모르나 사실 가장 큰 문제로 작용한다. 만일 사고가 발생했는데 충격으로 영상이 저장이 되지 않았다? 그렇게 큰 문제가 아닐 수 없다. 사용하는 블랙박스의 신뢰성에도 문제가 된다.
