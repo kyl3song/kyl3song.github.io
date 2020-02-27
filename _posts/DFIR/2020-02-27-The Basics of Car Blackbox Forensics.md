@@ -1,5 +1,5 @@
 ---
-title : "차량용 블랙박스 분석 기본 (The Basics of Car Blackbox Forensics)"
+title : "차량용 블랙박스 분석 기본"
 category :
   - DFIR
 tag : 
@@ -18,6 +18,7 @@ header:
   overlay_filter: 0.5
 #published : true
 ---
+The Basics of Car Blackbox Forensics
 
 ## Car Blackbox (Dashboard Camera)
 
@@ -77,7 +78,6 @@ mkfs.fat -F 32 /dev/sdb1
 기기 내부적으로는 임시파일(.TMP) 형태로 남는 경우도 있는데, 물론 제조사마다 다르고 모델마다 다르지만, 실제로 파일시스템을 분석하면 정상적으로 영상 파일이 있음에도 불구하고 임시 파일이 그대로 남아 있는 경우를 종종 목격할 수 있다.
 
 <center><img src="https://i.imgur.com/GZCOqT9.png"></center>
-<center>[임시 파일 저장 형태]</center>
 
 이 경우에는 임시 파일 형태로 영상파일을 저장하다가 완료가 되면 정상적인 영상 파일로 덮어쓰는 형태일 것이다. 덮어쓰기가 완료되면 사용됐던 임시파일은 파일시스템에서 삭제가 되는데 그 과정에서 디렉터리 엔트리의 삭제 플래그 값만 변경하기 때문에 파일이 그대로 남아 있는 경우가 다수이다.
 
