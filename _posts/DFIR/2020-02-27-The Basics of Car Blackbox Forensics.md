@@ -1,5 +1,5 @@
 ---
-title :  차량용 블랙박스 분석 기본 (The Basics of Car Blackbox Forensics)
+title : "차량용 블랙박스 분석 기본 (The Basics of Car Blackbox Forensics)"
 category :
   - DFIR
 tag : 
@@ -18,7 +18,6 @@ header:
   overlay_filter: 0.5
 #published : true
 ---
-차량용 블랙박스 분석 기본 (The Basics of Car Blackbox Forensics)
 
 ## Car Blackbox (Dashboard Camera)
 
@@ -41,7 +40,7 @@ header:
 즉 사용자가 MicroSD 메모리를 컴퓨터, 휴대폰, 태블릿 등 다양한 기기에서 영상을 볼 수 있다는 장점이 있다.
 
 아래는 EnCase에서 확인한 블랙박스 메모리 128GB MicroSD의 볼륨 정보를 확인한 것이다. 볼륨은 단일 볼륨으로 FAT32 파일시스템을 사용하고 있다.
-<center><img src="https://i.imgur.com/AaisylC.png"></center>
+<center><img src="https://i.imgur.com/GgJmqyR.png"></center>
 
 윈도우를 조금 관심 있게 썼거나 64GB 이상 USB를 윈도우 운영체제에서 포맷해본 사람이라면 다 아는 내용이지만 윈도우에서는 기본적으로 64GB 이상의 저장매체를 FAT32로 포맷할 수 없게 되어있다.
 
