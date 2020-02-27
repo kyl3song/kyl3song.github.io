@@ -1,22 +1,23 @@
 ---
-title:  차량용 블랙박스 분석 기본 (The Basics of Car Blackbox Forensics)
-categories:
+title :  차량용 블랙박스 분석 기본 (The Basics of Car Blackbox Forensics)
+category :
   - DFIR
-tags: 
+tag : 
   - DFIR
   - Digital Forensics & Incident Response
   - Blackbox
   - Dashcam
-
-sidebar_main:  true
-author_profile:  true
-use_math:  true
+sidebar_main : true
+author_profile : true
+use_math : true
+toc: true
+toc_sticky: true
+toc_label: "Table of Contents"
 header:
-  overlay_image : /assets/images/post_overlay_image.jpg
+  overlay_image : /assets/images/post.jpg
   overlay_filter: 0.5
-published:  true
+#published : true
 ---
-
 차량용 블랙박스 분석 기본 (The Basics of Car Blackbox Forensics)
 
 ## Car Blackbox (Dashboard Camera)
