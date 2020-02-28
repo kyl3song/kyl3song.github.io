@@ -18,7 +18,7 @@ header:
   overlay_filter: 0.5
 #published : true
 ---
-차량용 블랙박스 분석 기본
+차량용 블랙박스 분석 기본(Part 1)
 
 ## Car Blackbox (Dashboard Camera)
 
