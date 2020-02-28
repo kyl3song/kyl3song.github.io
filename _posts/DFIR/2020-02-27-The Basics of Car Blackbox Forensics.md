@@ -1,5 +1,5 @@
 ---
-title : "The Basics of Car Blackbox Forensics"
+title : "Blog #2: The Basics of Car Blackbox Forensics part 1"
 category :
   - DFIR
 tag : 
