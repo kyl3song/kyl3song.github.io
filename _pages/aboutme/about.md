@@ -16,7 +16,7 @@ header:
 
 ## Work Experience
 
-- SMPA Digital Forensics Investigation Unit (2018.2 ~ )
+- SMPA Digital Forensics Investigation Section (2018.2 ~ )
   - Digital Forensics Investigator
   - Computer Forensics
   - Mobile Forensics
@@ -53,7 +53,7 @@ header:
 - 2018.11.27. Digital Forensics Challenge 2018 (KIISC) 3rd Place
 
 
-## Mini Research
+## Tech Report
 
 - 모바일 앱 최근 실행 내역 연계 분석 (2018. 12.)
 - OCR을 통한 영상 시간값 추출 (2019. 2.)
