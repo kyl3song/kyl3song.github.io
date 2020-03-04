@@ -71,7 +71,7 @@ header:
 
 ## Research
 
-- To Be Updated...
+- To Be Updated..
 
 ## Other Activities
 
