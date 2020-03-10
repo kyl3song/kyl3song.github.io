@@ -204,21 +204,21 @@ X-Ways Forensics 도구의 경우 카빙 기능 외 'Intelligent naming'이라�
 사실 현업에서는 이런 차이점이 복원하는데 큰 영향을 주지는 않는다. 두 개의 코덱이 거의 비슷하기도 하고, 확실한건, AVI 파일에서는 프레임 구조가 코덱의 영향을 받는 경우는 거의 보지 못하였다. 경험상 AVI에서는 H264 구조가 많고, MP4는 AVC 코덱의 구조가 많았다.
 
 # Copyright
-https://creativecommons.org/faq/#what-are-creative-commons-licenses
-<img src="/assets/images/creativecommon_by-nc.png" width="50%" height="50%">
+<https://creativecommons.org/faq/#what-are-creative-commons-licenses>
+<img src="/assets/images/creativecommon_by-nc.png" width="40%" height="40%">
 
 # Reference
-- https://www.file-recovery.com/avi-signature-format.htm
-- https://ko.wikipedia.org/wiki/RIFF
-- https://johnloomis.org/cpe102/asgn/asgn1/riff.html
-- https://www.fourcc.org/fourcc.php
-- http://telnet.or.kr/directx/htm/avirifffilereference.htm
-- https://docs.microsoft.com/en-us/windows/win32/xaudio2/resource-interchange-file-format--riff-
-- https://www.wooleelife.com/27
-- https://m.blog.naver.com/PostView.nhn?blogId=dbfan24&logNo=10128721121&proxyReferer=https%3A%2F%2Fwww.google.com%2F
-- https://docs.microsoft.com/en-us/windows/win32/directshow/h-264-video-types?redirectedfrom=MSDN
-- https://www.fourcc.org/fourcc.php
-- http://www.x-ways.net/winhex/manual.pdf
-- https://www.fileformat.info/format/riff/egff.htm
-- http://ipassmall.co.kr/ipassblack/download_view.asp?bs=&pg=1&seq=298&Cat2=15&sf=bSubject&ss=ITB%2D650HD
-- https://www.mandoplaza.com/
+- <https://www.file-recovery.com/avi-signature-format.htm>
+- <https://ko.wikipedia.org/wiki/RIFF>
+- <https://johnloomis.org/cpe102/asgn/asgn1/riff.html>
+- <https://www.fourcc.org/fourcc.php>
+- <http://telnet.or.kr/directx/htm/avirifffilereference.htm>
+- <https://docs.microsoft.com/en-us/windows/win32/xaudio2/resource-interchange-file-format--riff->
+- <https://www.wooleelife.com/27>
+- <https://m.blog.naver.com/PostView.nhn?blogId=dbfan24&logNo=10128721121&proxyReferer=https%3A%2F%2Fwww.google.com%2F>
+- <https://docs.microsoft.com/en-us/windows/win32/directshow/h-264-video-types?redirectedfrom=MSDN>
+- <https://www.fourcc.org/fourcc.php>
+- <http://www.x-ways.net/winhex/manual.pdf>
+- <https://www.fileformat.info/format/riff/egff.htm>
+- <http://ipassmall.co.kr/ipassblack/download_view.asp?bs=&pg=1&seq=298&Cat2=15&sf=bSubject&ss=ITB%2D650HD>
+- <https://www.mandoplaza.com/>
