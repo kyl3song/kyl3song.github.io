@@ -79,5 +79,6 @@ header:
 
 
 # Copyright
-<https://creativecommons.org/faq/#what-are-creative-commons-licenses>
 <img src="/assets/images/creativecommon_by-nc.png" width="30%" height="30%">
+
+<https://creativecommons.org/faq/#what-are-creative-commons-licenses>

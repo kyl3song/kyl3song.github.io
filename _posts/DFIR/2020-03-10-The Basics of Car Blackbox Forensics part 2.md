@@ -222,5 +222,6 @@ X-Ways Forensics 도구의 경우 카빙 기능 외 'Intelligent naming'이라�
   
 
 # Copyright
-<https://creativecommons.org/faq/#what-are-creative-commons-licenses>
 <img src="/assets/images/creativecommon_by-nc.png" width="30%" height="30%">
+
+<https://creativecommons.org/faq/#what-are-creative-commons-licenses>
