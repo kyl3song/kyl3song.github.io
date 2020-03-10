@@ -77,3 +77,7 @@ header:
 혹시라도 수정해야 할 내용이 있거나 보완해야 할 점이 있다면 언제든 알려주면 반영을 하도록 하겠다.  
 그동안 인터넷을 통해 IT 관련 지식 등 다양한 정보를 얻고 있는데 혹시라도 내가 작성한 포스팅에서 누군가 도움을 얻거나 인사이트를 얻어가면 좋을 것 같다.
 
+
+# Copyright
+<https://creativecommons.org/faq/#what-are-creative-commons-licenses>
+<img src="/assets/images/creativecommon_by-nc.png" width="30%" height="30%">
