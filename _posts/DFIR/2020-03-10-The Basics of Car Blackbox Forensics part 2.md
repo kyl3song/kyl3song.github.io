@@ -203,6 +203,9 @@ X-Ways Forensics 도구의 경우 카빙 기능 외 'Intelligent naming'이라�
 
 사실 현업에서는 이런 차이점이 복원하는데 큰 영향을 주지는 않는다. 두 개의 코덱이 거의 비슷하기도 하고, 확실한건, AVI 파일에서는 프레임 구조가 코덱의 영향을 받는 경우는 거의 보지 못하였다. 경험상 AVI에서는 H264 구조가 많고, MP4는 AVC 코덱의 구조가 많았다.
 
+# Copyright
+https://creativecommons.org/faq/#what-are-creative-commons-licenses
+<img src="/assets/images/creativecommon_by-nc.png" width="50%" height="50%">
 
 # Reference
 - https://www.file-recovery.com/avi-signature-format.htm
