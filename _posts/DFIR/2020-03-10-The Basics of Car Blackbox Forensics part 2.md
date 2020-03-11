@@ -7,6 +7,12 @@ tag :
   - Digital Forensics & Incident Response
   - Blackbox
   - Dashcam
+  - AVI
+  - Video Container
+  - 블랙박스
+  - H.264
+  - AVC1
+  - codec
 sidebar_main : true
 author_profile : true
 use_math : true
@@ -59,37 +65,34 @@ header:
 
 대략적인 블랙박스의 폴더명, 파일명의 구조는 아래와 같이 정리할 수 있다.
 
-1. 상시 녹화
-   - 차량에 전원이 인가되거나 시동을 걸면 기기 부팅이 된 후의 녹화
+### 상시 녹화 
+차량에 전이 인가되거나 시동을 걸면 기기 부팅이 된 후의 녹화
    - 폴더명: INF, NORMAL, DRIVING 등
-   - 파일명: 연월일시분초_NOR_FILE.avi / REC_연월일시분초_채널수.avi
-
+   - 파일명: 연월일시분초_NOR_FILE.avi / REC_연월일시분초_채널수.avi 등
 <p align="center">
   <img src="https://i.imgur.com/Gh0pZ8M.png" alt="image"/>
 </p>
 
-2. 이벤트 녹화
-   - 차량의 충격이 감지되면 이벤트 녹화가 시작
+### 이벤트 녹화
+차량의 충격이 감지되면 이벤트 녹화가 시작
    - 폴더명: EVT, EVENT 등
-   - 파일명: 연월일시분초_EVT_MENU.avi / EVT_연월일시분초_채널수.avi
-
+   - 파일명: 연월일시분초_EVT_MENU.avi / EVT_연월일시분초_채널수.avi 등
 <p align="center">
   <img src="https://i.imgur.com/yfoyOyg.png" alt="image"/>
 </p>
 
-3. 주차 녹화
-   - 차량 시동을 끄거나 전원이 인가되지 않는 경우에 주차모드 녹화
+### 주차 녹화
+차량 시동을 끄거나 전원이 인가되지 않는 경우에 주차모드 녹화
    - 폴더명: PARK(모션 감지), EVT(충격 감지), PARKING 등
-   - 파일명: 연월일시분초_PAK_EXIT.avi / MDI_연월일시분초_채널수.avi
-  
+   - 파일명: 연월일시분초_PAK_EXIT.avi / MDI_연월일시분초_채널수.avi 등
 <p align="center">
   <img src="https://i.imgur.com/tAJP0H7.png" alt="image"/>
 </p>
 
-4. 수동 녹화   
-   - 사용자가 수동으로 녹화시 저장
+### 수동 녹화
+사용자가 수동으로 녹화시 저장
    - 폴더명: MANUAL, USER, EVENT 등
-   - 파일명: 연월일시분초_MAN_RCVR.avi / EVT_연월일시분초_채널수.avi
+   - 파일명: 연월일시분초_MAN_RCVR.avi / EVT_연월일시분초_채널수.avi 등
 
 이처럼 폴더명은 녹화 종류에 따라 지정된 폴더에 영상이 저장되고, 파일명에는 촬영일시정보, 녹화종류, 채널수 등 내용으로 구성된다.
 조금 더 심플하게 EVENT, INF, PARK 폴더 형태로 저장되는 경우도 있으나 전반적인 구조는 비슷하다고 보면된다.
@@ -156,17 +159,17 @@ AVI 파일의 시그니처는 이미 많이 알려진것 처럼 ‘RIFF’ 이�
   <img src="https://i.imgur.com/TTuF4hB.png" alt="image"/>
 </p>
 
-파일의 제일 앞 4바이트는 같은데 뒤는 WAVE로 다르다. 즉, 정확히 말하면 AVI 컨테이는 RIFF 기반에 파생된 형식이라 RIFF 시그니처가 기본적으로 있는 것이다. RIFF 뒤쪽에 있는 AVI(LIST도 포함 가능) 또는 WAVE로 파일에 대한 시그니처를 보완해 주는게 맞다.
+파일의 제일 앞 4바이트는 같은데 뒤는 WAVE로 다르다. 즉, 정확히 말하면 AVI 컨테이너는 RIFF 기반에 파생된 형식이라 RIFF 시그니처가 기본적으로 있는 것이다. RIFF 뒤쪽에 있는 AVI(LIST도 포함 가능) 또는 WAVE로 파일에 대한 시그니처를 보완해 주는게 맞다.
 
-물론 위 샘플 AVI 파일에서 제일 첫 4바이트가 RIFF로 시작해야 AVI 파일 타입으로 인식한다. 맨 앞의 한 바이트만 다른 문자열로 바뀌어도 대부분의 동영상 프로그램에서 재생이 되지 않는것은 맞다. 하지만 AVI의 파일 시그니처는 'RIFF'라는 말은 엄연히 틀린 말이 된다.
+물론 위 샘플 AVI 파일에서 제일 첫 4바이트가 RIFF로 시작해야 AVI 파일 타입으로 인식한다. 맨 앞의 한 바이트만 다른 문자열로 바뀌어도 대부분의 동영상 프로그램에서 재생이 되지 않는것은 맞다. 하지만 AVI의 파일 시그니처는 'RIFF'라는 말은 엄연히 틀린 표현이다.
 
-기본적으로 영상에 있어 중요한 부분은 영상 크기와 코덱의 종류이다.
+기본적으로 영상에 있어 중요한 부분은 영상 크기와 코덱의 종류이다. 샘플 파일에서 영상 사이즈와 코덱에 해당하는 값을 살펴보자.
 - OFFSET 0x04(Size): 0xB8A9E8 -> 12,102,120 byte
 - OFFSET 0xBC(Codec): AVC1
 
 
 ### 영상 크기(Data Size)
-영상의 크기의 시작점은 사이즈 오프셋 뒤로부터 계산된다. 즉, 샘플 영상에서는 OFFSET 0x08부터 0xB8A9E8 만큼 크기를 가지고 있다는 의미이다. 영상 전체 크기에서 8byte 만큼 빠진다는 것을 인식하면 된다.
+영상의 크기의 시작점은 사이즈 오프셋 뒤로부터 계산된다. 샘플 영상에서는 OFFSET 0x08부터 0xB8A9E8 만큼 크기를 가지고 있다는 의미이다. 즉, 앞 8byte를 제외한 영역이기 때문에 영상 전체 크기에서 8byte 만큼 빠진 크기이다.
 
 <p align="center">
   <img src="https://i.imgur.com/lZdiVdp.png" alt="image"/>
@@ -192,19 +195,39 @@ X-Ways Forensics 도구의 경우 카빙 기능 외 'Intelligent naming'이라�
 [X-Ways Forensics/WInHex Manual](http://www.x-ways.net/winhex/manual.pdf)을 참고하면 다음과 같이 기술되어 있다.
 > With a specialist license or higher, the "intelligent naming" option will cause Exif JPEG files to be named after the digital camera model that created them and their internal time stamp, if available.
 
-영상 파일(blackbox_sample.avi) 사이즈 끝 부분에 자세히 보면 4byte가 남는 것을 볼 수 있는데, 이것은 파일 슬랙 영역을 의미한다. 영상 사이즈 이외의 영역 시작점이 [JUNK](https://www.fileformat.info/format/riff/egff.htm)라는 시그니처로 되어 있는 경우도 있는데 이 부분도 패딩 영역이며 쓸모 없는 영역이다. 이럴때는 JUNK 뒤 4byte가 사이즈를 의미한다.
+영상 파일(blackbox_sample.avi) 사이즈 끝 부분에 자세히 보면 4byte가 남는 것을 볼 수 있는데, 이것은 파일 슬랙 영역을 의미한다. 영상 사이즈 이외의 영역 시작점이 [JUNK](https://www.fileformat.info/format/riff/egff.htm)라는 시그니처로 되어 있는 경우도 있는데 이 부분은 패딩 영역이다. 가끔 이런 슬랙 공간에서 영상프레임이 복원되기도 하니 주의깊게 살펴볼 필요가 있다. JUNK 시그니처가 보이면 그 바로뒤 4byte가 사이즈를 의미한다.
+
 <p align="center">
   <img src="https://i.imgur.com/e4fOhwm.png" alt="image"/>
 </p>
 
 ### 영상 코덱(Codecs)
 코덱은 영상을 압축하거나 압축된 영상을 해제할 때 사용된다. 코덱에 따라 복원 방법이 달라질 수 있어 여러 [코덱](https://www.fourcc.org/codecs.php)을 공부해보는 것도 도움이 많이 된다.  
-샘플 파일에서는 코덱이 AVC1로 되어있다. AVC 코덱은 현재 가장 많이 사용되는 H.264 코덱과 거의 비슷하다고 보면 된다. 단, 이 두 코덱의 [차이점](https://docs.microsoft.com/en-us/windows/win32/directshow/h-264-video-types?redirectedfrom=MSDN)이 있다면 H.264 비트스트림의 startcode가 있냐 없냐의 차이이다.
+샘플 파일에서는 코덱이 AVC1로 되어있다. AVC 코덱은 현재 가장 많이 사용되는 H.264 코덱과 거의 비슷하다고 보면 된다. 단, 이 두 코덱의 [차이점](https://docs.microsoft.com/en-us/windows/win32/directshow/h-264-video-types?redirectedfrom=MSDN)이 있다면 H.264 비트스트림의 startcode가 있냐 없냐의 차이이다. 이게 정확히 어떤 의미인지는 가능하면 추 후 포스팅에서 내용을 언급하도록 하겠다.
 
 사실 현업에서는 이런 차이점이 복원하는데 큰 영향을 주지는 않는다. 두 개의 코덱이 거의 비슷하기도 하고, 확실한건, AVI 파일에서는 프레임 구조가 코덱의 영향을 받는 경우는 거의 보지 못하였다. 경험상 AVI에서는 H264 구조가 많고, MP4는 AVC 코덱의 구조가 많았다.
 
 
-# Reference
+## 수동 복원이 필요한 이유(Reasons why programming is needed)
+블랙박스, DVR분석 등 영상 관련된 복원은 왠만하면 코딩하여 분석을 해야한다. 그럼 상용툴, 무료툴은 못 미더운가? 절대 그런것은 아니다. 도구들은 필요할때 적절히 사용하는게 가장 좋은 방법이다.
+
+프로그래밍을 사용하는 대부분의 이유는 내 마음대로 커스터마이즈 할 수 있다는 점이다. 아래 하나의 상황을 가정하였다.
+
+``` 
+[상황 가정]
+- 블랙박스의 비할당 영역에서 AVI 파일을 카빙 해야하는 상황
+- 정상적인 블랙박스 영상은 약 100MB 정도의 크기임
+
+[복원 로직]
+영상의 시그니처를 찾은 뒤 영상의 사이즈 값을 읽을 것이다. 그런데 이때 사이즈 값이 비 정상적인 값으로 덮어쓰여있다.(ex. FF FF FF FF) 이럴때 무분별하게 영상 시작점(RIFF)부터 사이즈+8byte 만큼 추출한다면 복원은 의미없는 행위일 것이다.
+이럴 경우, 사이즈 값의 최대값(ex. 120MB)을 설정해서 최대값을 넘을 경우 특정 크기만큼(ex. 120MB) 픽스시켜서 저장하는 로직으로 복원할 수 있다.
+```
+사실 도구에서도 이런 문제점을 일부 수정하는 알고리즘이 있다. 그런데 알고리즘이다 보니 내가 정확히 파악하기도 힘들고 위의 상황에서는 최대값의 경우 블랙박스 모델에 따라 정상 영상 크기가 다르기 때문에 내가 직접 정하여 복원하는 방법을 취해야 한다.
+
+실무에서는 이와 비슷한 상황이 로우 레벨 단계인 프레임 단위에서 많이 발생하니 일단 현재는 참고만 하면 될 것 같다.
+
+
+## Reference
 - <https://www.file-recovery.com/avi-signature-format.htm>
 - <https://ko.wikipedia.org/wiki/RIFF>
 - <https://johnloomis.org/cpe102/asgn/asgn1/riff.html>
@@ -221,7 +244,7 @@ X-Ways Forensics 도구의 경우 카빙 기능 외 'Intelligent naming'이라�
 - <https://www.mandoplaza.com/>
   
 
-# Copyright
+## Copyright
 <img src="/assets/images/creativecommon_by-nc.png" width="30%" height="30%">
 
 <https://creativecommons.org/faq/#what-are-creative-commons-licenses>
