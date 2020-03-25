@@ -293,6 +293,6 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true # 댓글기능
       share: true
       related: true
