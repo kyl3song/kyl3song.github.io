@@ -78,7 +78,8 @@ header:
 그동안 인터넷을 통해 IT 관련 지식 등 다양한 정보를 얻고 있는데 혹시라도 내가 작성한 포스팅에서 누군가 도움을 얻거나 인사이트를 얻어가면 좋을 것 같다.
 
 
-## Copyright
+## Copyright (CC BY-NC 2.0 KR)
 <img src="/assets/images/creativecommon_by-nc.png" width="30%" height="30%">
 
-<https://creativecommons.org/faq/#what-are-creative-commons-licenses>
+- <http://ccl.cckorea.org/about/>
+- <https://creativecommons.org/faq/#what-are-creative-commons-licenses>

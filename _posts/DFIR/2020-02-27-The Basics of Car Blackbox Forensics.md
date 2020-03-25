@@ -136,7 +136,8 @@ mkfs.fat -F 32 /dev/sdb1
 - [INAVI Format Free Description](http://www.inavi.com/Community/TodaysContents/View?idx=37)
 - [Time Allocation Table Description](https://m.blog.naver.com/PostView.nhn?blogId=techno001&logNo=220955022622&proxyReferer=https%3A%2F%2Fwww.google.com%2F)
 
-## Copyright
+## Copyright (CC BY-NC 2.0 KR)
 <img src="/assets/images/creativecommon_by-nc.png" width="30%" height="30%">
 
-<https://creativecommons.org/faq/#what-are-creative-commons-licenses>
+- <http://ccl.cckorea.org/about/>
+- <https://creativecommons.org/faq/#what-are-creative-commons-licenses>
