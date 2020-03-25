@@ -87,10 +87,10 @@ MP4 컨테이너에서 기본적으로는 최상단 루트 레벨의 ftyp, mdat,
 ### MP4 Structure with binary file
 대부분의 블랙박스 영상 파일은 ftyp, mdat, moov box 순서대로 파일이 구성되어 있다. 그러나 스트리밍 영상이나 일반 영상 중에서도 moov와 mdat box가 바뀌어 있는 경우도 자주 관찰할 수 있다.   
 MP4 파일의 구조를 살펴보자.
-<center><img src="https://i.imgur.com/xb1UXtY.png"></center>
+<center><img src="https://i.imgur.com/xb1UXtY.png"></center>  
 
 
- <span style="color:red">**ftyp box**</span>
+<span style="color:red">**ftyp box**</span>
 - OFFSET 0x00~0x03(Size): 0x00000020 -> 32 byte  
   문자열 앞 4바이트는 ftyp 박스의 사이즈를 나타낸다. 특히 사이즈는 사이즈 바이트를 포함한다. 즉 오프셋 0x00부터 32byte만큼의 크기를 가진 것이다.
 - OFFSET 0x04~0x07(box): ftyp box signature
