@@ -40,7 +40,9 @@ header:
 
 MPEG(Moving Picture Experts Group)은 국제표준화단체로서의 공식 명칭은 ISO/IEC JTC1/SC29/WG11이다. MPEG은 ITU-T(국제전기통신연합)의 비디오 코딩 전문가 그룹(VCEG, Video Coding Experts Group)과 공동으로 조인트 비디오 팀(Joint Video Team)을 구성하여 비디오 압축 표준화를 진행하였다.
 
-<center><img src="https://i.imgur.com/XB8SgyX.png"></center>
+<p align="center">
+  <img src="https://i.imgur.com/XB8SgyX.png" alt="image"/>
+</p>
 
 위의 [표](https://www.nexpert.net/364)는 단체마다 코덱의 이름을 정리한 것이다. 결국 ITU-T의 `H.264`와 ISO/IEC의 `MPEG-4 Part 10 AVC`(공식적으로는 ISO/IEC 14496-10-MPEG-4 파트 10, 고급 비디오 부호화)는 결국 같은 코덱인데 각 단체에서 계속 서로 다른 이름으로 불리고 있다. 실무상으로는 H.264라고 가장 많이 불리는 것 같다.
 블랙박스 영상에서도 H.264 코덱이 가장 많이 사용된다. 이외에도 MPEG-4 Part2(MPEG-4 Visual)등 코덱이 사용되기도 한다.
@@ -67,10 +69,15 @@ H.265 코덱은 H.264보다 높은 압축률로 인해 영상 렌더링, 디코�
 ### Container Format
 MP4 파일의 구조는 아톰(atom) 또는 박스(box)로 표현된다. [이미지 출처](https://unipro.tistory.com/104)
 
-<center><img src="https://i.imgur.com/I4lBRo1.png"></center>
+<p align="center">
+  <img src="https://i.imgur.com/I4lBRo1.png" alt="image"/>
+</p>
 
 atom은 MP4 파일 구조 내 계층적 구조로 미디어 타입, 데이터를 저장할 수 있다.
-<center><img src="https://i.imgur.com/JnO5quv.png"></center>
+
+<p align="center">
+  <img src="https://i.imgur.com/JnO5quv.png" alt="image"/>
+</p>
 
 MP4 컨테이너에서 기본적으로는 최상단 루트 레벨의 ftyp, mdat, moov 박스만 개념을 잡으면 된다. 그리고 AVI와 다르게 MP4는 데이터 저장 방식이 Big-endian 방식이다.
 
@@ -87,8 +94,9 @@ MP4 컨테이너에서 기본적으로는 최상단 루트 레벨의 ftyp, mdat,
 ### MP4 Structure with binary file
 대부분의 블랙박스 영상 파일은 ftyp, mdat, moov box 순서대로 파일이 구성되어 있다. 그러나 스트리밍 영상이나 일반 영상 중에서도 moov와 mdat box가 바뀌어 있는 경우도 자주 관찰할 수 있다.   
 MP4 파일의 구조를 살펴보자.
-<center><img src="https://i.imgur.com/xb1UXtY.png"></center>  
-
+<p align="center">
+  <img src="https://i.imgur.com/xb1UXtY.png" alt="image"/>
+</p>
 
 <span style="color:red">**ftyp box**</span>
 - OFFSET 0x00~0x03(Size): 0x00000020 -> 32 byte  
@@ -103,7 +111,9 @@ MP4 파일의 구조를 살펴보자.
 - OFFSET 0x24~0x27(box): mdat box signature
 
 <span style="color:red">**moov box (+mvhd box)**</span>
-<center><img src="https://i.imgur.com/mxjfr43.png"></center>
+<p align="center">
+  <img src="https://i.imgur.com/mxjfr43.png" alt="image"/>
+</p>
 
 - OFFSET 0x19A8893~0x19A8896(Size): 0x2F01(12,033 byte)  
   moov 박스는 메타데이터가 저장된 영역이다.
@@ -114,7 +124,9 @@ MP4 파일의 구조를 살펴보자.
   OFFSET 0x19A88AB~0x19A88AE(Modify Time): 0xDA1F2FE1(2019. 12. 18. 01:22:41 LT)  
   mvhd에는 영상의 시간 값이 저장되는데 시간 값은 UnixTime, HFS, HFS+ 등 시간이 저장될 수 있다.
 
-<center><img src="https://i.imgur.com/XKwJUEj.png"></center>
+<p align="center">
+  <img src="https://i.imgur.com/XKwJUEj.png" alt="image"/>
+</p>
 
 현재 샘플 파일의 생성 시간, 수정 시간이 모두 동일하고 HFS로 시간이 저장되어 있다. 만일 UnixTime으로 저장되어 있을 경우, UTC+9 보정 작업을 해줘야 하는 경우가 대부분이다.
 정확한 것은 파일명, 블랙박스 영상에 현출되는 시간 값, 파일 시스템의 생성 시간을 참조해서 시간을 보정(bias)해줘야 한다. 
@@ -124,7 +136,9 @@ MP4 파일의 구조를 살펴보자.
 - 영상에 현출되는 시간: 2019. 12. 18. 01:22:32 ~ 2019. 12. 18. 01:22:50
 
 아래는 mvhd box의 구조로 box(atom) 버전에 따라 시간 값을 다르게 사용하기도 한다. mvhd box에서는 영상의 다양한 메타정보를 확인할 수 있는 box이다. ([이미지 출처](https://m.blog.naver.com/PostView.nhn?blogId=yesing1&logNo=70096278829&proxyReferer=https%3A%2F%2Fwww.google.com%2F))
-<center><img src="https://i.imgur.com/GZgLfN1.png"></center>
+<p align="center">
+  <img src="https://i.imgur.com/GZgLfN1.png" alt="image"/>
+</p>
 
 더 자세한 mp4 구조는 [여기](https://developer.apple.com/library/archive/documentation/QuickTime/QTFF/QTFFChap2/qtff2.html)를 참조 바란다.
 
@@ -143,10 +157,15 @@ MP4는 카빙을 할 경우 구조가 깨지는 경우가 많이 있다. 특히 
 특히 각 box의 사이즈가 실제 데이터의 크기와 달라서 재생 불가한 문제가 있는데, 사이즈 바이트에 기재된 크기와 실제 데이터 크기가 단 1바이트만 달라도 재생이 되지 않는다.
 
 사이즈를 1바이트만 변경한 뒤(0x73 -> 0x74) 영상을 재생해보면 재생이 되지 않는것을 확인할 수 있다.
-<center><img src="https://i.imgur.com/dCxBDpZ.png"></center>
+
+<p align="center">
+  <img src="https://i.imgur.com/dCxBDpZ.png" alt="image"/>
+</p>
 
 [재생 불가]
-<center><img src="https://i.imgur.com/fHWSWVl.png"></center>
+<p align="center">
+  <img src="https://i.imgur.com/fHWSWVl.png" alt="image"/>
+</p>
 
 MP4는 구조 때문에 복원하는 과정에서 mp4 box 구조를 맞추기가 어렵고, 정교한 작업이 필요한 수동으로 복원하는 케이스가 많지 않아 도구를 사용하는 것을 추천한다.
 
