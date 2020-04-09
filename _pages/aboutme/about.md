@@ -6,7 +6,7 @@ header:
   overlay_image: /assets/images/about.jpg
 ---
 
-# kyle Song (Kwangkeun Song)
+# kyle Song
 
 > Think outside the Box & Stay Positive
 
@@ -16,7 +16,7 @@ header:
 
 ## Work Experience
 
-- SMPA Digital Forensics Investigation Section (2018.2 ~ )
+- SMPA Digital Forensics Investigation Section (2018.1 ~ )
   - Digital Forensics Investigator
   - Computer Forensics
   - Mobile Forensics
@@ -56,7 +56,7 @@ header:
 ## Tech Report
 
 - 모바일 앱 최근 실행 내역 연계 분석 (2018. 12.)
-- OCR을 통한 영상 시간값 추출 (2019. 2.)
+- 시간 값이 저장되어 있지 않은 영상에서의 시간 값 추출 (2019. 2.)
 - IMERCURY 블랙박스 음성 복원 (2019. 6.)
 - uTorrent 분석 방안 (2019. 7.)
 - FocusH&S DVR 복원율 향상 방안 (2019. 8.)
@@ -66,12 +66,12 @@ header:
 - AHD Prestige DVR 영상 파일(.dmd) 분석 (2019. 12.)
 - 채널별 저장된 MP4 타입 블랙박스 영상 복원 (2020. 1.)
 - 보안USB 분석 TIP (2020. 2.)
-- To Be Updated..
+- 포렌식 관점에서의 WinFE 사용방안 (2020. 3.)
 
 
 ## Research
 
-- To Be Updated..
+- 파일시스템을 이용한 윈도우 저장소 공간 복원율 향상 방안 (2020. 3. 치안정책연구)
 
 ## Other Activities
 
