@@ -82,11 +82,13 @@ position in the Destination drive or file.
 
 위에서 언급한 세 가지의 도구에서 에러 발생시 스킵할 수 있는 범위는 표와 같다.
 
-|No.|Type|Product Name|Error Handling (Sector)|
-|:---:|:---:|:---:|:---:|
-|1|Hardware Type|Forensic Falcon|1, 8, 128|
-|2|Software Type|EnCase Forensic|64 ~ 1024 (power of 2)|
-|3|Software Type|FTK Imager|Unknown (Not Optional)|
+
+
+| No. | Type | Product Name | Error Handling (Sector) |
+|:---:|:------------------------:|:------------------------:|:------------------------:|
+| 1 | Hardware Type | Forensic Falcon | 1,8, 128 |
+| 2 | Software Type | EnCase Forensic | 64 ~ 1024 (power of 2) |
+| 3 | Software Type | FTK Imager      | Unknown (Not Optional) |
 
 
 ## 부가 기능 (Additional Features)
