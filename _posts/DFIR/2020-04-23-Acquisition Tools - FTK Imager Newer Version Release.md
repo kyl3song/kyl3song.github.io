@@ -133,6 +133,7 @@ AcessData FTK Imager는 [Download Link](https://accessdata.com/product-download/
 ### 실험할 도구 버전 (Product Version)
 FTK Imager 4.2.0.13을 이용하여 데이터 획득을 진행하고, 개선되어 새롭게 출시된 FTK Imager 4.3.0.18을 이용하여 추가로 데이터 획득을 진행한 뒤 서로를 비교하고자 한다.  
 그리고 EnCase 도구를 이용하여 획득한 결과와 Forensic Falcon을 이용한 획득 결과도 비교해 보고자 한다.
+
 |No.|Type|Product Name|Version|
 |:---:|:---:|:---:|:---:|
 |1|Hardware Type|Forensic Falcon|3.2u1|
