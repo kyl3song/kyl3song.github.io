@@ -1,7 +1,7 @@
 ---
 title : "Blog #1: Pilot POST"
 category :
-  - DFIR
+  - ETC
 tag :
   - DFIR
   - Digital Forensics & Incident Response

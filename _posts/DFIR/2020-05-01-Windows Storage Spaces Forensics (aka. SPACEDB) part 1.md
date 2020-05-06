@@ -1,7 +1,7 @@
 ---
 title : "Blog #7: Windows Storage Spaces Forensics (aka. SPACEDB) part 1"
 category :
-  - DFIR
+  - Windows Storage Spaces
 tag : 
   - DFIR
   - Digital Forensics & Incident Response
@@ -39,7 +39,7 @@ header:
 </p>
 
 ## 논문 작성의 계기 (What brings me do the research)
-그동안 디지털포렌식 분석 업무를 수행하면서 수많은 저장매체의 증거물을 분석했다. 분석하면서 평소 분석 건과 다르게 특이했거나 어려움을 겪으며 흔히 말하는 빡쎈(?) 분석을 마무리했던 것들은 기억에 남는다.
+그동안 디지털포렌식 분석 업무를 수행하면서 수많은 저장매체의 증거물을 분석했다. 분석하면서 평소 분석 건과 다르게 특이했거나 어려움을 겪은 흔히 말하는 빡쎈(?) 분석을 마무리했던 것들은 기억에 남는다.
 
 윈도우 저장소 공간도 그중에 하나였는데 특이해서 기억에 남는 분석 건이었다. 사실 원래 윈도우 저장소 공간은 내가 배당받은 사건이 아니었다.  
 

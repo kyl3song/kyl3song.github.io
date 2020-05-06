@@ -1,7 +1,7 @@
 ---
 title : "Blog #3: The Basics of Car Blackbox Forensics part 2"
 category :
-  - DFIR
+  - Blackbox
 tag : 
   - DFIR
   - Digital Forensics & Incident Response
