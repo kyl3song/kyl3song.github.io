@@ -17,7 +17,7 @@ header:
 ## Work Experience
 
 - SMPA Digital Forensics Investigation Section (2018.1 ~ )
-  - Digital Forensics Investigator
+  - Digital Forensic Investigator
   - Computer Forensics
   - Mobile Forensics
   - Car Blackbox & DVR(Digital Video Recoder) Forensics
