@@ -80,11 +80,12 @@ Reset-PhysicalDisk -FriendlyName [Friendly name of Disk]
 
 ### 단순 (Simple)
 Raid-0(Striping) 또는 JBOD(Just Bunch Of Disks)와 비슷해 보이지만 차이점이 있다.
-1) 디스크의 모든 공간을 사용  
+
+**1) 디스크의 모든 공간을 사용**  
 예를 들어 1TB 디스크와 2TB 디스크를 Raid-0로 묶으면 실제 가용 용량은 2TB(1TB*2)가 되지만 마이크로소프트의 저장소 공간은 3TB를 사용할 수 있다.  
 참고로 Synology NAS의 SHR(Synology Hybrid RAID) 기능의 경우 Raid-0로 구성해도 거의 3TB 용량을 사용할 수 있다.
 
-2) 순차적이지 않은 기록 방식  
+**2) 순차적이지 않은 기록 방식**  
  JBOD처럼 디스크에 순차적으로 저장되는 것과 다르게 256MB 크기의 <span style="color:red">***slab***</span> 단위로 데이터를 저장하며 풀을 구성하는 디스크에 데이터를 각각 나눠서 저장된다.
 
 단순(Simple) 복원 유형은 데이터의 빠른 입출력 속도를 위해서 사용하는 옵션이며 자주 또는 주기적으로 생성되고 삭제되는 임시 파일(동영상 렌더링 파일 등)을 저장하는 공간으로 사용될 수 있다.  
