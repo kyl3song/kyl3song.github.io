@@ -45,6 +45,7 @@ header:
 - CCNP, Cisco Certified Network Professional (CISCO)
 - CCIE R&S, Cisco Certified Internetwork Expert (CISCO)
 - CISSP, Certified Information Systems Security Professional (ISC2)
+- CISA, Certified Information Systems Auditor (ISACA)
 - 디지털포렌식전문가 2급 (사단법인 한국포렌식학회)
 - EnCE, EnCase Certified Examiner (OpenText)
 
@@ -69,6 +70,7 @@ header:
 - 보안USB 분석 TIP (2020. 2.)
 - 포렌식 관점에서의 WinFE 사용방안 (2020. 3.)
 - IoT에서의 Data Science 적용방안 (2020. 4.)
+- Filesystem 분석 및 복원 사례 (2020. 5.)
 
 
 ## Research

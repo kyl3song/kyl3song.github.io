@@ -127,7 +127,7 @@ IVEJ 시그니처 뒤에 또 비슷한 모양의 1BEJ 시그니처가 확인된�
 
 나도 사실 그동안 분석을 하면서 현재 설명하는 부분까지는 주의 깊게 보지 못했었다. 블로그를 작성하면서 샘플을 보는 도중 파일 전체를 파악하는 중이다. 분석할 때 핵심 부분인 영상, 음성 부분을 주로 본다. 이런 세세한 부분까지 주의 깊게 보기엔 아무래도 영상/음성 영역에 비해 중요성이 떨어지기 때문이다.
 
-다시 돌아와서 위의 IVEJ 영역에서 <span style="color:red">**빨간색**</span>, <span style="color:skyblue">**하늘색**</span>, <span style="color:lightgreen">**연두색**</span>으로 알록달록하게 표시가 된 것을 볼 수 있다. IVEJ 블록에서 가장 중요한 부분일 것이다.
+다시 돌아와서 위의 IVEJ 영역에서 <span style="color:red">**빨간색**</span>, <span style="color:blue">**파란색**</span>, <span style="color:green">**초록색**</span>으로 알록달록하게 표시가 된 것을 볼 수 있다. IVEJ 블록에서 가장 중요한 부분일 것이다.
 
 이 부분은 시간 값을 의미한다. 자세히 뜯어보면 아래와 같다.
 
@@ -141,23 +141,23 @@ IVEJ 시그니처 뒤에 또 비슷한 모양의 1BEJ 시그니처가 확인된�
 - <span style="color:red">0x34: **52초**</span>
 - <span style="color:red">**2019. 2. 2. 15:31:52**</span>
 
-<span style="color:skyblue">**0x7E3 0x02 0x02 0x0F 0x21 0x00 (Little-Endian)**</span>
-- <span style="color:skyblue">0x7E3: **2019년**</span>
-- <span style="color:skyblue">0x02: **2월**</span>
-- <span style="color:skyblue">0x02: **2일**</span>
-- <span style="color:skyblue">0x0F: **15시**</span>
-- <span style="color:skyblue">0x21: **33분**</span>
-- <span style="color:skyblue">0x00: **0초**</span>
-- <span style="color:skyblue">**2019. 2. 2. 15:33:00**</span>
+<span style="color:blue">**0x7E3 0x02 0x02 0x0F 0x21 0x00 (Little-Endian)**</span>
+- <span style="color:blue">0x7E3: **2019년**</span>
+- <span style="color:blue">0x02: **2월**</span>
+- <span style="color:blue">0x02: **2일**</span>
+- <span style="color:blue">0x0F: **15시**</span>
+- <span style="color:blue">0x21: **33분**</span>
+- <span style="color:blue">0x00: **0초**</span>
+- <span style="color:blue">**2019. 2. 2. 15:33:00**</span>
 
-<span style="color:lightgreen">**0x7E3 0x02 0x02 0x0F 0x22 0x08 (Little-Endian)**</span>
-- <span style="color:lightgreen">0x7E3: **2019년**</span>
-- <span style="color:lightgreen">0x02: **2월**</span>
-- <span style="color:lightgreen">0x02: **2일**</span>
-- <span style="color:lightgreen">0x0F: **15시**</span>
-- <span style="color:lightgreen">0x22: **34분**</span>
-- <span style="color:lightgreen">0x08: **8초**</span>
-- <span style="color:lightgreen">**2019. 2. 2. 15:34:08**</span>
+<span style="color:green">**0x7E3 0x02 0x02 0x0F 0x22 0x08 (Little-Endian)**</span>
+- <span style="color:green">0x7E3: **2019년**</span>
+- <span style="color:green">0x02: **2월**</span>
+- <span style="color:green">0x02: **2일**</span>
+- <span style="color:green">0x0F: **15시**</span>
+- <span style="color:green">0x22: **34분**</span>
+- <span style="color:green">0x08: **8초**</span>
+- <span style="color:green">**2019. 2. 2. 15:34:08**</span>
 
 이 시간 값이 어디에서 사용되고 있는지 전용뷰어를 통해 확인해보자.
 <p align="center">

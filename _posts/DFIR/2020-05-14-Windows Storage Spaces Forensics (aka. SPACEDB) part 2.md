@@ -27,17 +27,18 @@ header:
 
 ## Windows Storage Spaces Series
 - [Blog #7: Windows Storage Spaces Forensics (aka. SPACEDB) part 1](https://kyl3song.github.io/windows%20storage%20spaces/Windows-Storage-Spaces-Forensics-(aka.-SPACEDB)-part-1/)
+- [Blog #8: Windows Storage Spaces Forensics (aka. SPACEDB) part 2](https://kyl3song.github.io/windows%20storage%20spaces/Windows-Storage-Spaces-Forensics-(aka.-SPACEDB)-part-2/)
 
 지난 포스트에서 윈도우 저장소 공간에 대한 개괄적 내용을 살펴보았다. 이번에는 저장소 공간을 생성하기 위한 여러 가지 방법, 복원 유형, 데이터 저장 방식을 살펴보도록 한다. 윈도우 서버군에서의 저장소 공간의 일부 내용은 언급을 하나 전체적인 내용은 윈도우 10에 초점을 맞춘다.
 
-## 저장소 공간 생성 (Storage Spaces Creation)
+## 저장소 공간 생성 (How to create Storage Spaces)
 윈도우 저장소 공간은 제어판의 저장소 공간 관리에서 생성 및 확인이 가능하다. Powershell 명령어로도 생성이 가능하지만 가장 쉽게 할 수 있는 방법은 GUI를 이용하여 생성하는 것이다.
 
 <p align="center">
   <img src="https://i.imgur.com/oRO0PqT.png" alt="image"/>
 </p>
 
-### 풀을 생성할 디스크 형태 (Disk Type to be member of Pool)
+### 풀을 생성할 디스크 형태 (Disk type to be member of Pool)
 윈도우 저장소 공간을 생성하고 서비스하기 위해서는 물리 디스크를 이용하여 구성을 해야한다. 하지만 간단한 테스트나 실험을 하기 위해서는 가상 디스크 형태인 VHD(Virtual Hard Disk) 또는 VHDX 형태로도 구성이 가능하다.
 
 하지만 VHD로 저장소 풀을 구성했을 때 반드시 단일 디스크 파일 크기가 4GB를 넘어야 정상적으로 풀을 구성할 수 있다. 즉, VHD로 테스트를 할 때 최소 4.1GB로 가상 하드 디스크를 생성하면 저장소 공간을 사용할 수 있는 디스크가 된다.
@@ -119,7 +120,7 @@ Single Parity는 단 1개의 디스크의 장애가 발생할 때만 복원이 �
   <img src="https://i.imgur.com/QJ6tKNW.png" alt="image"/>
 </p>
 
-조금 더 상세한 내용인 디스크 장애가 발생되거나, 용량 부족 시 동작 방식 등 추가적인 내용에 대해서는 논문을 참고하길 바란다.
+조금 더 상세한 내용인 디스크 장애가 발생되거나, 용량 부족 시 동작 방식 등 추가적인 내용에 대해서는 논문 또는 기술문서를 참고하길 바란다.
 
 다음 포스트에서는 단일 디스크 및 다중 디스크를 이용한 저장소 공간의 획득했을 때 발생할 수 있는 이슈를 알아보고 이를 해결할 수 있는 내용으로 글을 작성할 예정이다.
 
