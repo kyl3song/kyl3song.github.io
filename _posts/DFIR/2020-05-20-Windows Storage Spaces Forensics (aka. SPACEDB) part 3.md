@@ -29,6 +29,7 @@ header:
 ## Windows Storage Spaces Series
 - [Blog #7: Windows Storage Spaces Forensics (aka. SPACEDB) part 1](https://kyl3song.github.io/windows%20storage%20spaces/Windows-Storage-Spaces-Forensics-(aka.-SPACEDB)-part-1/)
 - [Blog #8: Windows Storage Spaces Forensics (aka. SPACEDB) part 2](https://kyl3song.github.io/windows%20storage%20spaces/Windows-Storage-Spaces-Forensics-(aka.-SPACEDB)-part-2/)
+- [Blog #9: Windows Storage Spaces Forensics (aka. SPACEDB) part 3](https://kyl3song.github.io/windows%20storage%20spaces/Windows-Storage-Spaces-Forensics-(aka.-SPACEDB)-part-3/)
 
 
 이번 포스트에서는 단일 디스크 및 다중 디스크를 이용한 저장소 공간을 획득했을 때 발생할 수 있는 이슈를 확인하고 이를 해결할 수 있는 방법을 살펴보도록 한다.
