@@ -29,6 +29,8 @@ header:
 - [Blog #7: Windows Storage Spaces Forensics (aka. SPACEDB) part 1](https://kyl3song.github.io/windows%20storage%20spaces/Windows-Storage-Spaces-Forensics-(aka.-SPACEDB)-part-1/)
 - [Blog #8: Windows Storage Spaces Forensics (aka. SPACEDB) part 2](https://kyl3song.github.io/windows%20storage%20spaces/Windows-Storage-Spaces-Forensics-(aka.-SPACEDB)-part-2/)
 - [Blog #9: Windows Storage Spaces Forensics (aka. SPACEDB) part 3](https://kyl3song.github.io/windows%20storage%20spaces/Windows-Storage-Spaces-Forensics-(aka.-SPACEDB)-part-3/)
+- [Blog #10: Windows Storage Spaces Forensics (aka. SPACEDB) part 4](https://kyl3song.github.io/windows%20storage%20spaces/Windows-Storage-Spaces-Forensics-(aka.-SPACEDB)-part-4/)
+
 
 지난 포스트에서 윈도우 저장소 공간에 대한 개괄적 내용을 살펴보았다. 이번에는 저장소 공간을 생성하기 위한 여러 가지 방법, 복원 유형, 데이터 저장 방식을 살펴보도록 한다. 윈도우 서버군에서의 저장소 공간의 일부 내용은 언급을 하나 전체적인 내용은 윈도우 10에 초점을 맞춘다.
 

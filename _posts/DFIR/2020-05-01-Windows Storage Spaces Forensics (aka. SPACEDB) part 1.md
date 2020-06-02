@@ -26,6 +26,8 @@ header:
 - [Blog #7: Windows Storage Spaces Forensics (aka. SPACEDB) part 1](https://kyl3song.github.io/windows%20storage%20spaces/Windows-Storage-Spaces-Forensics-(aka.-SPACEDB)-part-1/)
 - [Blog #8: Windows Storage Spaces Forensics (aka. SPACEDB) part 2](https://kyl3song.github.io/windows%20storage%20spaces/Windows-Storage-Spaces-Forensics-(aka.-SPACEDB)-part-2/)
 - [Blog #9: Windows Storage Spaces Forensics (aka. SPACEDB) part 3](https://kyl3song.github.io/windows%20storage%20spaces/Windows-Storage-Spaces-Forensics-(aka.-SPACEDB)-part-3/)
+- [Blog #10: Windows Storage Spaces Forensics (aka. SPACEDB) part 4](https://kyl3song.github.io/windows%20storage%20spaces/Windows-Storage-Spaces-Forensics-(aka.-SPACEDB)-part-4/)
+
 
 ## 윈도우 저장소 공간 논문 소개 (Digital Forensics Research Paper Review)
 윈도우 저장소 공간은 윈도우 OS에 탑재된 소프트웨어 레이드(Software Raid) 기능이다. 즉 다수의 디스크 드라이브를 여러개를 풀(Pool)로 구성하여 하나의 가상 디스크를 만드는 개념이다. ([그림 출처](<https://docs.microsoft.com/ko-kr/windows-server/storage/storage-spaces/storage-spaces-states>))
