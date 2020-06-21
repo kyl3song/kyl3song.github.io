@@ -32,6 +32,7 @@ header:
 - [Blog #8: Windows Storage Spaces Forensics (aka. SPACEDB) part 2](https://kyl3song.github.io/windows%20storage%20spaces/Windows-Storage-Spaces-Forensics-(aka.-SPACEDB)-part-2/)
 - [Blog #9: Windows Storage Spaces Forensics (aka. SPACEDB) part 3](https://kyl3song.github.io/windows%20storage%20spaces/Windows-Storage-Spaces-Forensics-(aka.-SPACEDB)-part-3/)
 - [Blog #10: Windows Storage Spaces Forensics (aka. SPACEDB) part 4](https://kyl3song.github.io/windows%20storage%20spaces/Windows-Storage-Spaces-Forensics-(aka.-SPACEDB)-part-4/)
+- [Blog #11: Windows Storage Spaces Forensics (aka. SPACEDB) part 5](https://kyl3song.github.io/windows%20storage%20spaces/Windows-Storage-Spaces-Forensics-(aka.-SPACEDB)-part-5/)
 
 이번 포스트에서는 다중 디스크를 이용하여 저장소 공간을 구성했을 때, 단 1개의 디스크로 복원율을 높여보고 어느 정도 복원이 가능한지 살펴보도록 한다.
 

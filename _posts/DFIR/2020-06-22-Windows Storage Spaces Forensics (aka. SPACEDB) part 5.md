@@ -32,7 +32,7 @@ header:
 - [Blog #8: Windows Storage Spaces Forensics (aka. SPACEDB) part 2](https://kyl3song.github.io/windows%20storage%20spaces/Windows-Storage-Spaces-Forensics-(aka.-SPACEDB)-part-2/)
 - [Blog #9: Windows Storage Spaces Forensics (aka. SPACEDB) part 3](https://kyl3song.github.io/windows%20storage%20spaces/Windows-Storage-Spaces-Forensics-(aka.-SPACEDB)-part-3/)
 - [Blog #10: Windows Storage Spaces Forensics (aka. SPACEDB) part 4](https://kyl3song.github.io/windows%20storage%20spaces/Windows-Storage-Spaces-Forensics-(aka.-SPACEDB)-part-4/)
-
+- [Blog #11: Windows Storage Spaces Forensics (aka. SPACEDB) part 5](https://kyl3song.github.io/windows%20storage%20spaces/Windows-Storage-Spaces-Forensics-(aka.-SPACEDB)-part-5/)
 
 이번 포스트를 마지막으로 윈도우 저장소 공간 포렌식을 마무리할 예정이다. 지금까지 복원된 아티팩트를 분석하여 혐의 구증에 필요한 정보를 확인해 보도록 하겠다.
 

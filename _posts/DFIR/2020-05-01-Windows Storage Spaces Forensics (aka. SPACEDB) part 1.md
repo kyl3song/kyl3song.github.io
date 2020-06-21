@@ -27,6 +27,7 @@ header:
 - [Blog #8: Windows Storage Spaces Forensics (aka. SPACEDB) part 2](https://kyl3song.github.io/windows%20storage%20spaces/Windows-Storage-Spaces-Forensics-(aka.-SPACEDB)-part-2/)
 - [Blog #9: Windows Storage Spaces Forensics (aka. SPACEDB) part 3](https://kyl3song.github.io/windows%20storage%20spaces/Windows-Storage-Spaces-Forensics-(aka.-SPACEDB)-part-3/)
 - [Blog #10: Windows Storage Spaces Forensics (aka. SPACEDB) part 4](https://kyl3song.github.io/windows%20storage%20spaces/Windows-Storage-Spaces-Forensics-(aka.-SPACEDB)-part-4/)
+- [Blog #11: Windows Storage Spaces Forensics (aka. SPACEDB) part 5](https://kyl3song.github.io/windows%20storage%20spaces/Windows-Storage-Spaces-Forensics-(aka.-SPACEDB)-part-5/)
 
 
 ## 윈도우 저장소 공간 논문 소개 (Digital Forensics Research Paper Review)
