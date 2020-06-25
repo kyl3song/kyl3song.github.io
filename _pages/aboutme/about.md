@@ -71,7 +71,7 @@ header:
 - 포렌식 관점에서의 WinFE 사용방안 (2020. 3.)
 - IoT에서의 Data Science 적용방안 (2020. 4.)
 - Filesystem 분석 및 복원 사례 (2020. 5.)
-- macOS(APFS with T2/Non-T2 Chip) 내용 정리 및 케이스별 획득 방안 (2020. 6.)
+- macOS(APFS with T2/Non-T2 Chip) fundamentals & 케이스별 획득 방안 (2020. 6.)
 
 
 ## Research
