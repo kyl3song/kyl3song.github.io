@@ -72,7 +72,7 @@ header:
 - IoT에서의 Data Science 적용방안 (2020. 4.)
 - Filesystem 분석 및 복원 사례 (2020. 5.)
 - macOS(APFS with T2/Non-T2 Chip) fundamentals & 케이스별 획득 방안 (2020. 6.)
-
+- WHOIS OpenAPI 활용 방안 및 사례 (2020. 7.)
 
 ## Research
 
