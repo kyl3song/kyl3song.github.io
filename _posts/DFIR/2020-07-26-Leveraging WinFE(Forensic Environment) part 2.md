@@ -75,14 +75,14 @@ FTK Imager를 다운로드하는 것은 선택사항이다. FTK Imager 도구를
 
 홈페이지의 설명의 요지는 이렇다.
 
-1. **빌드에 포함하기 위한 x86용 도구 준비 (ex. FTK Imager 3.4.0.1)**  
+1. 빌드에 포함하기 위한 x86용 도구 준비 (ex. FTK Imager 3.4.0.1)  
 32비트용 [FTK Imager 3.4.0.1](https://accessdata.com/product-download#past-versions) 도구를 다운로드해 자신의 PC에 설치한 뒤, 설치된 경로(통상적으로 C:\Program Files(x86)\AccessData\)에 가서 FTK Imager 폴더를 통째로 WinFE 빌드 전 도구 경로(IntelWinFE\USB\x86-x64\tools\x86)에다 붙여넣기 수행
 
-2. **빌드에 포함하기 위한 x64용 도구 준비 (ex. FTK Imager 4.2.0)**  
+2. 빌드에 포함하기 위한 x64용 도구 준비 (ex. FTK Imager 4.2.0)  
 64비트용 [FTK Imager 4.2.0](https://accessdata.com/product-download#past-versions) 역시 마찬가지로 설치 > FTK Imager 폴더 복사 > WinFE 빌드 전 도구 경로(IntelWinFE\USB\x86-x64\tools\x64)에 붙여넣기 수행
 
 ### Build Stage 4 (WinFE 빌드)
-명령 프롬프트(CMD)를 통해 Stage 1의 압축이 풀린 IntelWinFE 폴더로 이동하여 **MakeWinFEx64-x86.bat** 명령어를 입력하여 WinFE를 빌드 한다.
+명령 프롬프트(CMD)를 통해 Stage 1의 압축이 풀린 IntelWinFE 폴더로 이동하여 MakeWinFEx64-x86.bat 명령어를 입력하여 WinFE를 빌드 한다.
 
 <p align="center">
   <img src="https://i.imgur.com/AGBDiRZ.png" alt="image"/>
@@ -94,14 +94,14 @@ FTK Imager를 다운로드하는 것은 선택사항이다. FTK Imager 도구를
 </p>
 
 ### Build Stage 5 (WinFE iso 만들기)
-부팅 USB를 만들려면 WinFE bootable iso 파일이 필요하다. Stage 4에서 열어놨던 명령 프롬프트를 그대로 둔 상태에서 이번에는 **Makex64-x86-CD.bat** 명령어를 입력한다.
+부팅 USB를 만들려면 WinFE bootable iso 파일이 필요하다. Stage 4에서 열어놨던 명령 프롬프트를 그대로 둔 상태에서 이번에는 Makex64-x86-CD.bat 명령어를 입력한다.
 그럼 이번에는 iso 파일을 만드는 작업이 자동으로 진행된다.
 
 <p align="center">
   <img src="https://i.imgur.com/zH9OpjX.png" alt="image"/>
 </p>
 
-작업이 완료되면 **IntelWinFE\ISO\WINFE_10x86-x64.iso**로 WinFE ISO 파일이 생성된다.
+작업이 완료되면 IntelWinFE\ISO\WINFE_10x86-x64.iso로 WinFE ISO 파일이 생성된다.
 
 <p align="center">
   <img src="https://i.imgur.com/5tB0Jjd.png" alt="image"/>
