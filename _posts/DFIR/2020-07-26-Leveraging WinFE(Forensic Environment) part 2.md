@@ -60,7 +60,7 @@ WinFE는 기본적으로 자동으로 볼륨이 마운트 되는 것을 막아�
   <img src="https://i.imgur.com/cPHCcLi.png" alt="image"/>
 </p>
 
-3. (Optional) WinFE의 배경화면을 변경하려면 원하는 배경 파일을 **IntelWinFE\x64\wallpaper.jpg** 그리고 **IntelWinFE\x86\wallpaper.jpg**로 넣는다.
+3. (Optional) WinFE의 배경화면을 변경하려면 원하는 배경 파일을 <span style="color:red">IntelWinFE\x64\wallpaper.jpg</span> 그리고 <span style="color:red">IntelWinFE\x86\wallpaper.jpg</span>로 넣는다.
 
 <p align="center">
   <img src="https://i.imgur.com/3KDjaab.png" alt="image"/>
@@ -199,29 +199,29 @@ Password Tool는 모두 별도 구매를 해야만 사용이 가능한데 정부
   <img src="https://i.imgur.com/MuSHzGa.png" alt="image"/>
 </p>
 
-1. Command Prompt: 커맨드 창  
+**Command Prompt:** 커맨드 창
 
 <p align="center">
   <img src="https://i.imgur.com/JC6dNcd.png" alt="image"/>
 </p>
 
-2. Configure Network: 네트워크 설정, 공유 폴더, Ping, Debug Mode 등 다양한 설정이 가능하다.  
+**Configure Network:** 네트워크 설정, 공유 폴더, Ping, Debug Mode 등 다양한 설정이 가능하다.
 
 <p align="center">
   <img src="https://i.imgur.com/4QeyF8Z.png" alt="image"/>
 </p>
 
-3. File Explorer: 폴더/파일 탐색기  
+**File Explorer:** 폴더/파일 탐색기  
 
 <p align="center">
   <img src="https://i.imgur.com/qrjOUya.png" alt="image"/>
 </p>
 
-4. Install Driver: 드라이버(inf 파일) 설치 가능 도구  
+**Install Driver:** 드라이버(inf 파일) 설치 가능 도구  
 
-5. Notepad: 메모장  
+**Notepad:** 메모장  
 
-6. Registry Editor: 레지스트리 편집기  
+**Registry Editor:** 레지스트리 편집기  
 
 <p align="center">
   <img src="https://i.imgur.com/cHksAC9.png" alt="image"/>
