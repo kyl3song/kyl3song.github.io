@@ -51,6 +51,7 @@ WinFE는 기본적으로 자동으로 볼륨이 마운트 되는 것을 막아�
 
 ### Build Stage 1 (사전 준비 및 WinFE Framework 다운로드)
 > 아래 기재한 내용에서 경로가 변경되었을 수 있으니 반드시 공식 홈페이지를 참고 바란다.
+
 1. [7-Zip](https://www.7-zip.org) 다운로드 (반디집도 가능함)
 2. [Intel x86/x64 framework](https://www.winfe.net/files/IntelWinFE.7z) 다운로드 후 압축 해제
 
