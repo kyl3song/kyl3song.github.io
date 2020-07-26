@@ -306,7 +306,7 @@ WinPE를 사용했을 때 원본 매체에 데이터를 자동으로 쓰는 부�
 
 
 ## Copyright (CC BY-NC 2.0 KR)
-본 게시글은 CC BY-NC 2.0 KR Licence를 따릅니다.
+본 게시글은 CC BY-NC 2.0 KR Licence를 따릅니다.  
 비영리 목록으로만 사용할 수 있고, 저작자와 출처를 표시하면 언제든지 게시글을 자유롭게 사용할 수 있습니다.
 
 <img src="/assets/images/creativecommon_by-nc.png" width="30%" height="30%">

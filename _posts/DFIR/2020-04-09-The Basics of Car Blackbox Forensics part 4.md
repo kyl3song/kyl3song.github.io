@@ -261,6 +261,9 @@ IVEJ 시그니처 뒤에 또 비슷한 모양의 1BEJ 시그니처가 확인된�
 블랙박스 분석 시리즈를 작성하면서 많은 부분을 지나친 것 같다. 욕심 같아서는 하나하나 다 언급하고 짚고 넘어가고 싶지만 그럴 수 없어서 뭔가 아쉬운 것 같다. 혹시라도 앞으로 시간이 되면 더욱 알차게 영상 분석 관련된 내용으로 포스팅 하도록 하겠다.
 
 ## Copyright (CC BY-NC 2.0 KR)
+본 게시글은 CC BY-NC 2.0 KR Licence를 따릅니다.  
+비영리 목록으로만 사용할 수 있고, 저작자와 출처를 표시하면 언제든지 게시글을 자유롭게 사용할 수 있습니다.
+
 <img src="/assets/images/creativecommon_by-nc.png" width="30%" height="30%">
 
 - <http://ccl.cckorea.org/about/>
