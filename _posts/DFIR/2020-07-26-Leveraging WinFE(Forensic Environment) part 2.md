@@ -198,29 +198,29 @@ Password Tool는 모두 별도 구매를 해야만 사용이 가능한데 정부
   <img src="https://i.imgur.com/MuSHzGa.png" alt="image"/>
 </p>
 
-1. Command Prompt: 커맨드 창
+1. Command Prompt: 커맨드 창  
 
 <p align="center">
   <img src="https://i.imgur.com/JC6dNcd.png" alt="image"/>
 </p>
 
-2. Configure Network: 네트워크 설정, 공유 폴더, Ping, Debug Mode 등 다양한 설정이 가능하다.
+2. Configure Network: 네트워크 설정, 공유 폴더, Ping, Debug Mode 등 다양한 설정이 가능하다.  
 
 <p align="center">
   <img src="https://i.imgur.com/4QeyF8Z.png" alt="image"/>
 </p>
 
-3. File Explorer: 폴더/파일 탐색기
+3. File Explorer: 폴더/파일 탐색기  
 
 <p align="center">
   <img src="https://i.imgur.com/qrjOUya.png" alt="image"/>
 </p>
 
-4. Install Driver: 드라이버(inf 파일) 설치 가능 도구
+4. Install Driver: 드라이버(inf 파일) 설치 가능 도구  
 
-5. Notepad: 메모장
+5. Notepad: 메모장  
 
-6. Registry Editor: 레지스트리 편집기
+6. Registry Editor: 레지스트리 편집기  
 
 <p align="center">
   <img src="https://i.imgur.com/cHksAC9.png" alt="image"/>
