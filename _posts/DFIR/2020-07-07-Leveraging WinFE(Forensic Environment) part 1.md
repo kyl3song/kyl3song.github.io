@@ -20,6 +20,10 @@ header:
 ---
 WinFE 활용 방법 part 1
 
+## Leveraging WinFE(Forensic Environment) Series
+- [Blog #12: Leveraging WinFE(Forensic Environment) part 1](https://kyl3song.github.io/portable%20os/Leveraging-WinFE(Forensic-Environment)-part-1/)
+- [Blog #13: Leveraging WinFE(Forensic Environment) part 2](https://kyl3song.github.io/portable%20os/Leveraging-WinFE(Forensic-Environment)-part-2/)
+
 현재 윈도우 운영체제는 종류가 매우 다양하다. 종류가 다양한 만큼 사용자 또는 조직의 관점에서 필요한 운영체제를 선택하여 사용할 수 있는데 운영체제의 GUI가 거의 비슷하여 사용함에 편리함을 제공한다.
  
 WinPE 운영체제를 커스텀하게 구성하면 내가 원하는 도구를 넣을 수 있는 등 유용하게 사용할 수 있다. 
@@ -155,7 +159,11 @@ SID 값은 포렌식적으로 의미 있는 아티팩트인데 레지스트리�
 - <https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-7/dd799308(v=ws.10)?redirectedfrom=MSDN>
 - <https://forums.tomshardware.com/threads/can-i-upgrade-the-emmc-on-this-laptop-asus-chromebook-cb3-532-c42p.3465592/>
 
+
 ## Copyright (CC BY-NC 2.0 KR)
+본 게시글은 CC BY-NC 2.0 KR Licence를 따릅니다.
+비영리 목록으로만 사용할 수 있고, 저작자와 출처를 표시하면 언제든지 게시글을 자유롭게 사용할 수 있습니다.
+
 <img src="/assets/images/creativecommon_by-nc.png" width="30%" height="30%">
 
 - <http://ccl.cckorea.org/about/>

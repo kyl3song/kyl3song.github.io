@@ -22,6 +22,7 @@ WinFE 활용 방법 part 2 - The Final
 
 ## Leveraging WinFE(Forensic Environment) Series
 - [Blog #12: Leveraging WinFE(Forensic Environment) part 1](https://kyl3song.github.io/portable%20os/Leveraging-WinFE(Forensic-Environment)-part-1/)
+- [Blog #13: Leveraging WinFE(Forensic Environment) part 2](https://kyl3song.github.io/portable%20os/Leveraging-WinFE(Forensic-Environment)-part-2/)
 
 지난 포스트에서는 WinPE를 이용하여 증거물을 획득할 때 발생할 수 있는 이슈사항을 확인하였고, 실제 테스트를 진행하면서 분석 대상 원본 매체에 의도치 않게 쓰기 작업이 발생한 것을 확인하였다.
 
