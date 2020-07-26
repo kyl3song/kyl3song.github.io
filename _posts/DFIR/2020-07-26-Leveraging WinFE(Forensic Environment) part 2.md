@@ -186,7 +186,7 @@ WinFE에 내장되어 있는 도구 중 이미징을 할 수 있는 도구가 �
 
 **Advanced Reset**은 AD(Active Directory) 도메인 환경에서 사용 중인 시스템의 암호를 제거할 수 있는 도구이다.
 
-Password Tool는 모두 별도 구매를 해야만 사용이 가능한데 정부(Governement) 및 법 집행기관(LE(Law Enforcement)은 무료로 사용할 수 있다.
+Password Tool는 모두 별도 구매를 해야만 사용이 가능한데 정부(Governement) 및 법 집행기관(LE, Law Enforcement)은 무료로 사용할 수 있다.
 
 <p align="center">
   <img src="https://i.imgur.com/qpb4yj4.png" alt="image"/>
