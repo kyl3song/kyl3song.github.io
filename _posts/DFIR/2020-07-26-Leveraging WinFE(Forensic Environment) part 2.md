@@ -58,11 +58,9 @@ WinFE는 기본적으로 자동으로 볼륨이 마운트 되는 것을 막아�
    <p align="center">
   <img src="https://i.imgur.com/cPHCcLi.png" alt="image"/> </p>
 
-3. (Optional) WinFE의 배경화면을 변경하려면 원하는 배경 파일을 <span style="color:red">IntelWinFE\x64\wallpaper.jpg</span> 그리고 <span style="color:red">IntelWinFE\x86\wallpaper.jpg</span>로 넣는다.
-
-<p align="center">
-  <img src="https://i.imgur.com/3KDjaab.png" alt="image"/>
-</p>
+3. (Optional) WinFE의 배경화면을 변경하려면 원하는 배경 파일을 <span style="color:red">IntelWinFE\x64\wallpaper.jpg</span> 그리고 <span style="color:red">IntelWinFE\x86\wallpaper.jpg</span>로 넣는다.   
+   <p align="center">
+  <img src="https://i.imgur.com/3KDjaab.png" alt="image"/> </p>
 
 ### Build Stage 2 (ADK 다운로드)
 다른 ADK(Windows Assessment and Deployment Kit) 버전에서도 동작할 수 있으나 공식 홈페이지에서는 WinFE 테스트는 Windows 10 ADK, version 1803에서 되었다고 명시되어 있다. ADK를 다운로드하여 설치 한다.
