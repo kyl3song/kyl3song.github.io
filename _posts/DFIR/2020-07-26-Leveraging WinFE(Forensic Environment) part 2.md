@@ -54,11 +54,9 @@ WinFE는 기본적으로 자동으로 볼륨이 마운트 되는 것을 막아�
 > 아래 기재한 내용에서 경로가 변경되었을 수 있으니 반드시 공식 홈페이지를 참고 바란다.
 
 1. [7-Zip](https://www.7-zip.org) 다운로드 (반디집도 가능함)
-2. [Intel x86/x64 framework](https://www.winfe.net/files/IntelWinFE.7z) 다운로드 후 압축 해제
-
-<p align="center">
-  <img src="https://i.imgur.com/cPHCcLi.png" alt="image"/>
-</p>
+2. [Intel x86/x64 framework](https://www.winfe.net/files/IntelWinFE.7z) 다운로드 후 압축 해제   
+   <p align="center">
+  <img src="https://i.imgur.com/cPHCcLi.png" alt="image"/> </p>
 
 3. (Optional) WinFE의 배경화면을 변경하려면 원하는 배경 파일을 <span style="color:red">IntelWinFE\x64\wallpaper.jpg</span> 그리고 <span style="color:red">IntelWinFE\x86\wallpaper.jpg</span>로 넣는다.
 
@@ -69,7 +67,7 @@ WinFE는 기본적으로 자동으로 볼륨이 마운트 되는 것을 막아�
 ### Build Stage 2 (ADK 다운로드)
 다른 ADK(Windows Assessment and Deployment Kit) 버전에서도 동작할 수 있으나 공식 홈페이지에서는 WinFE 테스트는 Windows 10 ADK, version 1803에서 되었다고 명시되어 있다. ADK를 다운로드하여 설치 한다.
 
-ADK 1803 Direct Link: https://go.microsoft.com/fwlink/?linkid=873065
+ADK 1803 Direct Link: <https://go.microsoft.com/fwlink/?linkid=873065>
 
 ### Build Stage 3 (FTK Imager 도구 다운로드)
 FTK Imager를 다운로드하는 것은 선택사항이다. FTK Imager 도구를 넣어서 빌드 하려면 필요하지만 굳이 그렇게 하지 않아도 된다. 이유는 도구 획득 테스트(Acquisition Test with FTK Imager, X-Ways Forensics) 부분에서 다시 설명할 예정이다.
