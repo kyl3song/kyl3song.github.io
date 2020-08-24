@@ -114,10 +114,10 @@ EnScript에서 파일 저장할 때 인코딩 방식이 잘못 지정했나 생�
 
 일단 2번은 아닌 것 같고,, 그런데 가만히 생각해보니 깨진 부분이 굳이 필요 없는 거라 문자열을 잘라내도 되는 것이었다. 즉, 수정 후의 경로는 복원된 영상 프레임의 저장된 폴더명만 있으면 되는 것이었다.
 
-[수정 전 경로]  
+**[수정 전 경로]**  
 2019-####\C\2019-####(!@$\#!$^&*)\ExportFrames\\<span style="color:red">**RecoverFrame001\RecoverFrame_0001.jpg**</span>
 
-[수정 후 경로]  
+**[수정 후 경로]**  
 <span style="color:red">**RecoverFrame001\RecoverFrame_0001.jpg**</span>
 
 이제 총 162개의 CSV 파일을 어떻게 다룰 것인가가 문제였다.
