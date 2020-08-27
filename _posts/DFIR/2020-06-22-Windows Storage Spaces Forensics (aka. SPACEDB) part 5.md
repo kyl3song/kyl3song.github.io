@@ -160,8 +160,8 @@ $RECYCLE.BIN 폴더 내 SID 값을 가진 폴더가 생성된다. 특히 SID값 
 - <https://matplotlib.org/gallery/images_contours_and_fields/image_annotated_heatmap.html#sphx-glr-gallery-images-contours-and-fields-image-annotated-heatmap-py>
 
 
-## Copyright (CC BY-NC 2.0 KR)
-본 게시글은 CC BY-NC 2.0 KR Licence를 따릅니다.  
+## Copyright (CC BY-NC)
+본 게시글은 CC BY-NC Licence를 따릅니다.  
 비영리 목록으로만 사용할 수 있고, 저작자와 출처를 표시하면 언제든지 게시글을 자유롭게 사용할 수 있습니다.
 
 <img src="/assets/images/creativecommon_by-nc.png" width="30%" height="30%">

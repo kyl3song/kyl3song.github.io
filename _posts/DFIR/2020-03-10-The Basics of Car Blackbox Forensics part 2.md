@@ -246,8 +246,8 @@ X-Ways Forensics 도구의 경우 카빙 기능 외 'Intelligent naming'이라�
 - <https://www.mandoplaza.com/>
   
 
-## Copyright (CC BY-NC 2.0 KR)
-본 게시글은 CC BY-NC 2.0 KR Licence를 따릅니다.  
+## Copyright (CC BY-NC)
+본 게시글은 CC BY-NC Licence를 따릅니다.  
 비영리 목록으로만 사용할 수 있고, 저작자와 출처를 표시하면 언제든지 게시글을 자유롭게 사용할 수 있습니다.
 
 <img src="/assets/images/creativecommon_by-nc.png" width="30%" height="30%">
