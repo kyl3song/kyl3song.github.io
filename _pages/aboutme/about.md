@@ -73,6 +73,7 @@ header:
 - Filesystem 분석 및 복원 사례 (2020. 5.)
 - macOS(APFS with T2/Non-T2 Chip) fundamentals & 케이스별 획득 방안 (2020. 6.)
 - WHOIS OpenAPI 활용 방안 및 사례 (2020. 7.)
+- 동영상 범죄일람표 생성 도구 제작 및 활용방안 (2020. 8.)
 
 ## Research
 
