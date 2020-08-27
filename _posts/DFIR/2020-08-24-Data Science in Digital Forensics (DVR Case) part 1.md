@@ -24,6 +24,11 @@ header:
 디지털포렌식에서의 데이터 과학 (DVR Case) part 1
 
 
+## Data Science in Digital Forensics Series
+- [Blog #14: Data Science in Digital Forensics (DVR Case) part 1](https://kyl3song.github.io/data%20science/Data-Science-in-Digital-Forensics-(DVR-Case)-part-1/)
+- [Blog #15: Data Science in Digital Forensics (DVR Case) part 2](https://kyl3song.github.io/data%20science/Data-Science-in-Digital-Forensics-(DVR-Case)-part-2/)
+
+
 ## Preface
 [데이터 과학(Data Science)](https://ko.wikipedia.org/wiki/%EB%8D%B0%EC%9D%B4%ED%84%B0_%EC%82%AC%EC%9D%B4%EC%96%B8%EC%8A%A4)의 정의를 살펴보면 정형, 비정형 형태를 포함한 다양한 데이터로부터 지식과 인사이트를 추출하는데 과학적 방법론, 프로세스, 알고리즘, 시스템을 동원하는 융합분야이다.
 

@@ -27,6 +27,8 @@ header:
 
 ## Data Science in Digital Forensics Series
 - [Blog #14: Data Science in Digital Forensics (DVR Case) part 1](https://kyl3song.github.io/data%20science/Data-Science-in-Digital-Forensics-(DVR-Case)-part-1/)
+- [Blog #15: Data Science in Digital Forensics (DVR Case) part 2](https://kyl3song.github.io/data%20science/Data-Science-in-Digital-Forensics-(DVR-Case)-part-2/)
+
 
 ## Issue Review
 이번 포스트에서는 이슈 사항에 대해 원인을 파악하고 이슈를 해결할 수 있는 여러가지 방법을 알아보도록 하겠다. 그 중에 Data Science를 사용하는 방법도 포함되어 있다.
