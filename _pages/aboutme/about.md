@@ -16,12 +16,12 @@ header:
 
 ## Work Experience
 
-- SMPA Digital Forensics Investigation Section (2018.1 ~ )
+- SMPA Digital Forensic Investigation Section (2018.1 ~ )
   - Digital Forensic Investigator
   - Computer Forensics
   - Mobile Forensics
   - Car Blackbox & DVR(Digital Video Recoder) Forensics
-  - IoT Forensics
+  - IoT(Embdedded Systme) Forensics
 
 - SMPA, Seoul Seocho Police Station Cybercrime Investigation Team (2016.7. ~ 2018.1)
   - Cybercrime Investigation
@@ -74,12 +74,14 @@ header:
 - macOS(APFS with T2/Non-T2 Chip) fundamentals & 케이스별 획득 방안 (2020. 6.)
 - WHOIS OpenAPI 활용 방안 및 사례 (2020. 7.)
 - 동영상 범죄일람표 생성 도구 제작 및 활용방안 (2020. 8.)
-- IoT기기 사본획득 기법 연구_시리얼 통신 이용 중심 (2020. 9. 경찰청 연구보고서)
+- IoT기기 사본획득 기법 연구 1차 - 시리얼 통신 이용 중심 (2020. 9. 경찰청 연구보고서)
+- IoT기기 사본획득 기법 연구 2차 - Raspberry Pi 보드 이용 중심 (2020. 9. 경찰청 연구보고서)
 
 ## Research
 
 - 파일시스템을 이용한 윈도우 저장소 공간 복원율 향상 방안 (2020. 3. 치안정책연구)
-- IoT기기 사본획득 기법 연구_시리얼 통신 이용 중심 (2020. 9. 경찰청 연구보고서)
+- IoT기기 사본획득 기법 연구 1차 - 시리얼 통신 이용 중심 (2020. 9. 경찰청 연구보고서)
+- IoT기기 사본획득 기법 연구 2차 - Raspberry Pi 보드 이용 중심 (2020. 9. 경찰청 연구보고서)
 
 ## Other Activities
 
