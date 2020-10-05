@@ -280,8 +280,8 @@ print("Elapsed Time:", end_time - start_time)
 <br>그림 18. 변환된 Binary 파일</p>
 
 
-## 시리얼 통신의 단점 (Disadvantages of Serial Communication)
-시리얼 통신으로 화면에 현출된 로그를 이용하여 획득하는 방법은 근본적으로 2가지의 단점이 있다.
+## UART 통신을 통한 메모리 획득 방법의 단점 (Disadvantages of Data Collecting through UART)
+UART 통신으로 화면에 현출된 로그를 이용하여 획득하는 방법은 2가지의 단점이 있다.
 
 1. 시리얼 통신에 따른 데이터 전송 속도가 느리다.  
 \- 시리얼 통신의 근본적 문제점
