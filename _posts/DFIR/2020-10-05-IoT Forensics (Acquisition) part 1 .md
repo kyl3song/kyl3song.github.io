@@ -1,5 +1,5 @@
 ---
-title : "Blog #16: IoT Forensics part 1 - Acquisition"
+title : "Blog #16: IoT Forensics (Acquisition) part 1"
 category :
   - IoT Forensics
 tag : 
@@ -21,7 +21,7 @@ header:
   overlay_filter: 0.5
 #published : true
 ---
-IoT Forensics part 1 - 획득
+IoT Forensics (획득) part 1
 
 
 ## Preface
