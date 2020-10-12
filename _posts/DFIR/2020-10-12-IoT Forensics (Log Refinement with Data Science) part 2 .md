@@ -133,123 +133,143 @@ IoT Forensics (데이터 사이언스를 통한 로그 정제) part 2
 
 <p align="center">
   <img src="https://i.imgur.com/vsImcD5.png" alt="image"/>
-<br>그림 7. 샘플 로그 (Flash_Dump_MD2.txt)
+<br>그림 7. 샘플 로그 (Flash_Dump_MD2.txt)</p>
+
 
 ### 1. 패키지 임포트
 데이터 분석에 필요한 패키지들을 임포트 한다.
 
 <p align="center">
-  <img src="https://i.imgur.com/jqOLGR0.png" alt="image"/></p>
+  <img src="https://i.imgur.com/jqOLGR0.png" alt="image"/>
+</p>
 
 
 ### 2. 로그 파일 읽기
-샘플 로그 파일을 읽는다. 파일을 읽을 수 있는 방법은 다양하게 존재하지만, 여기서는 `read_csv()` 함수를 사용한다.
+샘플 로그 파일을 읽는다. 파일을 읽을 수 있는 방법은 다양하게 존재하지만, 여기서는 'read_csv()' 함수를 사용한다.
 
 <p align="center">
-  <img src="https://i.imgur.com/PxbCpLM.png" alt="image"/></p>
+  <img src="https://i.imgur.com/PxbCpLM.png" alt="image"/>
+</p>
 
-예전엔 간단히 `pd.read_table(target, names=['data'])` 함수를 이용하여 읽기도 하였으나 앞으로 없어질 함수(Deprecate Warning)로 read_csv를 사용하였다.
+예전엔 간단히 'pd.read_table(target, names=['data'])' 함수를 이용하여 읽기도 하였으나 앞으로 없어질 함수(Deprecate Warning)로 read_csv를 사용하였다.
 
 파일을 읽어서 df(dataframe) 변수에 저장한다.
 
 <p align="center">
-  <img src="https://i.imgur.com/9uJfonA.png" alt="image"/></p>
+  <img src="https://i.imgur.com/9uJfonA.png" alt="image"/>
+</p>
 
 ### 3. 특정 행 선택
 원하는 Index 영역만 선택하는 게 필요할지 모르므로 덤프 영역만 선택하여 원하는 데이터프레임(df)을 다시 구성한다.
 
 <p align="center">
-  <img src="https://i.imgur.com/YS53s1x.png" alt="image"/></p>
+  <img src="https://i.imgur.com/YS53s1x.png" alt="image"/>
+</p>
 
 
 ### 4. 각 행에 대한 길이 계산
-각 행에 대한 길이 값을 계산할 때 `apply()`를 사용한다. `iloc`을 이용한 반복문 또는 `iterrows()` 반복을 사용하는 것 보다 훨씬 효율적이다.
+각 행에 대한 길이 값을 계산할 때 'apply()'를 사용한다. 'iloc'을 이용한 반복문 또는 'iterrows()' 반복을 사용하는 것 보다 훨씬 효율적이다.
 
 길이를 계산하여 dataframe의 'len' 컬럼을 만들어 계산된 길이를 저장한다.
 
 <p align="center">
-  <img src="https://i.imgur.com/bl6fsHB.png" alt="image"/></p>
+  <img src="https://i.imgur.com/bl6fsHB.png" alt="image"/>
+</p>
 
 
 ### 5. 길이 정합성 판단 (가로 정합성)
 전체 데이터 중 길이가 65가 아닌 것만 따로 한번에 추출할 수 있다.
 
 <p align="center">
-  <img src="https://i.imgur.com/PokVRjr.png" alt="image"/></p>
+  <img src="https://i.imgur.com/PokVRjr.png" alt="image"/>
+</p>
 
 만일 길이가 64 이상인 데이터만 추출하려고 하면 간단히 부등호를 넣어주면 된다.
 
 <p align="center">
-  <img src="https://i.imgur.com/LTIcLhb.png" alt="image"/></p>
+  <img src="https://i.imgur.com/LTIcLhb.png" alt="image"/>
+</p>
 
 
 전체 데이터의 가로 정합성을 위해 Bool Type 형태의 반환이 필요하다.
 
 <p align="center">
-  <img src="https://i.imgur.com/7GUFW2K.png" alt="image"/></p>
+  <img src="https://i.imgur.com/7GUFW2K.png" alt="image"/>
+</p>
 
 조건을 통해 길이가 65가 아닌 모든 행에 대해 출력할 수 있다.
 
 <p align="center">
-  <img src="https://i.imgur.com/ett7s1R.png" alt="image"/></p>
+  <img src="https://i.imgur.com/ett7s1R.png" alt="image"/>
+</p>
 
-`all()` 메서드를 통해 모든 데이터의 길이가 65에 대한 True/False 여부를 확인할 수 있다.
+'all()' 메서드를 통해 모든 데이터의 길이가 65에 대한 True/False 여부를 확인할 수 있다.
 샘플에서는 길이가 63인 데이터가 존재하므로 False를 출력한다.
 
 즉, 하나라도 조건에 맞지 맞는 데이터가 있다면 False를 출력해준다. 이 구문을 통해 **데이터의 가로 정합성을 판단**할 수 있다.
 
 <p align="center">
-  <img src="https://i.imgur.com/QzqTyJU.png" alt="image"/></p>
+  <img src="https://i.imgur.com/QzqTyJU.png" alt="image"/>
+</p>
 
 
 ### 6. 주소 정합성 판단 (세로 정합성)
 주소 부분을 데이터 프레임의 address 컬럼을 만들어 분리시킨다.
 
 <p align="center">
-  <img src="https://i.imgur.com/B9l89fv.png" alt="image"/></p>
+  <img src="https://i.imgur.com/B9l89fv.png" alt="image"/>
+</p>
 
 'address' 컬럼은 개별 데이터가 문자열(str type)이기 때문에 문자열 비교를 위해 '0x'를 붙여준다.
 
 <p align="center">
-  <img src="https://i.imgur.com/AI4jbVE.png" alt="image"/></p>
+  <img src="https://i.imgur.com/AI4jbVE.png" alt="image"/>
+</p>
 
 덤프의 시작 주소, 끝 부분 주소를 이용하여 검증할 주소 데이터를 만든다. numpy 배열 이용하는 이유는 검증용 주소를 만들 때도 반복문을 사용하지 않기 위해서이다.
 
 <p align="center">
-  <img src="https://i.imgur.com/dNyc1EQ.png" alt="image"/></p>
+  <img src="https://i.imgur.com/dNyc1EQ.png" alt="image"/>
+</p>
 
 로그에서 분리시킨 address_hex와 검증 용도의 address_compare의 문자열 비교를 통해 다른 경우 다른 부분만 필터링이 가능하며 이 부분을 **데이터의 세로 정합성을 판단**하는데 사용할 수 있다.
 
 <p align="center">
-  <img src="https://i.imgur.com/OKug1jR.png" alt="image"/></p>
+  <img src="https://i.imgur.com/OKug1jR.png" alt="image"/>
+</p>
 
 
 ### 6. 데이터 정제 및 바이너리 파일 변환
 덤프 로그는 그림과 같이 Offset(주소), 덤프 데이터, ASCII Text 영역으로 이뤄져있다.
 
 <p align="center">
-  <img src="https://i.imgur.com/VIZfrl5.png" alt="image"/></p>
+  <img src="https://i.imgur.com/VIZfrl5.png" alt="image"/>
+</p>
 
 바이너리 데이터로 만들기 위해서 Offset, ASCII Text 부분을 제외하고 필요한 덤프 영역만 추출 해야 한다. 'data' 컬럼을 대상으로 문자열을 나누고 붙이는 작업을 통해 그림처럼 한 줄 단위의 hex 데이터를 만들 수 있다.
 
 <p align="center">
-  <img src="https://i.imgur.com/YHVTl4t.png" alt="image"/></p>
+  <img src="https://i.imgur.com/YHVTl4t.png" alt="image"/>
+</p>
 
 정합성이 맞지 않는 샘플 로그를 대상으로 적용하면 9행이 문자열이 1바이트 만큼 모자란다. 물론 프로그래밍으로 이미 가로 정합성 부분에서 필터링 되어 여기까지 오지 않게 만들어야 할 것이다.
 
 이제 각 행으로 되어 있는 데이터를 모두 하나의 줄로 합치는 작업을 한다.
 
 <p align="center">
-  <img src="https://i.imgur.com/pxWNZQm.png" alt="image"/></p>
+  <img src="https://i.imgur.com/pxWNZQm.png" alt="image"/>
+</p>
 
 스트링 타입으로 되어있는 문자열을 바이트열로 변환을 하고,
 
 <p align="center">
-  <img src="https://i.imgur.com/2eX1kex.png" alt="image"/></p>
+  <img src="https://i.imgur.com/2eX1kex.png" alt="image"/>
+</p>
 
 마지막으로 저장하면 완료된 모습을 확인할 수 있다.
 <p align="center">
-  <img src="https://i.imgur.com/5lkuzdk.png" alt="image"/></p>
+  <img src="https://i.imgur.com/5lkuzdk.png" alt="image"/>
+</p>
 
 
 그럼 133MB의 실제 데이터를 위와 같은 작업을 통해 로그 파싱, 정제, 변환 작업까지 얼마나 걸리는지 확인해보자.
@@ -273,7 +293,8 @@ IoT Forensics (데이터 사이언스를 통한 로그 정제) part 2
 
 <p align="center">
   <img src="https://i.imgur.com/p4fKxQh.png" alt="image"/>
-<br>그림 8. 가로 정합성이 맞지 않을 경우</p>
+<br>그림 8. 가로 정합성이 맞지 않을 경우
+</p>
 
 
 ``` python
@@ -348,8 +369,8 @@ def main():
         sys.exit()
 
     # Dump Logs shown like as follows:
-    # c0000000: ffdd0022 10000000 040800bc 00000060    ..."...........`
-    # c0000010: 010800bc 00000060 ffdd0022 80000000    .......`..."....
+    # c0000000: ffdd0022 10000000 040800bc 00000060    ..."...........'
+    # c0000010: 010800bc 00000060 ffdd0022 80000000    .......'..."....
     logger.info("Preprocess raw data is in progress...")
     df['data'] = df['data'].apply(lambda x: (x.split(':')[1].strip().split('  ')[0].replace(" ", "")))
     logger.info(f"The First Five Row Data look like:\n{df['data'][:5]}")
