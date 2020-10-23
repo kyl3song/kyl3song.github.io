@@ -24,6 +24,11 @@ header:
 IoT Forensics (획득) part 1
 
 
+## IoT Forensics Series
+- [Blog #16: IoT Forensics (Acquisition) part 1](https://kyl3song.github.io/iot%20forensics/IoT-Forensics-(Acquisition)-part-1/)
+- [Blog #17: IoT Forensics (Log Refinement w/ Data Science) part 2](https://kyl3song.github.io/iot%20forensics/data%20science/IoT-Forensics-(Log-Refinement-with-Data-Science)-part-2/)
+
+
 ## Preface
 IoT(Internet of Things)는 사물간 인터넷으로 통신을 하며 서로간 정보를 주고 받는 기술을 의미한다. 출근길 도로가 막히면 스마트폰이 알람을 평소보다 30분 더 일찍 울리고, 집안 전등이 일제히 켜지고 커피포트가 때맞춰 물을 끓여주는 것 처럼 우리 생활을 더욱 편리하게 해주는 기술이다.
 

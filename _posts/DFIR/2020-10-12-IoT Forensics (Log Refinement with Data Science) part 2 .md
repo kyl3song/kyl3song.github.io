@@ -28,6 +28,9 @@ IoT Forensics (데이터 사이언스를 통한 로그 정제) part 2
 
 ## IoT Forensics Series
 - [Blog #16: IoT Forensics (Acquisition) part 1](https://kyl3song.github.io/iot%20forensics/IoT-Forensics-(Acquisition)-part-1/)
+- [Blog #17: IoT Forensics (Log Refinement w/ Data Science) part 2](https://kyl3song.github.io/iot%20forensics/data%20science/IoT-Forensics-(Log-Refinement-with-Data-Science)-part-2/)
+
+
 
 지난 포스트 글 말미에서 UART + 터미널프로그램을 통한 메모리 획득 방법의 단점에 대해 언급을 하였다.
 
