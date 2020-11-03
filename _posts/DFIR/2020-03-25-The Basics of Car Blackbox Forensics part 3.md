@@ -37,7 +37,7 @@ header:
 
 ## 영상 코덱 추가 설명 (Details of Video Codecs)
 ### MPEG(Moving Picture Experts Group) / H.264
-코덱을 검색하다 보면 같은 코덱임에도 불구하고 서적이나 기술 문서에서 다양한 이름으로 불리고 있다. 예를 들면, 현재 가장 많이 사용되는 `H.264` 코덱은 `AVC`라고 불리기도 하고, `MPEG-4 Part 10`라고 불리기도 한다. 코덱 종류는 매우 다양한데 이름도 다양하니 헷갈리기 쉽다.
+코덱을 검색하다 보면 같은 코덱임에도 불구하고 서적이나 기술 문서에서 다양한 이름으로 불리고 있다. 예를 들면, 현재 가장 많이 사용되는 'H.264' 코덱은 'AVC'라고 불리기도 하고, 'MPEG-4 Part 10'라고 불리기도 한다. 코덱 종류는 매우 다양한데 이름도 다양하니 헷갈리기 쉽다.
 
 MPEG(Moving Picture Experts Group)은 국제표준화단체로서의 공식 명칭은 ISO/IEC JTC1/SC29/WG11이다. MPEG은 ITU-T(국제전기통신연합)의 비디오 코딩 전문가 그룹(VCEG, Video Coding Experts Group)과 공동으로 조인트 비디오 팀(Joint Video Team)을 구성하여 비디오 압축 표준화를 진행하였다.
 
@@ -45,7 +45,7 @@ MPEG(Moving Picture Experts Group)은 국제표준화단체로서의 공식 명�
   <img src="https://i.imgur.com/XB8SgyX.png" alt="image"/>
 </p>
 
-위의 [표](https://www.nexpert.net/364)는 단체마다 코덱의 이름을 정리한 것이다. 결국 ITU-T의 `H.264`와 ISO/IEC의 `MPEG-4 Part 10 AVC`(공식적으로는 ISO/IEC 14496-10-MPEG-4 파트 10, 고급 비디오 부호화)는 결국 같은 코덱인데 각 단체에서 계속 서로 다른 이름으로 불리고 있다. 실무상으로는 H.264라고 가장 많이 불리는 것 같다.
+위의 [표](https://www.nexpert.net/364)는 단체마다 코덱의 이름을 정리한 것이다. 결국 ITU-T의 'H.264'와 ISO/IEC의 'MPEG-4 Part 10 AVC'(공식적으로는 ISO/IEC 14496-10-MPEG-4 파트 10, 고급 비디오 부호화)는 결국 같은 코덱인데 각 단체에서 계속 서로 다른 이름으로 불리고 있다. 실무상으로는 H.264라고 가장 많이 불리는 것 같다.
 블랙박스 영상에서도 H.264 코덱이 가장 많이 사용된다. 이외에도 MPEG-4 Part2(MPEG-4 Visual)등 코덱이 사용되기도 한다.
 
 ### H.265 코덱의 낮은 이용률(Why H.265 is not popular)
