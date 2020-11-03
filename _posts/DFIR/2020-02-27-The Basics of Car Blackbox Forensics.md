@@ -21,10 +21,10 @@ header:
 차량용 블랙박스 분석 기본(Part 1)
 
 ## Blackbox Post Series
-- [Blog #2: The Basics of Car Blackbox Forensics part 1](https://kyl3song.github.io/dfir/The-Basics-of-Car-Blackbox-Forensics/)
-- [Blog #3: The Basics of Car Blackbox Forensics part 2](https://kyl3song.github.io/dfir/The-Basics-of-Car-Blackbox-Forensics-part-2/)
-- [Blog #4: The Basics of Car Blackbox Forensics part 3](https://kyl3song.github.io/dfir/The-Basics-of-Car-Blackbox-Forensics-part-3/)
-- [Blog #5: The Basics of Car Blackbox Forensics part 4](https://kyl3song.github.io/dfir/The-Basics-of-Car-Blackbox-Forensics-part-4/)
+- [Blog #2: The Basics of Car Blackbox Forensics part 1](https://kyl3song.github.io/blackbox/The-Basics-of-Car-Blackbox-Forensics/)
+- [Blog #3: The Basics of Car Blackbox Forensics part 2](https://kyl3song.github.io/blackbox/The-Basics-of-Car-Blackbox-Forensics-part-2/)
+- [Blog #4: The Basics of Car Blackbox Forensics part 3](https://kyl3song.github.io/blackbox/The-Basics-of-Car-Blackbox-Forensics-part-3/)
+- [Blog #5: The Basics of Car Blackbox Forensics part 4](https://kyl3song.github.io/blackbox/The-Basics-of-Car-Blackbox-Forensics-part-4/)
 
 ## Car Blackbox (Dashboard Camera)
 
