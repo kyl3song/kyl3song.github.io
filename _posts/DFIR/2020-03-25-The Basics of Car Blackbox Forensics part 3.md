@@ -27,10 +27,10 @@ header:
 차량용 블랙박스 분석 기본(Part 3)
 
 ## Blackbox Post Series
-- [Blog #2: The Basics of Car Blackbox Forensics part 1](https://kyl3song.github.io/dfir/The-Basics-of-Car-Blackbox-Forensics/)
-- [Blog #3: The Basics of Car Blackbox Forensics part 2](https://kyl3song.github.io/dfir/The-Basics-of-Car-Blackbox-Forensics-part-2/)
-- [Blog #4: The Basics of Car Blackbox Forensics part 3](https://kyl3song.github.io/dfir/The-Basics-of-Car-Blackbox-Forensics-part-3/)
-- [Blog #5: The Basics of Car Blackbox Forensics part 4](https://kyl3song.github.io/dfir/The-Basics-of-Car-Blackbox-Forensics-part-4/)
+- [Blog #2: The Basics of Car Blackbox Forensics part 1](https://kyl3song.github.io/blackbox/The-Basics-of-Car-Blackbox-Forensics/)
+- [Blog #3: The Basics of Car Blackbox Forensics part 2](https://kyl3song.github.io/blackbox/The-Basics-of-Car-Blackbox-Forensics-part-2/)
+- [Blog #4: The Basics of Car Blackbox Forensics part 3](https://kyl3song.github.io/blackbox/The-Basics-of-Car-Blackbox-Forensics-part-3/)
+- [Blog #5: The Basics of Car Blackbox Forensics part 4](https://kyl3song.github.io/blackbox/The-Basics-of-Car-Blackbox-Forensics-part-4/)
 
 지난 포스트에서 영상 파일 포맷(컨테이너), 코덱, 블랙박스 폴더/파일 구성, AVI 파일에 대한 전반적인 기초 지식을 확인하였다. 원래 모든 학문이 깊게 들어가면 한도 끝도 없는 부분이라 일단 기본적인 부분만 알고 업무에 좀 더 필요한 내용이거나 개인적으로 관심이 생기면 더 깊게 공부하기를 추천한다.  
 이번 포스트에서는 코덱에 대해서 추가적으로 필요한 내용을 한 번 정리하고 MP4 파일에 대해서 알아보도록 한다.
