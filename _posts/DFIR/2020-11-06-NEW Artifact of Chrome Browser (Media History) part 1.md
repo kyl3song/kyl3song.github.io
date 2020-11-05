@@ -1,5 +1,5 @@
 ---
-title : "Blog #18: New "Media History" Artifact in Chrome part 1"
+title : "Blog #18: NEW Artifact of Chrome Browser (Media History) part 1"
 category :
   - Artifacts
 tag : 
