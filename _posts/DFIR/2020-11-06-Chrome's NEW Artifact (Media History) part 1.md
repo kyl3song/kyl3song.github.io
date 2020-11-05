@@ -58,7 +58,7 @@ Media History는 영상 또는 음성과 같이 미디어 재생 이력을 트�
 
 만일 이런 경우도 관련 기록이 남을지 궁금했다. 앞으로 디지털성범죄가 지속적으로 발생한다면 분명 혐의를 구증할 수 있는 좋은 아티팩트로 활용될 수 있기 때문이다.
 
-### File Location & Signature
+### File Location
 Media History 파일의 위치는 크롬 브라우저의 History, Cookies와 같은 기존의 아티팩트가 존재하는 기존의 경로와 동일하다.
 
 **[경로]**
