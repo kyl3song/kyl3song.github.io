@@ -9,7 +9,6 @@ tag :
   - SQLite
   - Media History
   - Media Tracking
-  - Artifacts
 sidebar_main : true
 author_profile : true
 use_math : true
