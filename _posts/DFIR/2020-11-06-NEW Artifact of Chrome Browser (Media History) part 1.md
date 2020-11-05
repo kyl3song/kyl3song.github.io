@@ -64,15 +64,13 @@ Media History는 영상 또는 음성과 같이 미디어 재생 이력을 트�
 Media History 파일의 위치는 크롬 브라우저의 History, Cookies와 같은 기존의 아티팩트가 존재하는 기존의 경로와 동일하다.
 
 **[경로]**
-```shell
+``` shell
 %USERPROFILE%\AppData\Local\Google\Chrome\User Data\Default
 ```
 
 <p align="center">
   <img src="https://i.imgur.com/18Ift7G.png" alt="image"/>
-<br>그림 3. Media History 저장 경로
-<br>(%USERPROFILE%\AppData\Local\Google\Chrome\User Data\Default)</p>
-
+<br>그림 3. Media History 저장 경로</p>
 
 ## DB Table Overview
 Media History DB 내부에 총 8개의 테이블이 존재한다. 그중 현재 의미가 있어 보이는 테이블은 'mediaImage', 'origin', 'playback', 'playbackSession', 'sessionImage'로 5개 정도이다.
