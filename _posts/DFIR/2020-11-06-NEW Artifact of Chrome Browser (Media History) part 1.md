@@ -22,6 +22,9 @@ header:
 ---
 크롬의 새로운 아티팩트 "Media History" part 1
 
+## IoT Forensics Series
+- [Blog #18: NEW Artifact of Chrome Browser (Media History) part 1](https://kyl3song.github.io/artifacts/NEW-Artifact-of-Chrome-Browser-(Media-History)-part-1/)
+
 
 ## Preface
 약 한 달 전인 2020. 10. 6. Chrome 86버전이 릴리즈 되었다. 릴리즈된 새로운 버전에서는 Media History라는 이름의 아티팩트가 새롭게 추가되었다.
@@ -72,7 +75,7 @@ Media History 파일의 위치는 크롬 브라우저의 History, Cookies와 같
 
 
 ## DB Table Overview
-Media History DB 내부에 총 8개의 테이블이 존재한다. 그중 현재 의미가 있어 보이는 테이블은 ```mediaImage```, ```origin```, ```playback```, ```playbackSession```, ```sessionImage```로 5개 정도이다.
+Media History DB 내부에 총 8개의 테이블이 존재한다. 그중 현재 의미가 있어 보이는 테이블은 'mediaImage', 'origin', 'playback', 'playbackSession', 'sessionImage'로 5개 정도이다.
 
 <p align="center">
   <img src="https://i.imgur.com/Be2cq5l.png" alt="image"/>
@@ -88,7 +91,7 @@ Media History DB 내부에 총 8개의 테이블이 존재한다. 그중 현재 
   <img src="https://i.imgur.com/7a2UXTb.png" alt="image"/>
 <br>그림 5. mediaFeed Table</p>
 
-일단 테이블명이 mediaFeed로 되어 있고 컬럼 중 ```user_status```, ```user_identifier```과 같이 유저의 정보가 있는 것으로 보아 크롬으로 미디어 서비스를 제공하기 위해 남기는 데이터들을 모아놓은 테이블로 추측을 해볼 수 있을 것 같다.
+일단 테이블명이 mediaFeed로 되어 있고 컬럼 중 'user_status', 'user_identifier'과 같이 유저의 정보가 있는 것으로 보아 크롬으로 미디어 서비스를 제공하기 위해 남기는 데이터들을 모아놓은 테이블로 추측을 해볼 수 있을 것 같다.
 
 
 ### 2. mediaFeedItem Table
@@ -98,7 +101,7 @@ Media History DB 내부에 총 8개의 테이블이 존재한다. 그중 현재 
   <img src="https://i.imgur.com/mcouT3j.png" alt="image"/>
 <br>그림 6. mediaFeedItem Table</p>
 
-컬럼명인 ```name```, ```author```, ```date_published_s```, ```is_family_friendly```, ```content_rating```, ```genre```, ```tv_episode```, ```play_next_candidate```만 살펴봐도 유튜브 영화, TV 시리즈 컨텐츠 서비스 관련된 테이블이라 생각할 수 있다.
+컬럼명인 'name', 'author', 'date_published_s', 'is_family_friendly', 'content_rating', 'genre', 'tv_episode', 'play_next_candidate'만 살펴봐도 유튜브 영화, TV 시리즈 컨텐츠 서비스 관련된 테이블이라 생각할 수 있다.
 
 앞선 테이블과 연관되어 향후 이 테이블을 활용해서 유저의 편의성, UX(User Experience)를 생각하는 것 같다. 그게 사업성이든 아니든 다시 한번 느끼지만 역시 구글은 구글이다.
 
@@ -119,7 +122,7 @@ ytimg는 youtube image를 줄인 단어로 유튜브는 YouTube Data API를 통�
 
 
 현재 확인한 것은 유튜브 영상만 URL이 확인되고 일반 개인 블로그에 유튜브 영상을 삽입한 형태여도 URL 값이 남는다.
-```playback_origin_id```값을 통해 playback 또는 playbackSession 테이블에 기록된 영상 URL을 확인할 수 있다.
+'playback_origin_id'값을 통해 playback 또는 playbackSession 테이블에 기록된 영상 URL을 확인할 수 있다.
 
 ### 4. meta Table
 meta 테이블에 딱 3개의 Row 데이터만 존재하는걸로 봐서 호환성, 버전 정보를 기재하는 테이블로 생각된다. 포렌식적인 큰 의미는 없어보인다.
@@ -161,7 +164,7 @@ playback 테이블부터는 의미 있는 데이터들이 저장되어 있다. �
   <img src="https://i.imgur.com/uqfxD8g.png" alt="image"/>
 <br>그림 12. playback Table</p>
 
-계산을 통해 실제로 시간이 맞는지 확인해 보자. 현재 빨간색으로 하이라이트 된 뉴스 영상의 시청 시간(watch_time_s)을 더하면 10초이다. 앞서 설명한 origin Table의 ```aggregate_watchtime_audio_video_s``` 컬럼의 값을 보면 **10**으로 되어 있음을 확인할 수 있다.
+계산을 통해 실제로 시간이 맞는지 확인해 보자. 현재 빨간색으로 하이라이트 된 뉴스 영상의 시청 시간(watch_time_s)을 더하면 10초이다. 앞서 설명한 origin Table의 'aggregate_watchtime_audio_video_s' 컬럼의 값을 보면 **10**으로 되어 있음을 확인할 수 있다.
 
 
 ### 7. playbackSession Table
@@ -191,20 +194,20 @@ playback 테이블이 URL 정보, 시청 시간 등 전반적인 데이터를 �
 - 1233110 ms ➔ **20분 33초**
 
 **last_updated_time_s (e.g. 13248830334)**
-- origin 테이블과 playback 테이블의 ```last_updated_time_s``` 값과 동일한 값도 있으나 차이가 있는 값도 확인하였다. dfir.blog에서 재생된 영상의 경우 약 27분의 차이가 났다.  
+- origin 테이블과 playback 테이블의 'last_updated_time_s' 값과 동일한 값도 있으나 차이가 있는 값도 확인하였다. dfir.blog에서 재생된 영상의 경우 약 27분의 차이가 났다.  
   \- origin Table(last_updated_time_s): 13248828711 (2020-11-03 07:11:51, UTC+9)  
   \- playback Table(last_updated_time_s): 13248828711 (2020-11-03 07:11:51, UTC+9)  
   \- playbackSession Table(last_updated_time_s): 13248830334 (2020-11-03 07:38:54, UTC+9)
 - 차이가 왜 나는 것일까? 이유는 간단하다. 해당 테이블은 동일한 URL에 대해 중복을 남기지 않고 기존의 레코드를 업데이트하는 방식이다. 즉, 영상의 마지막 상태 정보를 갱신한다는 의미이다.
 
 ### 8. sessionImage Table
-동영상 썸네일의 크기를 기록하는 테이블이다. ```image_id```값으로 테이블에 기록된 데이터 모두 320x180 크기로 동일하였다.
+동영상 썸네일의 크기를 기록하는 테이블이다. 'image_id'값으로 테이블에 기록된 데이터 모두 320x180 크기로 동일하였다.
 
 <p align="center">
   <img src="https://i.imgur.com/aEpmz56.png" alt="image"/>
 <br>그림 15. sessionImage Table</p>
 
-```image_id```값을 통해 mediaImage Table의 ```id```값을 매칭하면 썸네일을 확인할 수 있다.
+'image_id'값을 통해 mediaImage Table의 'id'값을 매칭하면 썸네일을 확인할 수 있다.
 
 
 ## Wrap-up
