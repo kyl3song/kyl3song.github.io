@@ -22,7 +22,7 @@ header:
 ---
 크롬의 새로운 아티팩트 "Media History" part 1
 
-## IoT Forensics Series
+## NEW Artifact of Chrome Browser Series
 - [Blog #18: NEW Artifact of Chrome Browser (Media History) part 1](https://kyl3song.github.io/artifacts/NEW-Artifact-of-Chrome-Browser-(Media-History)-part-1/)
 
 
