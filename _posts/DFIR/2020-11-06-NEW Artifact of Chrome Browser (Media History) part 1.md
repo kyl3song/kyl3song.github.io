@@ -24,6 +24,7 @@ header:
 
 ## NEW Artifact of Chrome Browser Series
 - [Blog #18: NEW Artifact of Chrome Browser (Media History) part 1](https://kyl3song.github.io/artifacts/NEW-Artifact-of-Chrome-Browser-(Media-History)-part-1/)
+- [Blog #20: NEW Artifact of Chrome Browser (Media History) part 2](https://kyl3song.github.io/artifacts/NEW-Artifact-of-Chrome-Browser-(Media-History)-part-2/)
 
 
 ## Preface
