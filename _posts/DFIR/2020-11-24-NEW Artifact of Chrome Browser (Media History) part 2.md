@@ -33,7 +33,7 @@ header:
 그전에.. 크롬 버전 87.0.4280.66로 업그레이드 했더니 **kaleidoscopeData**라는 또 다른 테이블이 추가되어 있었다.
 
 <p align="center">
-  <img src="https://i.imgur.com/b5wL5X5.png" alt="image"/>
+  <img src="https://i.imgur.com/yUDzFwE.png" alt="image"/>
 <br>[kaleidoscopeData Table]</p>
 
 이 역시 테이블 내 데이터가 남아있지 않아 무슨 역할을 하는 테이블인지 찾아봤더니 넷플릭스, 아마존 프라임 등과 같은 VOD 스트리밍 서비스를 하나의 인터페이스로 통합시켜주는 역할을 하는 테이블로 사용될 것 같다.
