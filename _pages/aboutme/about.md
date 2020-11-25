@@ -57,7 +57,7 @@ header:
   \- Digital Forensics Social Media Contributor of the Year  
   \- Korea Institute of Information Security & Cryptology, 한국정보보호학회
 - 2020.11.20. 2020 KDFS Digital Forensics Challenge 3rd Place  
-  \- Korean Digital Forensics Society, 한국디지털포렌식학회
+  \- Korea Digital Forensics Society, 한국디지털포렌식학회
 
 ## Tech Report
 
