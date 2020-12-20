@@ -1,7 +1,7 @@
 ---
 title : "Blog #21: Tips for Testifying in Court part 1"
 category :
-  - Law & Legal process
+  - Law and Legal process
 tag : 
   - DFIR
   - Digital Forensics & Incident Response
