@@ -22,11 +22,16 @@ header:
 법정 증언 및 증언 시 유의점 part 1
 
 
+## Tips for Testifying in Court Series
+- [Blog #21: Tips for Testifying in Court part 1](https://kyl3song.github.io/law%20and%20legal%20process/Tips-for-Testifying-in-Court-part1/)
+- - [Blog #22: Tips for Testifying in Court part 2](https://kyl3song.github.io/law%20and%20legal%20process/Tips-for-Testifying-in-Court-part1/)
+
+
 ## Preface
 법원으로부터 증인으로 소환되게 되면 특별한 사유가 있지 않는 이상 출석해야 한다.
 만일 참석하지 못할 사유가 있다면 미리 이를 법원에 사유서를 제출하여 출석 기일을 연장해야 한다.
 
-이를 어기고 무단으로 불참했을 시 500만원 이하의 과태료를 부가하고 필요에 따라 강제구인될 수도 있다. 즉, 강제로 끌려간다는 이야기이다.
+이를 어기고 무단으로 불참했을 시 500만원 이하의 과태료가 부가될 수 있고 필요에 따라 강제구인될 수도 있다. 즉, 강제로 끌려간다는 이야기이다.
 
 오늘은 최근에 법정에 증인으로 출석하여 증언을 한 경험을 이야기하려고 한다.
 
