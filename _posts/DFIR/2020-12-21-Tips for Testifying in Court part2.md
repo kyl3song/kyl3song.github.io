@@ -24,9 +24,10 @@ header:
 
 ## Tips for Testifying in Court Series
 - [Blog #21: Tips for Testifying in Court part 1](https://kyl3song.github.io/law%20and%20legal%20process/Tips-for-Testifying-in-Court-part1/)
-- [Blog #22: Tips for Testifying in Court part 2](https://kyl3song.github.io/law%20and%20legal%20process/Tips-for-Testifying-in-Court-part1/)
+- [Blog #22: Tips for Testifying in Court part 2](https://kyl3song.github.io/law%20&%20legal%20process/Tips-for-Testifying-in-Court-part2/)
 
 
+## Preface
 지난 포스트에서 증인 소환장을 통해 법정증언을 하게 됐을 때 준비해야 될 부분 및 간략한 팁들을 소개했다.
 
 지난 글에 이어 법정 증언을 위해 내가 준비한 부분 및 실제 법정에서 대답했던 내용에 대해 글을 작성하고자 한다.
