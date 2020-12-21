@@ -23,7 +23,7 @@ header:
 
 
 ## Tips for Testifying in Court Series
-- [Blog #21: Tips for Testifying in Court part 1](https://kyl3song.github.io/law%20and%20legal%20process/Tips-for-Testifying-in-Court-part1/)
+- [Blog #21: Tips for Testifying in Court part 1](https://kyl3song.github.io/law%20&%20legal%20process/Tips-for-Testifying-in-Court-part1/)
 - [Blog #22: Tips for Testifying in Court part 2](https://kyl3song.github.io/law%20&%20legal%20process/Tips-for-Testifying-in-Court-part2/)
 
 
