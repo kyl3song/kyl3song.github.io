@@ -104,8 +104,6 @@ PC 크롬 브라우저 버전을 업데이트한 뒤 **1) 아무것도 하지 �
 
 </center>
 
-<p align="center"> </p>
-
 Leaf Page는 실제로 데이터가 저장된 SQLite Page를 의미한다. 여러개의 테이블 중 3개의 테이블이 의미가 있었고 챌린지의 구조가 깨져있는 Media History와 Leaf Page 오프셋이 동일하였다.
 
 이제 내가 테스트용으로 생성한 정상적인 Media History DB에 Leaf Page를 통째로 이식하면 된다. 여기서 중요한 것은 그냥 무턱대고 가져다 붙여 넣으면 안되고 구조를 봐가면서 작업을 해야 한다.
