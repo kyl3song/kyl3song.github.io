@@ -99,7 +99,8 @@ PC 크롬 브라우저 버전을 업데이트한 뒤 **1) 아무것도 하지 �
 |:----------------:|:-------------------:|
 |0x7000 ~ 0x7FFF   |Playback             | 
 |0x9000 ~ 0x9FFF   |PlaybackSession      |
-|0x10000 ~ 0x10FFF |mediaImage           |
+|0x10000 ~ 0x10FFF |mediaImage           |  
+
 
 
 Leaf Page는 실제로 데이터가 저장된 SQLite Page를 의미한다. 여러개의 테이블 중 3개의 테이블이 의미가 있었고 챌린지의 구조가 깨져있는 Media History와 Leaf Page 오프셋이 동일하였다.
@@ -110,7 +111,7 @@ Playback Table Leaf Page 구조를 우선 살펴보자. 데이터는 Big-endian�
 
 <p align="center">
   <img src="https://i.imgur.com/KIjZgQi.png" alt="image"/>
-<br>[ Playback Table Leaf Page before modified ]</p>
+<br>[ Playback Table Leaf Page 수정 전 ]</p>
 
 수정이 필요할 부분이 두 군데로 보인다.
 
@@ -126,13 +127,13 @@ Playback Table Leaf Page 구조를 우선 살펴보자. 데이터는 Big-endian�
 
 <p align="center">
   <img src="https://i.imgur.com/5uyACO8.png" alt="image"/>
-<br>[ Playback Table Leaf Page after modified ]</p>
+<br>[ Playback Table Leaf Page 수정 후 ]</p>
 
 동일한 방식으로 PlaybackSession 테이블 페이지를 수정하면 된다.
 
 <p align="center">
   <img src="https://i.imgur.com/Uoagiy6.png" alt="image"/>
-<br>[ PlaybackSession Table Leaf Page before & after modified]</p>
+<br>[ PlaybackSession Table Leaf Page 수정 전/후 ]</p>
 
 그런데 마지막 mediaImage 테이블의 경우 아래 그림과 같이 셀 오프셋 영역에 0C F3 헥사 값이 반복되는 패턴이 보인다.
 
@@ -142,13 +143,13 @@ Playback Table Leaf Page 구조를 우선 살펴보자. 데이터는 Big-endian�
 
 이런 경우는 보통 테이블의 컬럼을 삭제할 경우 셀오프셋을 앞쪽으로 2바이트씩 당겨지기 때문에 이와 같은 패턴이 나타나게 된다.
 
-실제 데이터 영역을 확인하니 총 6개의 컬럼 데이터 영역이 남아있다.
+실제 데이터 영역을 확인하니 총 6개의 컬럼 데이터 영역이 남아있다. (파란색이 구분선)
 
 <p align="center">
   <img src="https://i.imgur.com/Q5F6kLP.png" alt="image"/>
-<br>[ mediaImage Table Data Area in Page ]</p>
+<br>[ mediaImage Table의 데이터 영역 ]</p>
 
-즉 6개의 동일한 패턴이 보이고 가장 마지막 0C 09는 동일한 패턴이 아니므로 더 이전에 존재했었던 데이터의 셀 오프셋를 의미한다. 또는 문제 출제위원이 임의로 수정했을 가능성도 존재한다.
+즉 위 mediaImage Table Leaf Page의 그림에서 6개의 동일한 패턴이 보이고 가장 마지막 0C 09는 동일한 패턴이 아니므로 더 이전에 존재했었던 데이터의 셀 오프셋를 의미한다. 또는 문제 출제위원이 임의로 수정했을 가능성도 존재한다.
 
 참고로 SQL Query를 통해 삭제 테스트를 해보면 이와 동일한 패턴을 확인할 수 있다.
 
@@ -158,7 +159,7 @@ sqlite> DELETE FROM mediaImage;
 
 <p align="center">
   <img src="https://i.imgur.com/2lnBiIL.png" alt="image"/>
-<br>[ mediaImage Table before & after rows are deleted ]</p>
+<br>[ mediaImage Table 행(row) 삭제 전/후 ]</p>
 
 mediaImage 테이블은 문자열(URL) 이외에 따로 의미 있는 데이터가 있지 않다. 따라서 그냥 스트링을 추출하는 방법으로 해도 되는데 나 역시 이렇게 하였다.
 
@@ -168,7 +169,7 @@ $ strings Media History > mediaImage.txt
 
 <p align="center">
   <img src="https://i.imgur.com/YiEK6LM.png" alt="image"/>
-<br>[ Extracted Strings from mediaImage Table ]</p>
+<br>[ mediaImage Table에서 추출된 문자열 ]</p>
 
 
 ### Leaf Page Data Transplant & Results
@@ -177,18 +178,18 @@ $ strings Media History > mediaImage.txt
 
 <p align="center">
   <img src="https://i.imgur.com/he3R5IA.png" alt="image"/>
-<br>[ Media History DB Transplant Process ]</p>
+<br>[ Media History DB 이식 프로세스 ]</p>
 
 이렇게 수정된 데이터를 그대로 붙여 넣어주면 오른편 DB 파일의 구조는 정상적이므로 복원된 데이터를 손쉽게(?) 확인할 수 있다.
 
 <p align="center">
   <img src="https://i.imgur.com/fYGdlnc.png" alt="image"/>
-<br>[ Recovered Playback Table ]</p>
+<br>[ 복원된 Playback Table ]</p>
 
 
 <p align="center">
   <img src="https://i.imgur.com/5CQ6rON.png" alt="image"/>
-<br>[ Recovered PlaybackSession Table ]</p>
+<br>[ 복원된 PlaybackSession Table ]</p>
 
 복원된 테이블을 통해 용의자의 행위 추적을 좀 더 상세히 할 수 있었다.
 
