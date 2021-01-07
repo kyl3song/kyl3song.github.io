@@ -141,7 +141,7 @@ Playback Table Leaf Page 구조를 우선 살펴보자. 데이터는 Big-endian�
   <img src="https://i.imgur.com/dPUkjog.png" alt="image"/>
 <br>[ mediaImage Table Leaf Page ]</p>
 
-이런 경우는 보통 테이블의 행(Row)을 삭제한 경우 셀오프셋을 앞쪽으로 2바이트씩 당겨지기 때문에 이와 같은 패턴이 나타나게 된다.
+이런 경우는 보통 테이블의 행(Row)을 삭제한 경우 셀오프셋이 앞쪽으로 2바이트씩 당겨지기 때문에 이와 같은 패턴이 나타나게 된다.
 
 실제 데이터 영역을 확인하니 총 6개의 컬럼 데이터 영역이 남아있다. (파란색이 구분선)
 
