@@ -174,7 +174,7 @@ $ strings Media History > mediaImage.txt
 
 ### Leaf Page Data Transplant & Results
 
-마지막으로 수정한 Playback 및 PlaybackSession 테이블을 이식하는 작업만 남았다. 이식은 내가 크롬을 업데이트 한 이후에 생성된 정상적인 DB 파일에다 붙여 넣는 작업만 하면 된다.
+지금까지 수정한 Playback 및 PlaybackSession 테이블을 이식하는 작업만 남았다. 이식은 크롬을 업데이트 한 이후에 생성된 정상적인 DB 파일에다 붙여 넣는 작업만 하면 된다.
 
 <p align="center">
   <img src="https://i.imgur.com/he3R5IA.png" alt="image"/>
