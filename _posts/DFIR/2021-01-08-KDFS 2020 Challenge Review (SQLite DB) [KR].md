@@ -47,7 +47,7 @@ KDFS 챌린지는 [한국디지털포렌식학회](https://kdfs.jams.or.kr/)에�
 
 ## Getting into the Challenge
 ### com.android.chrome
-먼저 `com.android.chrome`등 여러 안드로이드 패키지명을 보니 MicroSD를 휴대폰에 삽입했던 흔적이다.
+먼저 com.android.chrome 등 여러 안드로이드 패키지명을 보니 MicroSD를 휴대폰에 삽입했던 흔적이다.
 
 <p align="center">
   <img src="https://i.imgur.com/wRER67C.png" alt="image"/>
