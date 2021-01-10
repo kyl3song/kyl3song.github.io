@@ -110,14 +110,14 @@ Leaf Page는 실제로 데이터가 저장된 SQLite Page를 의미한다. 여�
 Playback Table Leaf Page 구조를 우선 살펴보자. 데이터는 Big-endian으로 저장된다.
 
 <p align="center">
-  <img src="https://i.imgur.com/KIjZgQi.png" alt="image"/>
+  <img src="https://i.imgur.com/bCK48e3.png" alt="image"/>
 <br>[ Playback Table Leaf Page 수정 전 ]</p>
 
 수정이 필요할 부분이 두 군데로 보인다.
 
 **수정할 부분:**
 
-1. 레코드의 개수: 24개(0x18)  
+1. 셀(컬럼) 수: 24개(0x18)  
    \- 셀 오프셋 영역에서 확인한 2bytes씩 12개
 2. 셀 시작 지점: 0x09CA  
    \- 셀 오프셋 영역의 마지막 레코드인 09 CA와 동일하게 맞춰줌  
