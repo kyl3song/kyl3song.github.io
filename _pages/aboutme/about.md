@@ -51,13 +51,10 @@ header:
 
 ## Awards
 
-- 2018.11.27. Digital Forensics Challenge 2018 3rd Place  
-  \- Korea Institute of Information Security & Cryptology, 한국정보보호학회
-- 2020.11.12. Digital Forensics Challenge 2020 Award Winner  
+- 2018.11.27. Digital Forensics Challenge 2018 3rd Place (Korea Institute of Information Security & Cryptology, 한국정보보호학회)
+- 2020.11.12. Digital Forensics Challenge 2020 Award Winner (Korea Institute of Information Security & Cryptology, 한국정보보호학회)  
   \- Digital Forensics Social Media Contributor of the Year  
-  \- Korea Institute of Information Security & Cryptology, 한국정보보호학회
-- 2020.11.20. 2020 KDFS Digital Forensics Challenge 3rd Place  
-  \- Korea Digital Forensics Society, 한국디지털포렌식학회
+- 2020.11.20. 2020 KDFS Digital Forensics Challenge 3rd Place (Korea Digital Forensics Society, 한국디지털포렌식학회)
 
 ## Tech Report
 
