@@ -20,7 +20,7 @@ header:
   overlay_filter: 0.5
 #published : true
 ---
-Another way of recover SQLite Database
+Another way to recover SQLite Database
 
 
 ## This Post Covers
