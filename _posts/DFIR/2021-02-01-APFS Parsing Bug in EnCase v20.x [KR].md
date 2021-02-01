@@ -108,7 +108,7 @@ FAT32, NTFS에서도 섹터가 밀렸을 경우 정상적으로 표시해 주지
 
 <p align="center">
   <img src="https://i.imgur.com/oeqSLkf.png" alt="image"/>
-<br>[ Fig 10. Header of the sample picture]</p>
+<br>[ Fig 10. Header of the sample picture in EnCase v20.4]</p>
 
 양쪽 버전에서 샘플 사진 파일을 추출한 뒤 winhex를 통해 차이점을 확인했다.
 
