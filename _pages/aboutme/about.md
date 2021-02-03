@@ -14,16 +14,16 @@ header:
 
 
 
-## Work Experience
+## Work Experiences
 
-- SMPA Digital Forensic Investigation Section (2018.1 ~ )
+- Seoul Metropolitan Police Agency Digital Forensic Investigation Section (2018.1 ~ )
   - Digital Forensic Investigator
   - Computer Forensics
   - Mobile Forensics
   - Car Blackbox & DVR(Digital Video Recoder) Forensics
   - IoT(Embedded Systme) Forensics
 
-- SMPA, Seoul Seocho Police Station Cybercrime Investigation Team (2016.7. ~ 2018.1)
+- Seoul Seocho Police Station Cybercrime Investigation Team, SMPA (2016.7. ~ 2018.1)
   - Cybercrime Investigation
   
 - AhnLab Global Technical Assistance Center (2011.3. ~ 2015.12.)
@@ -56,7 +56,7 @@ header:
   \- Digital Forensics Social Media Contributor of the Year  
 - 2020.11.20. 2020 KDFS Digital Forensics Challenge 3rd Place (Korea Digital Forensics Society, 한국디지털포렌식학회)
 
-## Tech Report
+## Tech Reports
 
 - 모바일 앱 최근 실행 내역 연계 분석 (2018. 12.)
 - 시간 값이 저장되어 있지 않은 영상에서의 시간 값 추출 (2019. 2.)
@@ -78,7 +78,7 @@ header:
 - 동영상 범죄일람표 생성 도구 제작 및 활용방안 (2020. 8.)
 - IoT기기 사본획득 기법 연구 1차, 2차 (2020. 9. 경찰청 연구보고서)
 
-## Research
+## Researches
 
 - 파일시스템을 이용한 윈도우 저장소 공간 복원율 향상 방안 (2020. 3. 치안정책연구)
 - IoT기기 사본획득 기법 연구 1차 - 시리얼 통신 이용 중심 (2020. 9. 경찰청 연구보고서)
