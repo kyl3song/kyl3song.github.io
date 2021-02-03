@@ -25,7 +25,7 @@ Another way to recover SQLite Database
 
 ## This Post Covers
 
-Digital Forensics Challenges are great way to study for Dforensic-newbies as well as those who are eager to learn sophisticated tech skills in this field.
+Digital Forensics Challenges are great way to study for Dforensic newbies as well as those who are eager to learn sophisticated tech skills in this field.
 
 By taking part in it, you can even learn forensic tech trends and get a good chance to check how you could deal with the new artifacts that are not very publicly known.
 
@@ -102,7 +102,7 @@ From the second DB, I found 3 tables that have meaningful information, and their
 |0x10000 ~ 0x10FFF |mediaImage           |  
 
 
-Leaf Pages are where the real data is saved in SQLite DB. And the structure, leaf page offsets are the same as given Media History DB from the challenge.
+Leaf Pages are where the real data is saved in SQLite DB. And the structure of leaf pages' offsets are the same as given Media History DB from the challenge.
 
 So, we need to transplant the Leaf Pages portion to newly created DB that chrome made. Before that, let's only take a look at the Leaf Page structure below. Data is saved in Big-endian.
 
@@ -110,21 +110,21 @@ So, we need to transplant the Leaf Pages portion to newly created DB that chrome
   <img src="https://i.imgur.com/bCK48e3.png" alt="image"/>
 <br>[ Before Playback table's Leaf Page is modified ]</p>
 
-Two sections that have to changed
+Two sections that need to be changed:
 
 1. Number of Cells(rows): 24(0x18)  
    \- 12 cell offsets (2bytes pair)
 2. Start of Cell Offset: 0x09CA  
-   \- Same as the last offset data (09 CA) of hilighted Cell offset area  
+   \- Same as the last offset data (09 CA) of highlighted Cell offset area  
    \- cell offsets are saved the other way around of the real data ➜ [Ref.](https://www.ahnlab.com/kr/site/securityinfo/secunews/secuNewsView.do?menu_dist=2&seq=22438)
 
-Screen capture below shown the data is modified.
+Screen capture below shows the data is correctly modified.
 
 <p align="center">
   <img src="https://i.imgur.com/5uyACO8.png" alt="image"/>
 <br>[ After Playback table Leaf Page's is modified ]</p>
 
-With the same method, we need to change a couple of bytes of PlaybackSession table's leaf page.
+With the same method above, we need to change a couple of bytes of PlaybackSession table's leaf page.
 
 <p align="center">
   <img src="https://i.imgur.com/Uoagiy6.png" alt="image"/>
@@ -154,7 +154,7 @@ sqlite> DELETE FROM mediaImage;
   <img src="https://i.imgur.com/2lnBiIL.png" alt="image"/>
 <br>[ Cell offsets change before & after mediaImage data is deleted ]</p>
 
-It's better to extract strings from mediaImage table because it doesn't have so much rich data except thumbnail url strings.
+It's better to use extract-string method in the mediaImage table because it doesn't have so much rich data but the thumbnail urls.
 
 ```shell
 $ strings Media History > mediaImage.txt
@@ -173,7 +173,7 @@ Ok, we have modified a few bytes from leaf pages so far, and all we have to do i
   <img src="https://i.imgur.com/he3R5IA.png" alt="image"/>
 <br>[ Media History leaf page transplant process ]</p>
 
-Overwrite modified leaf page from the left to right within the same offset, and there we have very eaily(?) check the full data in tables.
+Overwrite modified leaf page from the left to right within the same offset, and there we have the full data recovered in the tables.
 
 <p align="center">
   <img src="https://i.imgur.com/fYGdlnc.png" alt="image"/>
@@ -189,7 +189,7 @@ Now we have more clear view of suspect's behavior.
 The data is saved in Leaf Page in SQLite DB, so this recovery concept is to modify the page from broken DB and copy it to DB that has the same structure.
 
 SQLite DB transplant method:
-1. Check the real data in Leaf Page to see if it is still left.
+1. Check the real data in Leaf Page to see if they are still left.
 2. Check the leaf page's header information and correct if it needs.
 3. Copy modified leaf page over to the same structured DB within the same offset.
 
