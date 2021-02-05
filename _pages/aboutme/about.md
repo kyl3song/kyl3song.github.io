@@ -6,7 +6,7 @@ header:
   overlay_image: /assets/images/about.jpg
 ---
 
-# Kyle Song
+# Kyle Song (@kyl3s0n9)
 
 > Think outside the Box & Stay Positive
 
@@ -88,7 +88,7 @@ header:
 
 - 2018년도 제67기 경찰간부후보생 선발 사이버분야 문제출제위원 (2017. 9. 15. ~  9. 27.)  
   \- 시스템네트워크, 데이터베이스 분야
-
+- 한국디지털포렌식전문가협회(KDFPA, Korea Digital Forensic Professional Association) 정회원
 
 ## Contact
 
