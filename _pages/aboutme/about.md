@@ -21,7 +21,7 @@ header:
   - Computer Forensics
   - Mobile Forensics
   - Car Blackbox & DVR(Digital Video Recoder) Forensics
-  - IoT(Embedded Systme) Forensics
+  - IoT(Embedded System) Forensics
 
 - Seoul Seocho Police Station Cybercrime Investigation Team, SMPA (2016.7. ~ 2018.1)
   - Cybercrime Investigation
