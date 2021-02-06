@@ -14,7 +14,7 @@ header:
 
 
 
-## Work Experiences
+## Work Experience
 
 - Seoul Metropolitan Police Agency Digital Forensic Investigation Section (2018.1 ~ )
   - Digital Forensic Investigator
@@ -90,7 +90,7 @@ header:
   \- 시스템네트워크, 데이터베이스 분야
 - 한국디지털포렌식전문가협회(KDFPA, Korea Digital Forensic Professional Association) 정회원
 
-## Contact
+## Contacts
 
 - Email
   - <fkilla8210@gmail.com>
