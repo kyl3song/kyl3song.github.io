@@ -66,7 +66,7 @@ As we get the same password required prompt three times, EnCase v20.4 now preten
 
 Take a look at the volumes in APFS Container (**disk1 - APFS Continer (synthesized)**) listed by Macquisition before performing acqusition in Fig. 4 below.
 
-We could see and notice five volumes in disk 1, among them **<span style="color:red">Macintosh HD - 데이터</span>** is the right volumes that user data is saved.
+We could see and notice five volumes in disk 1, among them **<span style="color:red">Macintosh HD - 데이터</span>** is the right volume that user data is saved.
 
 <p align="center">
   <img src="https://i.imgur.com/kQdPBMW.png" alt="image"/>
