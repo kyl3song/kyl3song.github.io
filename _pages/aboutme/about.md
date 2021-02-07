@@ -24,7 +24,7 @@ header:
   - IoT(Embedded System) Forensics
 
 - Seoul Seocho Police Station Cybercrime Investigation Team, SMPA (2016.7. ~ 2018.1)
-  - Cybercrime Investigation
+  - Cybercrime Investigator
   
 - AhnLab Global Technical Assistance Center (2011.3. ~ 2015.12.)
   - Security Architect & Network Engineer
