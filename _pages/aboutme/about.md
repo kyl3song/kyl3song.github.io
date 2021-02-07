@@ -28,7 +28,7 @@ header:
   
 - AhnLab Global Technical Assistance Center (2011.3. ~ 2015.12.)
   - Security Architect & Network Engineer
-  - Global Partner Technical Support in Appliances
+  - Technical Support around the globe with network appliances
   - Pre-sales Technical Engineer
   - Exhibitor at cybersecurity conferences (RSAC, Infosecurity, etc.)
 
