@@ -1,7 +1,7 @@
 ---
 title : "Blog #6: Acquisition Tools - FTK Imager Newer Version Release"
 category :
-  - Acquistion
+  - Acquisition
 tag : 
   - DFIR
   - Digital Forensics & Incident Response
