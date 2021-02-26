@@ -1,5 +1,5 @@
 ---
-title : "Blog #25: Importance of Drive Trim in Forensic Imager part 1.[KR]"
+title : "Blog #25: Importance of Drive Trim in Forensic Imager part 1. [KR]"
 category :
   - Acquisition
 tag : 
@@ -11,7 +11,7 @@ tag :
   - Drive Trim
 sidebar_main : true
 author_profile : true
-use_math : false
+use_math : true
 toc: true
 toc_sticky: true
 toc_label: "Table of Contents"
@@ -35,7 +35,7 @@ header:
 해시값 검증을 해봐야 알겠지만 느낌상 이미징 작업을 다시 해야할 수 있다는 생각이 밀려왔다.
 결론적으로는 산출된 해시값이 로그상 확인되는 해시값과 일치하지 않아 다시 이미징 작업 요청을 하였다.
 
-이번 포스트에서는 ```Drive Trim``` 기능에 대해 확인하고 왜 필요한지에 대해서 살펴보도록 한다.
+이번 포스트에서는 ***Drive Trim*** 기능에 대해 확인하고 왜 필요한지에 대해서 살펴보도록 한다.
 
 
 ## Imaging Mode
@@ -137,7 +137,7 @@ Drive Trim 기능은 디스크 복제 모드에서만 활성화가 되는데 Fal
 이럴 경우 사본 디스크인 1TB는 Drive Trim 기능을 선택하지 않았기 때문에 그대로 1TB로 인식이 된다.
 1TB 디스크 해시값은 사실 구할 필요도 없다. 4GB와 1TB는 용량조차도 다르기 때문에 디스크 해시를 계산한다면 당연히 다르기 때문이다.
 
-Drive Trim 기능은 Default 값이 **<span style="color:red">NO</span>**로 되어있다. 따라서 해당 기능을 잘 모르거나 실수로 `YES`로 바꾸지 못하는 등 충분히 실수를 유발할 수 있는데 이런 상황에서 증거물로 접수가 됐다면 어떻게 처리해야 될까?
+Drive Trim 기능은 Default 값이 **<span style="color:red">NO</span>**로 되어있다. 따라서 해당 기능을 잘 모르거나 실수로 ***YES***로 바꾸지 못하는 등 충분히 실수를 유발할 수 있는데 이런 상황에서 증거물로 접수가 됐다면 어떻게 처리해야 될까?
 
 원본과 해시값을 동일하게 검증할 수 있는 방법이 있을지 확인해보자.
 
