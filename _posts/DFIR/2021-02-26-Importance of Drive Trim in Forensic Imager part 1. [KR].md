@@ -171,6 +171,7 @@ Drive Trim 기능은 Default 값이 **<span style="color:red">NO</span>**로 되
 - <http://forensic-proof.com/archives/284>
 - <http://egloos.zum.com/sutdaeng/v/2831491>
 - <https://ata.wiki.kernel.org/index.php/Developer_Resources#ATA_command_set>
+- <https://superuser.com/questions/722462/what-are-the-differences-between-host-protected-area-hpa-device-configuration>
 
 
 ## Copyright (CC BY-NC 2.0)
