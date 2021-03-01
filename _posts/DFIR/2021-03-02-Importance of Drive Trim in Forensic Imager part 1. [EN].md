@@ -20,7 +20,7 @@ header:
   overlay_filter: 0.5
 #published : true
 ---
-Why you need to use Drive Trim
+Why we need to use Drive Trim.
 
 
 ## This Post Covers
