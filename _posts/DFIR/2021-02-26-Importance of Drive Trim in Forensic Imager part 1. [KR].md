@@ -105,7 +105,7 @@ Drive Trim 기능은 디스크 복제 모드에서만 활성화가 되는데 Fal
 
 그럼 만일 디스크 복제(Drive to Drive) 작업에서 Drive Trim 기능을 빼먹고 복제 작업한 경우 원본과 같은 영역만 해시값을 검증할 수 있는 가능성은 없을까?
 
-## Drive to Drive(Drive Clone) with Drive Trim
+## Drive to Drive(Mirror Clone) with Drive Trim
 테스트로 사용한 Source Drive는 4GB USB이고, Destination Drive는 1TB HDD로 사용했다. Drive Trim 옵션을 적용하여 복제가 완료된 이후 로그는 다음과 같이 출력된다.
 
 <p align="center">
@@ -127,7 +127,7 @@ Drive Trim 기능은 디스크 복제 모드에서만 활성화가 되는데 Fal
 정확히 일치하였다. 만일 쓰기방지장치가 없는 상태에서 복제가 정상적으로 됐는지 다른 PC에 연결해서 확인하는 작업을 했다면 이미 해시값이 틀어졌을 확률이 매우 높다.
 
 
-## Drive to Drive(Drive Clone) without Drive Trim
+## Drive to Drive(Mirror Clone) without Drive Trim
 이번에는 Drive Trim 옵션을 설정하지 않고 디스크 복제를 하였다. 팔콘 로그에 **<span style="color:red">Drive Trim: False</span>**로 명확히 나온다. 내가 배당받은 케이스와 동일한 상태이다.
 
 <p align="center">
