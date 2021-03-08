@@ -142,13 +142,13 @@ Let's see if there's a way to verify the original and Destination's hash identic
 ## Drive Hash based on the Number of LBAs
 The disk hash is calculated based on the LBA(Logical Block Address). The imaging solution provides an option to calculate the hash based on the number of LBA counts. Using this function, the hash can be computed only up to a specific LBA.
 
-In other words, it means that only the area corresponding to 4GB Source in the 1TB Destination HDD can be calculated as the hash value. Taking a look at the logs in Fig. 6, the LBA count is 7,831,552. We only need to compute the hash only for the block in the 1TB Destination disk by giving an option as shown in Fig 7. below.
+In other words, it means that only the area corresponding to 4GB Source in the 1TB Destination HDD can be hash-calculated. Taking a look at the logs in Fig. 6, the LBA count is 7,831,552. We only need to compute the hash only for the block in the 1TB Destination disk by giving an option as shown in Fig 7. below.
 
 <p align="center">
   <img src="https://i.imgur.com/bl7XWah.png" alt="image"/>
 <br>[ Fig 7. Confiure Target LBA Counts for HASH ]</p>
 
-If we look at the log of the hash value obtained in this way, we can see that it is the same hash as the 4GB USB sticks'.
+If we look at the log of the hash value obtained in this way, we can see that it is the same as the 4GB USB sticks'.
 
 <p align="center">
   <img src="https://i.imgur.com/XqSAFTh.png" alt="image"/>
