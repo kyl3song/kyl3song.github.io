@@ -98,7 +98,7 @@ Why do we need to match them? It's simple, we literally want a duplicate of the 
 
 Assuming that the remaining 1TB area is not wiped and previously used in the past, then it's even worse. Not only it is confusing to examiners but hash value itself will be different which makes useless bunch of data as it cannot be used in court.
 
-On top of that, even though the rest 1TB area is wiped, hash will be different anyway because of the different capacity between them. To prevent this from happening we need Drive Trim option enabled so that the Source and Destination are exact match.
+On top of that, even though the rest 1TB area is wiped, hash will be different anyway because of the different capacity between them anyway. To prevent this from happening we need Drive Trim option enabled so that the Source and Destination are exact match.
 
 Drive to File mode, however, doesn't have the Drive Trim option because it images to output file itself, it has noting to do with Destination's physicial size.
 
