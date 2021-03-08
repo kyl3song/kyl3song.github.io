@@ -68,6 +68,7 @@ Falcon-NEO provides network traffic captures. Ability to capture internet/VoIP t
 
 ### 6. File to Drive
 Restores DD, E01, Ex01 images to disk drive. This has been a very useful method in my experience in the past.
+
 One of my investigator colleages needed to scan HDD evidence to search files with writeblocker, but the device somehow got something wrong and all the partitions in EVIDENCE vanished out of nowhere. He sort of begged me for desperate help saying "help me this is SOLE EVIDENCE" with ten times of PLEASE.
 
 I looked into its structure starting from MBR/GPT to VBR, $MFT, etc. and found one or two sectors of full disk were backed from unknown reasons. I couldn't find the reason as we had not much of time. I asked him if he had the image of Source which he had, and we took a shot to restore the image to Evidence Drive because we had no choice. Evidence Drive was already contaminated and gone, useless by his actions.
