@@ -135,7 +135,7 @@ This time, the disk duplicated without setting Drive Trim option. It clearly app
 
 In this case 1TB Destination disk is still recognized as 1TB because the Trim is not selected. Since different capacity of Source and Destination we don't even need to compute the hash of Destination drive.
 
-Drive Trim feature is set to **<span style="color:red">NO</span>**, disabled by default. Therefore, it can cause enough human mistakes, such as not knowing the function well or not being able to change it by mistake, but what should be done if it was accepted as evidence in this situation?
+Drive Trim feature is set to **<span style="color:red">NO</span>**, disabled by default. Therefore, it can cause enough human mistakes to make, such as not knowing the function well or not be able to change it by mistake, but what should be done if it was accepted as evidence in this situation?
 
 Let's see if there's a way to verify the original and Destination's hash identically.
 
