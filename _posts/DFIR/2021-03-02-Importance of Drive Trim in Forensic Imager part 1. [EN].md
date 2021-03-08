@@ -64,12 +64,12 @@ Images a specific partition from Source to file formats E01, Ex01, DD, etc. If t
 ### 5. Net Traffic to File
 Falcon-NEO provides network traffic captures. Ability to capture internet/VoIP traffic to make .pcapng as output format. I've never had a chance to use this method, but I'm 99% positive that after the capture Falcon will calculate hash and create logs for us.
 
-(To-Do List) I will test it out and post up if I'm right, and how it goes for future work.
+(To-Do List) I will test it out and post up if I'm right and how it goes for future work.
 
 ### 6. File to Drive
 Restores DD, E01, Ex01 images to disk drive. This has been a very useful method in my experience in the past.
 
-One of my investigator colleages needed to scan HDD evidence to search files with writeblocker, but the device somehow got something wrong and all the partitions in EVIDENCE vanished out of nowhere. He sort of begged me for desperate help saying "help me this is SOLE EVIDENCE" with ten times of PLEASE.
+One of my investigator colleagues needed to scan HDD evidence to search files with writeblocker, but the device somehow got something wrong and all the partitions in EVIDENCE vanished out of nowhere. He sort of begged me for desperate help saying "help me this is SOLE EVIDENCE" with ten times of PLEASE.
 
 I looked into its structure starting from MBR/GPT to VBR, $MFT, etc. and found one or two sectors of full disk were backed from unknown reasons. I couldn't find the reason as we had not much of time. I asked him if he had the image of Source which he had, and we took a shot to restore the image to Evidence Drive because we had no choice. Evidence Drive was already contaminated and gone, useless by his actions.
 After waiting a couple of hours of processing, it was successful. Hash verified exactly matched the logs. It was a scary experience in my forensic life.
@@ -98,7 +98,7 @@ Why do we need to match them? It's simple, we literally want a duplicate of the 
 
 Assuming that the remaining 1TB area is not wiped and previously used in the past, then it's even worse. Not only it is confusing to examiners but hash value itself will be different which makes useless bunch of data as it cannot be used in court.
 
-On top of that, even though the rest 1TB area is wiped, hash will be different anyway because of the diffent capacity between them. To prevent this from happening we need Drive Trim option enabled so that the Source and Destination are exact match.
+On top of that, even though the rest 1TB area is wiped, hash will be different anyway because of the different capacity between them. To prevent this from happening we need Drive Trim option enabled so that the Source and Destination are exact match.
 
 Drive to File mode, however, doesn't have the Drive Trim option because it images to output file itself, it has noting to do with Destination's physicial size.
 
