@@ -104,7 +104,6 @@ Drive to File mode, however, doesn't have the Drive Trim option because it image
 
 If the trim feature was omitted from the disk clone operation performed, is there any possibility that the hash value can be verified only in the same region as in the original?
 
-
 ## Drive to Drive(Mirror Clone) with Drive Trim
 In testing, I used 4GB USB stick as Source, 1TB HDD as Destination. Performed Mirror Clone with Drive Trim applied. Falcon Log shown as follows:
 
