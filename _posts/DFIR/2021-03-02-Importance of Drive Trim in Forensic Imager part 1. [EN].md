@@ -152,7 +152,7 @@ If we look at the log of the hash value obtained in this way, we can see that it
 
 <p align="center">
   <img src="https://i.imgur.com/XqSAFTh.png" alt="image"/>
-<br>[ Fig 8. Hash verified whithin LBA Counts ]</p>
+<br>[ Fig 8. Hash verified up to defined LBA Counts ]</p>
 
 
 ## Wrap-up
