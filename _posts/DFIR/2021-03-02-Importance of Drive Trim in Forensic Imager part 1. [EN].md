@@ -139,7 +139,7 @@ Drive Trim feature is set to **<span style="color:red">NO</span>**, disabled by 
 
 Let's see if there's a way to verify the original and Destination's hash identically.
 
-## Drive Hash based on the Number of LBAs
+## Drive Hash based on a Number of LBAs
 The disk hash is calculated based on the LBA(Logical Block Address). The imaging solution provides an option to calculate the hash based on the number of LBA counts. Using this function, the hash can be computed only up to a specific LBA.
 
 In other words, it means that only the area corresponding to 4GB Source in the 1TB Destination HDD can be hash-calculated. Taking a look at the logs in Fig. 6, the LBA count is 7,831,552. We only need to compute the hash only for the block in the 1TB Destination disk by giving an option as shown in Fig 7. below.
