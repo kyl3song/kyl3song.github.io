@@ -40,7 +40,8 @@ header:
 
 그럼 만일 이전 데이터가 남아있다는 가정하에 생각해 볼 문제는 분석 도구에서도 특정 영역만 지정하여 해시값 검증이 가능한지, 특정 영역만 분석이 가능한지 여부가 중요하다.
 
-#### 1. Possibility of hash verification based on LBAs in tools
+**1. Possibility of hash verification based on LBAs in tools**
+
 포렌식 도구에 획득된 사본을 로드하면 해시 검증작업을 거쳐 검증된 해시값을 보고서에 넣을 것이다. 대부분의 포렌식 실무자들은 이렇게 업무를 하는데 도구에서 특정 LBA까지 해시 검증을 할 수 있는 기능이 있는지도 중요하다.
 
 EnCase v20.4의 경우 특정 LBA까지 해시 검증을 할 수 있다. 그런데 여기서 중요한 것은 도구마다 LBA 카운트로 기준을 잡을 수도 있고 섹터 시작/종료 지점을 기준으로 잡을 수 있다는 점이다.
@@ -58,12 +59,14 @@ EnCase v20.4의 경우 특정 LBA까지 해시 검증을 할 수 있다. 그런�
 <br>[ Fig 2. Hash Verified by EnCase v20.4]</p>
 
 
-#### 2. Possibility of an anlaysis within LBAs in tools
+**2. Possibility of an anlaysis within LBAs in tools**
+
 도구는 프로세스 기능을 통해 일반적인 부분을 자동화하여 분석해 준다. 그렇지만 대부분의 도구에서 특정 LBA까지만 프로세싱 작업을 할 수 있는 옵션을 가진 도구는 거의 없을 것이다.
 
 물론 방법은 아예 없는 것은 아니다. 스크립트를 작성하여 특정 영역만 스캔할 수 있는 방법은 있으나 신경 써야 할 것도 많고 많은 노동이 들어가는 일이다.
 
-#### 3. Best Practice in analysis phase
+**3. Best Practice in analysis phase**
+
 따라서 Case 1 상황에서는 정해진 범위 내 분석이 일반적으로 어렵기 때문에 최선의 방법은 원본 영역만 이미징을 다시 획득하는 방법이다.
 
 즉 1TB의 사본 디스크에서 원본 영역(4GB) 만큼 LBA를 지정하여 e01로 다시 획득하면, 획득된 이미징 파일을 가지고 분석을 진행하는 게 가장 최선의 방법이 아닐까 싶다. 물론 획득을 한 번 더 수행한 것에 대한 것은 보고서에 남겨야 할 것이다.
