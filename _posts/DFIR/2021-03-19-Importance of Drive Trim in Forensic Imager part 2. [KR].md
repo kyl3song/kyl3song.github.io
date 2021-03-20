@@ -31,7 +31,7 @@ header:
 
 
 ## How to Do an Analysis with Mirror-cloned Disk w/o. Drive Trim
-복제 형태로 획득된 사본 디스크를 어떻게 분석해야 할까? Drive Trim 옵션도 설정되어 있지 않은 상태라 사본 디스크를 연결하면 1TB 전체로 인식이 될 것이고 EnCase, X-Ways Forensics와 같은 도구에서 Process, RVS(Refine Volume Snapshot)를 돌리자니 1TB가 다 돌아가는 것 같고, 정작 내가 필요한 부분은 원본의 딱 4GB 영역인데 말이다.
+복제 형태로 획득된 사본 디스크를 어떻게 분석해야 할까? Drive Trim 옵션도 설정되어 있지 않은 상태라 사본 디스크를 연결하면 1TB 전체로 인식이 될 것이고 EnCase, X-Ways Forensics와 같은 도구에서 Process, RVS(Refine Volume Snapshot)를 돌리자니 1TB가 다 돌아가는 것 같고, 정작 내가 필요한 부분은 사본 디스크의 딱 4GB 영역인데 말이다.
 
 크게 두 가지로 형태로 나눠볼 수 있을 것 같다.
 
