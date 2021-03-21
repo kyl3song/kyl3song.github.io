@@ -10,6 +10,7 @@ tag :
   - Drive to Drive
   - Drive Trim
   - EnCase 20.4
+  - X-Ways Forensics 20.1
 sidebar_main : true
 author_profile : true
 use_math : true

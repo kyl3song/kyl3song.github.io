@@ -26,7 +26,7 @@ Why we need to use Drive Trim part 1
 ## This Post Covers
 Recently I was in charge of the case that included two portable external HDDs which reported to be one SSD and one HDD imaged respectively as evidence. Both SSD and HDD are imaged by hardware based imager, Forensic Falcon.
 
-First thing I did right after taking some photos of them was to check if the image files(e01) are properly imaged by matching hash values which leads me to confirm the precedure(Chain of custody) performed well enough only if the hashes are the same.
+First thing I did right after taking some photos of them was to check if the image files(e01) are properly imaged by matching hash values which leads me to confirm the procedure(Chain of Custody) performed well enough only if the hashes are the same.
 
 However, when I connected the portable external HDD to my workstation with a writeblocker, it was automatically mounted on the filesystem and I could not see the E01 or Ex01 but **Program Files**, **Windows** folders and files instead. The other portable HDD was also under the same situation.
 
