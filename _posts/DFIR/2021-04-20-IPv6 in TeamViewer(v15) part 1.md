@@ -64,19 +64,21 @@ A의 팀뷰어 아이디가 남는데 여기서 아이디는 프로그램이 원
   <img src="https://i.imgur.com/bt1pkhJ.png" alt="image"/>
 <br>[ Fig 3. Display name ]</p>
 
-만일 이 값을 임의로 변경하면 **Connections_incoming.txt** 및 **TeamViewer##_Logfile.log** 로그에서도 변경한 값으로 로그가 생성된다.
+만일 이 값을 임의로 변경하면 **Connections_incoming.txt** 및 **TeamViewer##_Logfile.log** 로그에서도 **변경한 값으로 로그가 생성**된다.
 
 팀뷰어는 로그인해서 사용할 수도 있다. 로그인을 하면 자신이 자주 사용하는 원격 대상 PC 정보를 저장할 수도 있고, 해당 PC가 현재 켜졌는지 꺼졌는지도 확인이 될 정도로 편하게 사용할 수 있다.
 
 그럼 여기에서 팀뷰어 계정으로 로그인을 하게 되면 어떻게 될까? 
 로그인을 하면 로그인 계정의 유저명이 우선순위가 더 높아 유저명으로 로그가 생성된다. 유저명은 역시 설정에서 변경이 가능하다.
 
+아래 Fig 4. 그림으로 로그인을 하지 않을 때(왼쪽)와 로그인을 한 경우(오른쪽)로 나눠서 로그가 어떻게 남는지를 표현하였다.
+
 <p align="center">
   <img src="https://i.imgur.com/6ELMP2E.png" alt="image"/>
 <br>[ Fig 4. Log generated depending on login/logout status ]</p>
 
 ### 3. Remote Support Start Time (UTC 0)
-원격을 시작한 일시이며 **dd-MM-yyyy hh:mm:ss** 형태로 기록되며, 중요한 것은 UTC 0로 로깅되니 로컬 타임에 맞춰 시간값을 보정해줘야 한다.
+원격을 시작한 일시이며 **dd-MM-yyyy hh:mm:ss** 형태로 기록되며, 중요한 것은 UTC 0로 로깅되니 로컬 타임에 맞춰 시간값을 보정해줘야 한다. 대한민국이라면 9시간을 더하여(UTC+9) 로그를 분석 및 판단하여야 한다.
 
 ### 4. Remote Support End Time (UTC 0)
 원격을 종료한 일시이며 나머지 내용은 Start Time과 내용은 동일하다.
@@ -84,7 +86,7 @@ A의 팀뷰어 아이디가 남는데 여기서 아이디는 프로그램이 원
 ### 5. B's OS Account (Username)
 헷갈릴 수 있으나 이 부분은 참고로 팀뷰어 로그인과는 상관이 없는 부분으로 원격을 받는 시스템 OS의 유저명을 의미한다. 그런데 여기서 한 가지 생각해 봐야 할 문제는 윈도우의 경우, 이메일로 로그인을 하는 경우와 로그인을 사용하지 않았을 때로 나뉠 것이다.
 
-결론부터 말하면 확인해본 결과 MS 계정으로 로그인을 사용해서 사용하거나 로컬 계정으로의 로그인에 상관없이 무조건 **로컬 사용자 계정명**으로 기록이 남았다.
+결론부터 말하면 확인해본 결과 MS 계정으로 윈도우 로그인을 하거나 로컬 계정으로 사용하거나 상관없이 무조건 **로컬 사용자 계정명**으로 기록이 남았다.
 
 <p align="center">
   <img src="https://i.imgur.com/0OQFpSa.png" alt="image"/>
