@@ -88,7 +88,7 @@ A의 팀뷰어 아이디가 남는데 여기서 아이디는 프로그램이 원
 
 <p align="center">
   <img src="https://i.imgur.com/0OQFpSa.png" alt="image"/>
-<br>[ Fig 5. OS Local Account in connections_incoming.txt]</p>
+<br>[ Fig 5. OS Local Account in connections_incoming Log]</p>
 
 
 ## Wrap-up
