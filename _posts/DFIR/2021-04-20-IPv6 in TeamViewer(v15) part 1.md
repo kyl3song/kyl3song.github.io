@@ -1,5 +1,5 @@
 ---
-title : "Blog #27: IPv6 in TeamViewer(v15) part 1."
+title : "Blog #27: IPv6 in TeamViewer(v15) Log part 1. [KR]"
 category :
   - Artifacts
 tag : 
