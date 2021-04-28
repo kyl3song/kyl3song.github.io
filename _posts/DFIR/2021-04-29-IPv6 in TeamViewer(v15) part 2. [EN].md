@@ -119,7 +119,7 @@ If Device A and Device B are in the same network(private), they don't need to us
 
 
 ### 5. IPv6 (Public)
-I haven't seen any IPv6 in Teamviewer log until I used a couple of mobile phones for testing. To check if you have an IPv6 assigned by service provider, go to website at http://test-ipv6.com.
+I haven't seen any IPv6 in Teamviewer log until I used a couple of mobile phones for testing. To check if you have an IPv6 assigned by service provider, go to website at [http://test-ipv6.com]
 
 <p align="center"> 
 <img src="https://i.imgur.com/8MDN8Ah.png" alt="image"/> 
