@@ -24,10 +24,10 @@ header:
 IPv6 in Logs with Bits and Pieces
 
 ## This Post Covers
-In the previous post, we covered the basics of Teamviewer log analysis and confirmed that we have a lot more to delibrate from the basic log, `connections_incoming.txt`. We have more information coming right up, tips & details including IPv6 in part 2.
+In the previous post, we covered the basics of Teamviewer log analysis and confirmed that we have a lot more to delibrate from the basic log, 'connections_incoming.txt'. We have more information coming right up, tips & details including IPv6 in part 2.
 
 ## TeamViewer##_Logfile.log (LocalTime)
-Unlike the `connections_incoming.txt`, `TeamViewer##_Logfile.log` has more rich information about remote access. The two digits '##' followed by `_Logfile.log` indicates software version. TeamViewer##_Logfile.log is applied in LocalTime, UTC+9 in here South Korea.
+Unlike the 'connections_incoming.txt', 'TeamViewer##_Logfile.log' has more rich information about remote access. The two digits '##' followed by '_Logfile.log' indicates software version. TeamViewer##_Logfile.log is applied in LocalTime, UTC+9 in here South Korea.
 
 Two log files with the exact same name are saved in different directories. Although they both have the same name, contents are distinct.
 
@@ -49,7 +49,7 @@ Two log files with the exact same name are saved in different directories. Altho
 <img src="https://i.imgur.com/O4bNFHc.png" alt="image"/> 
 <br>[ Fig 3. Remote Access Log ]</p>
 
-All right, We have two logs illustrated in Fig 3. above, filename is containing version numbers, 14 or 15. This tells us the program was upgraded from 14 to 15 at some point in the past. That aside, the file is automatically separated with the name of `TeamViewer##_OLD.log` as soon as the size of original is over 1MB more or less.
+All right, We have two logs illustrated in Fig 3. above, filename is containing version numbers, 14 or 15. This tells us the program was upgraded from 14 to 15 at some point in the past. That aside, the file is automatically separated with the name of 'TeamViewer##_OLD.log' as soon as the size of original is over 1MB more or less.
 
 ## Log Analysis Flow & Tips
 
@@ -162,7 +162,7 @@ TeamViewer also leaves software update logs including last update time(in unixti
 
 
 ### 7. Session End
-Remote access ends with the keyword `RemoveParticipants` and RA terminates all related services.
+Remote access ends with the keyword 'RemoveParticipants' and RA terminates all related services.
 
 <p align="center"> 
 <img src="https://i.imgur.com/ZRy5ntz.png" alt="image"/> 
