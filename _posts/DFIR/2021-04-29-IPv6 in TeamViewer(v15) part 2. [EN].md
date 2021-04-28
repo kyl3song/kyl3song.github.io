@@ -97,7 +97,7 @@ Support PC(Device A) always has **type 6 and role 6** whereas, client PC(Device 
 ### 4. IPv4 (Public vs. Private)
 In the network world NAT does always matter, specifically for P2P(peer to Peer) communication. Device A and B does not know each other's public IP, private IP and even so, they cannot directly communicate without NAT Table.
 
-NAT Table in home environment? So we need an intermediate node(Server) that works NAT Translation for each party. We call this technique, UDP hole punching. TeamViewer Server in the middle, between Deivce A and B works for us. That's why Device A is able to access Device B without any network device in home environment.
+NAT Table in home environment? So we need an intermediate node(Server) that works NAT Translation for each party. We call this technique, UDP hole punching. TeamViewer Server(e.g. KR-SEL-ANX-R019.teamviewer.com in Fig 4.) in the middle, between Deivce A and B works for us. That's why Device A is able to access Device B without any network device in home environment.
 
 > UDP hole punching is a commonly used technique employed in network address translation (NAT) applications for maintaining User Datagram Protocol (UDP) packet streams that traverse the NAT.
 
@@ -119,7 +119,7 @@ If Device A and Device B are in the same network(private), they don't need to us
 
 
 ### 5. IPv6 (Public)
-I haven't seen any IPv6 in Teamviewer log until I used a couple of mobile phones for testing. To check if you have an IPv6 assigned by service provider, go to website at http://test-ipv6.com.
+I haven't seen any IPv6 in Teamviewer log until I used a couple of mobile phones for testing. To check if you have an IPv6 assigned by service provider, go to website at [http://test-ipv6.com]
 
 <p align="center"> 
 <img src="https://i.imgur.com/8MDN8Ah.png" alt="image"/> 
