@@ -29,7 +29,7 @@ published : true
 ## TeamViewer##_Logfile.log (LocalTime)
 'connections_incoming.txt' 로그와 다르게 'TeamViewer##_Logfile.log' 로그는 원격 연결에 대한 더 상세한 정보를 담고 있다. 파일명에 기재된 두 자리 숫자(##)는 팀뷰어 소프트웨어에 대한 버전을 의미하는데, 조금 더 상세하게 말하면 버전 중 가장 상위인 메이저 숫자를 말한다.
 
-> **Version 정보(X.Y.Z.)**
+> **Version 정보(X.Y.Z.)**  
 > Major Version . Minor Version . Build or Maintenance Version(patch) 형태로 구성된다.
 
 'TeamViewer##_Logfile.log' 로그 역시 시간을 기록하는데 시간은 로컬 타임으로 보정되어 로그가 기록된다. 즉 우리나라의 경우 시스템 시간에 맞게 UTC+9로 기록이 된다. 해당 로그는 동일한 이름으로 2개가 존재하는데 로그의 내용도 다르고 저장되는 경로도 다르다.
