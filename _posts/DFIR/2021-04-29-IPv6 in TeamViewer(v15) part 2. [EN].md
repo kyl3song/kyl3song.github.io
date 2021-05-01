@@ -109,7 +109,7 @@ NAT Table in home environment? So we need an intermediate node(Server) that work
 <img src="https://i.imgur.com/9oDIOy5.png" alt="image"/> 
 <br>[ Fig 7. Public IP Address of Device A ]</p>
 
-If Device A and Device B are in the same network(private), they don't need to use public IP for communication, **they use private IP instead.** That's why sometimes we spot private IP from the logs like below.
+If Device A and Device B are in the same network(private), they don't need to use public IP for communication, **they use private IP instead.** That's why sometimes we spot private IP from the logs in a test environment.
 
 - punch received a=***Private IP:Port***
 
@@ -119,7 +119,7 @@ If Device A and Device B are in the same network(private), they don't need to us
 
 
 ### 5. IPv6 (Public)
-I haven't seen any IPv6 in Teamviewer log until I used a couple of mobile phones for testing. To check if you have an IPv6 assigned by service provider, go to website at [http://test-ipv6.com]
+I haven't seen any IPv6 in Teamviewer log until I used a couple of mobile phones for testing. To check if you have an IPv6 assigned by service provider, go to website at [http://test-ipv6.com](http://test-ipv6.com)
 
 <p align="center"> 
 <img src="https://i.imgur.com/8MDN8Ah.png" alt="image"/> 
@@ -139,7 +139,7 @@ That being said, not every phone will create IPv6 log. As far as I'm concerned f
 |6    |Galaxy A Quantum   |SM-A716S |Yes |SKT  |LTE      |**IPv6**|
 
 Search keyword to filter out IPv6 would be as follows:
-- EmergingUdpConnection::AsyncSendTo::Handler Send error system:1231 to ***Public IPv6***
+- EmergingUdpConnection::AsyncSendTo::Handler Send error system:1231 to ***Public IPv6:port***
 
 <p align="center"> 
 <img src="https://i.imgur.com/aG5Oy3c.png" alt="image"/> 
