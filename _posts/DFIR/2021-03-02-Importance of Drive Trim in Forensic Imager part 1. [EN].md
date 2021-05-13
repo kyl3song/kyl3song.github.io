@@ -23,6 +23,10 @@ header:
 Why we need to use Drive Trim part 1
 
 
+## Drive Trim Series
+- [Blog #25: Importance of Drive Trim in Forensic Imager part 1. [EN]](https://kyl3song.github.io/acquisition/Importance-of-Drive-Trim-in-Forensic-Imager-part-1.-EN/)
+- [Blog #26: Importance of Drive Trim in Forensic Imager part 2. [EN]](https://kyl3song.github.io/acquisition/Importance-of-Drive-Trim-in-Forensic-Imager-part-2.-EN/)
+
 ## This Post Covers
 Recently I was in charge of the case that included two portable external HDDs which reported to be one SSD and one HDD imaged respectively as evidence. Both SSD and HDD are imaged by hardware based imager, Forensic Falcon.
 

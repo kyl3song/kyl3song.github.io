@@ -25,6 +25,10 @@ header:
 Why we need to use Drive Trim part 2
 
 
+## Drive Trim Series
+- [Blog #25: Importance of Drive Trim in Forensic Imager part 1. [EN]](https://kyl3song.github.io/acquisition/Importance-of-Drive-Trim-in-Forensic-Imager-part-1.-EN/)
+- [Blog #26: Importance of Drive Trim in Forensic Imager part 2. [EN]](https://kyl3song.github.io/acquisition/Importance-of-Drive-Trim-in-Forensic-Imager-part-2.-EN/)
+
 ## This Post Covers
 Previously, we confirmed that when mirror cloned without drive trim, under the different capacity of Source and Destination condition, the drive hash of Destination can be exactly matched to Source's hash value by configuring LBA options before computing drive hash.
 

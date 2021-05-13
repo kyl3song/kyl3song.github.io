@@ -22,6 +22,9 @@ header:
 ---
 디스크 복제에서의 Drive Trim의 중요성 part 1.
 
+## Drive Trim Series
+- [Blog #25: Importance of Drive Trim in Forensic Imager part 1. [KR]](https://kyl3song.github.io/acquisition/Importance-of-Drive-Trim-in-Forensic-Imager-part-1.-KR/)
+- [Blog #26: Importance of Drive Trim in Forensic Imager part 2. [KR]](https://kyl3song.github.io/acquisition/Importance-of-Drive-Trim-in-Forensic-Imager-part-2.-KR/)
 
 ## This Post Covers
 최근에 사건을 접수 및 배당을 받았다. 증거물은 피의자 컴퓨터 SSD, HDD를 각각 이미징한 파일이 저장된 외장하드 2개였고 팔콘 장비로 이미징 후 생성된 로그와 필요한 서류를 바탕으로 접수가 되었다.
