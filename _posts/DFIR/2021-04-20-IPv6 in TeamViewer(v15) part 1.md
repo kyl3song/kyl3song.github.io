@@ -1,5 +1,5 @@
 ---
-title : "Blog #27: IPv6 in TeamViewer(v15) Log part 1. [KR]"
+title : "Blog #27: IPv6 in TeamViewer(v15) part 1. [KR]"
 category :
   - Artifacts
 tag : 
@@ -21,6 +21,9 @@ header:
 ---
 팀뷰어 포렌식 Tips
 
+## TeamViewer Forensic Series
+- [Blog #27: IPv6 in TeamViewer(v15) part 1. [KR]](https://kyl3song.github.io/artifacts/IPv6-in-TeamViewer(v15)-part-1/)
+- [Blog #28: IPv6 in TeamViewer(v15) part 1. [KR]](https://kyl3song.github.io/artifacts/IPv6-in-TeamViewer(v15)-part-2.-KR/)
 
 ## This Post Covers
 Teamviewer는 알려진 무료 원격제어 도구 중 사용이 간편해서 IT 종사자 뿐만 아니라 비종사자도 많이 사용하는 프로그램이다. PC에 많은 지식이 없는 친구, 부모님 등 컴퓨터에 설치하여 직접 방문하지 않고 원격을 통해 이슈를 해결할 수 있는 고마운 친구(?)이다.

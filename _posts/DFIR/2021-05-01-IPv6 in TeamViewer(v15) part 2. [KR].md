@@ -23,6 +23,10 @@ published : true
 
 팀뷰어 로그에서의 IPv6
 
+## TeamViewer Forensic Series
+- [Blog #27: IPv6 in TeamViewer(v15) part 1. [KR]](https://kyl3song.github.io/artifacts/IPv6-in-TeamViewer(v15)-part-1/)
+- [Blog #28: IPv6 in TeamViewer(v15) part 1. [KR]](https://kyl3song.github.io/artifacts/IPv6-in-TeamViewer(v15)-part-2.-KR/)
+
 ## This Post Covers
 이전 글에서 팀뷰어 기본적인 연결 로그인 'connections_incoming.txt'의 해석과 단순한 로그더라도 나름 생각해 볼 가치가 있는 부분도 확인하였다. 이번 글에서는 실제 상세 로그파일에 대한 분석 팁과 내용에 대해 정리를 할 예정이다.
 

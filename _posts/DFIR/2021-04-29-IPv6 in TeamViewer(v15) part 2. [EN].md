@@ -23,6 +23,10 @@ header:
 
 IPv6 in Logs with Bits and Pieces
 
+## TeamViewer Forensic Series
+- [Blog #27: IPv6 in TeamViewer(v15) part 1. [EN]](https://kyl3song.github.io/artifacts/IPv6-in-TeamViewer(v15)-part-1.-EN/)
+- [Blog #28: IPv6 in TeamViewer(v15) part 2. [EN]](https://kyl3song.github.io/artifacts/IPv6-in-TeamViewer(v15)-part-2.-EN/)
+
 ## This Post Covers
 In the previous post, we covered the basics of Teamviewer log analysis and confirmed that we have a lot more to delibrate from the basic log, 'connections_incoming.txt'. We have more information coming right up, tips & details including IPv6 in part 2.
 
