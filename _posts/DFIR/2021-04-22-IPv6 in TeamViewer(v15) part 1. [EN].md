@@ -21,6 +21,11 @@ header:
 ---
 Teamviewer Forensic Basic Tips
 
+## TeamViewer Forensic Series
+- [Blog #27: IPv6 in TeamViewer(v15) part 1. [EN]](https://kyl3song.github.io/artifacts/IPv6-in-TeamViewer(v15)-part-1.-EN/)
+- [Blog #28: IPv6 in TeamViewer(v15) part 2. [EN]](https://kyl3song.github.io/artifacts/IPv6-in-TeamViewer(v15)-part-2.-EN/)
+
+
 ## This Post Covers
 TeamViewer provides easy-to-use interface that many people like and remote control with each other with convenient way.
 We could install it in friends' laptop, parents desktop in order to remotely troubleshoot their computers. It's good way to help your relatives with not much of computer knowledge or not into it.
