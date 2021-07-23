@@ -22,7 +22,7 @@ toc_label: "Table of Contents"
 header:
   overlay_image : /assets/images/post.jpg
   overlay_filter: 0.5
-#published : true
+published : False
 ---
 차량용 블랙박스 분석 기본(Part 2)
 
