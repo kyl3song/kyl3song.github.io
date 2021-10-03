@@ -6,7 +6,7 @@ header:
   overlay_image: /assets/images/about.jpg
 ---
 
-# Kyle Song (@kyl3s0n9)
+# @kyl3s0n9
 
 > Think outside the Box & Stay Positive
 
