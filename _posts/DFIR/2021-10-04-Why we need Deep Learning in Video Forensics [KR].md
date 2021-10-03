@@ -1,7 +1,7 @@
 ---
 title : "Blog #30: Why we need Deep Learning in Video Forensics [KR]"
 category :
-  - Artifacts
+  - Video Forensics
 tag : 
   - Machine Learning
   - Deep Learning
