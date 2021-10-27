@@ -153,7 +153,7 @@ Most of the existing video forensics go through the process of analyzing and res
 
 However, I wanted to take a different approach. Someone needs to try that an approach from the upper level of video frames. Plan B may be able to cover Plan A's limitation.
 
-Machine Learning & Deep Learning can be applied not only to the video forensics, but to other forensics fields in various way. It may apply to the audio forensics, audio that contained in the video. We would spark an idea to bride the gap if we more think about it.
+Machine Learning & Deep Learning can be applied not only to the video forensics, but to other forensics fields in various way. It may apply to the audio forensics, audio that contained in the video. We would spark an idea to bridge the gap if we more think about it.
 
 
 ## Reference
