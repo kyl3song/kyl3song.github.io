@@ -27,6 +27,14 @@ header:
 - [Blog #20: NEW Artifact of Chrome Browser (Media History) part 2](https://kyl3song.github.io/artifacts/NEW-Artifact-of-Chrome-Browser-(Media-History)-part-2/)
 
 
+## TL;DR
+### Media History Path
+- Chrome: %USERPROFILE%\AppData\Local\Google\Chrome\User Data\Default\Media History
+- Edge: %USERPROFILE%\AppData\Local\Microsoft\Edge\User Data\Default\Media History
+- Chromium: %USERPROFILE%\AppData\Local\Chromium\User Data\Default\Media History
+- Opera: %USERPROFILE%\AppData\Roaming\Opera Software\Opera Stable\Media History
+- NAVER Whale: %USERPROFILE%\AppData\Local\NAVER\NAVER Whale\User Data\Default\Media History
+
 ## Preface
 약 한 달 전인 2020. 10. 6. Chrome 86버전이 릴리즈 되었다. 릴리즈된 새로운 버전에서는 Media History라는 이름의 아티팩트가 새롭게 추가되었다.
 
@@ -34,9 +42,11 @@ header:
   <img src="https://i.imgur.com/aiE1ChP.png" alt="image"/>
 <br>그림 1. Chrome 86 Release Date</p>
 
-Media History는 영상 또는 음성과 같이 미디어 재생 이력을 트래킹 할 수 있는 SQLite Database이다. 재생 이력에는 내가 방문한 URL부터 동영상의 재생 Position 정보, 제목, 최근 시청 일시 등 다양한 정보를 저장한다.
+Media History는 이 크로미엄 프로젝트를 기반으로 만들어진 웹 브라우저에 대부분 공통적으로 적용되는데 크로미엄을 기반으로 한 대표적인 웹브라우저는 Chrome, Edge, Opera, NAVER Whale 등 다양하다.
 
-이번 포스트 시리즈에서는 Media History 테이블에 대한 전반적 이해와 몇 가지 테스트 시나리오를 바탕으로 남는 결과를 확인하고자 한다.
+Media History는 영상 또는 음성과 같은 미디어 재생이력을 트래킹 할 수 있는 SQLite Database 형태로 되어있다. DB 파일 내부에는 미디어 재생 이력이 남는데 재생 이력에는 사용자가 방문한 URL부터 동영상의 재생 Position 정보, 제목, 최근 시청 일시 등 다양한 정보를 저장한다.
+
+이번 포스트 시리즈에서는 Chrome 브라우저의 Media History 테이블에 대한 전반적 이해와 몇 가지 테스트 시나리오를 바탕으로 남는 결과를 확인하고자 한다.
 
 
 ## What is Media History Database?
@@ -51,15 +61,9 @@ Media History는 영상 또는 음성과 같이 미디어 재생 이력을 트�
 <br>그림 2. Browser Market Share (Oct. 2019 - Oct. 2020)
 <br>(https://gs.statcounter.com/browser-market-share)</p>
 
-사실 내가 크롬의 새로운 아티팩트가 생겼다는 것을 접하고 가장 궁금했던 점은 따로 있었다.
+사실 내가 크롬의 새로운 아티팩트가 생겼다는 것을 접하고 가장 궁금했던 점은 따로 있었다. 예전부터 많이 있었지만 올해 이슈가 됐던 N번방, 박사방 등 디지털성범죄는 아직도 수사가 진행 중에 있다. [(관련 뉴스)](https://imnews.imbc.com/news/2020/society/article/5960303_32633.html)
 
-예전부터 많이 있었지만 올해 이슈가 됐던 N번방, 박사방 등 디지털성범죄는 아직도 수사가 진행 중에 있다. [(관련 뉴스)](https://imnews.imbc.com/news/2020/society/article/5960303_32633.html)
-
-특히 올해는 디지털성범죄 사건 관련하여 매체를 불문하지 않고 가장 많이 분석을 한 것 같다. 범죄와 관련된 사진, 동영상의 양은 정말 엄청날 정도로 많았다.
-
-그중에 클라우드로 영상을 올리고 해당 링크를 메신저를 통해 공유되는 부분도 있어 영상을 스트리밍으로 볼 수도 있었다.
-
-만일 이런 경우도 관련 기록이 남을지 궁금했다. 앞으로 디지털성범죄가 지속적으로 발생한다면 분명 혐의를 구증할 수 있는 좋은 아티팩트로 활용될 수 있기 때문이다.
+특히 올해는 디지털성범죄 사건 관련하여 매체를 불문하지 않고 가장 많이 분석을 한 것 같다. 범죄와 관련된 사진, 동영상의 양은 정말 엄청날 정도로 많았다. 그중에 클라우드로 영상을 올리고 해당 링크를 메신저를 통해 공유되는 부분도 있어 영상을 스트리밍으로 볼 수도 있었다. 만일 이런 경우도 관련 기록이 남을지 궁금했다. 앞으로 디지털성범죄가 지속적으로 발생한다면 분명 혐의를 구증할 수 있는 좋은 아티팩트로 활용될 수 있기 때문이다.
 
 ### File Location
 Media History 파일의 위치는 크롬 브라우저의 History, Cookies와 같은 기존의 아티팩트가 존재하는 기존의 경로와 동일하다.
