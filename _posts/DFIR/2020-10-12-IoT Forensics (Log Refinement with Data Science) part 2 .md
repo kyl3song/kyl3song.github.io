@@ -302,7 +302,7 @@ IoT Forensics (데이터 사이언스를 통한 로그 정제) part 2
 
 ``` python
 # -*- coding: utf-8 -*-
-# @Author: Kyle Song (fkilla8210@gmail.com)
+# @Author: Kyle Song
 # @Last Modified by:   KyleSong
 
 import datetime
