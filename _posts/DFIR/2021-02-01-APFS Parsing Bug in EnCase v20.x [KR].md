@@ -1,7 +1,7 @@
 ---
 title : "Blog #24: APFS Parsing Bug in EnCase v20.x [KR]"
 category :
-  - Miscellaneous
+  - Software
 tag : 
   - DFIR
   - Digital Forensics & Incident Response
