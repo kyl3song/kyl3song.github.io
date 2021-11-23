@@ -1,7 +1,7 @@
 ---
 title : "Blog #31: Building a Forensic Environment with WSL & Chocolatey part 1. [KR]"
 category :
-  - Miscellaneous
+  - Software & Tools
 tag : 
   - Chocolatey
   - WSL
