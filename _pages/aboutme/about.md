@@ -20,9 +20,10 @@ header:
 - **2020.11.20.** 2020 KDFS Digital Forensics Challenge 3rd Place (Korea Digital Forensics Society)
 - **2021.10.22.** POL-CyberChallenge Gold Prize (Korean National Police Agency)
 - **2021.11.05.** Digital Forensics Challenge 2021 Tech Contest 1st Place (Korea Institute of Information Security & Cryptology)
-## Research
 
--  **2020. 3.** A Study on Maximizing Data Recovery Rate in Windows Storage Spaces using File System (The Journal of Police Policies)
+
+## Research
+- **2020. 3.** A Study on Maximizing Data Recovery Rate in Windows Storage Spaces using File System (The Journal of Police Policies)
 - **2020. 9.** Serial Communication Approach of Acquiring IoT devices (Korean National Police Agency)
 - **2020. 9.** Raspberry Pi Approach of Acquiring IoT devices (Korean National Police Agency)
 
