@@ -1,7 +1,7 @@
 ---
 title : "Blog #19: Wins DFC2020 Awards (Digital Forensics Social Media Contributor of the Year)"
 category :
-  - ETC
+  - Digital Forensics Challenges
 tag : 
   - DFIR
   - Digital Forensics & Incident Response
