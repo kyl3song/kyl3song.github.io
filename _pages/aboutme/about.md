@@ -27,10 +27,7 @@ header:
 - **2020. 9.** Serial Communication Approach of Acquiring IoT devices (Korean National Police Agency)
 - **2020. 9.** Raspberry Pi Approach of Acquiring IoT devices (Korean National Police Agency)
 
-## Activities
-- 2018년도 제67기 경찰간부후보생 선발 사이버분야 문제출제위원 (2017. 9. 15. ~ 9. 27.)   
-  \- Sytem/Network, Database
-- The+ Cyber VOL4, "웹브라우저 미디어 재생 기록 추적 기법" 기고 (2021. 8. 경찰청)
+
 ## Contacts
 
 - Email
