@@ -107,6 +107,7 @@ WSL2가 전체 Linux 커널을 사용할 수 있다고 해서 꼭 좋은 점만 
 
 ## Reference
 - <https://docs.microsoft.com/ko-kr/windows/wsl/about>
+- <https://docs.microsoft.com/en-us/windows/wsl/compare-versions>
 - <https://ksjm0720.tistory.com/10>
 - <https://xeppetto.github.io/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4/WSL-and-Docker/03-What-is-WSL/>
 - <https://www.youtube.com/watch?v=MrZolfGm8Zk>
