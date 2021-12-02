@@ -117,7 +117,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 Usage: choco install -y [package_name_1] [package_name_2]...
 ```
 
-### Recommended Package
+## Recommended Packages
 패키지를 몇 개 검색하면 알겠지만 생각보다 엄청나게 많은 프로그램들이 레포에 업로드 되어있다. 그중 리눅스용 도구 모음 패키지명은 **UnxUtils**이다. 환경 구성에 필요한 패키지들과 함께 설치하면 편하다.
 
 - sysinsternals
@@ -135,7 +135,7 @@ choco install -y sysinternals 7zip hashmyfiles unxutils vscode
 </p>
 
 
-### Binary Location & Debug Logs
+## Binary Location & Debug Logs
 
 패키지는 모두 **C:\ProgramData\chocolatey** 경로에 설치되고, exe 파일로 포팅 된 파일들은 **C:\ProgramData\chocolatey\bin** 폴더에 모여진다. 시스템의 어느 경로에서도 실행이 가능하기 때문에 환경 변수는 자동으로 잡혀져 있다.
 
