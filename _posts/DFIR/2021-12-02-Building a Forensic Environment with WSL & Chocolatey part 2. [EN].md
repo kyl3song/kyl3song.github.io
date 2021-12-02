@@ -1,5 +1,5 @@
 ---
-title : "Blog #31: Building a Forensic Environment with WSL & Chocolatey part 2. [EN]"
+title : "Blog #32: Building a Forensic Environment with WSL & Chocolatey part 2. [EN]"
 category :
   - Software & Tools
 tag : 
