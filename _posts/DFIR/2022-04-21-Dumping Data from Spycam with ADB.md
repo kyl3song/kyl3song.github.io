@@ -202,7 +202,7 @@ It outputs approximately 26GB for data partition, 30GB for the whole dump.
 > $ adb forward tcp:4444 tcp:4444
 
 
-## Loading Dump Image
+## Loading Image
 
 When loading the full block device dump(mmcblk0) on FTK Imager, 23 partitions are identified as we previously saw above. One thing to notice is Partition 22(data partition) is not identified due to its encryption, FDE(Full Disk Encryption).
 
