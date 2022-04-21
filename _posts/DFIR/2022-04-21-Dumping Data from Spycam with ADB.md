@@ -77,7 +77,7 @@ Here's how physical extraction goes.
 **adb devices**
 - When serial number of the device appears, it means it's ready to use ADB.
 
-```shell
+``` shell
 C:\Users\kylesong\Desktop\platform-tools_r33.0.1-windows\platform-tools>adb devices
 List of devices attached
 0123456789ABCDEF        device
@@ -89,7 +89,7 @@ List of devices attached
 **adb shell**
 - Get the interactive shell, and the spycam has the root privilege.
 
-```bash
+``` shell
 C:\Users\kylesong\Desktop\platform-tools_r33.0.1-windows\platform-tools>adb shell
 root@ABCDE:/ # id
 uid=0(root) gid=0(root) groups=0(root),1004(input),1007(log),1011(adb),1015(sdcard_rw),1028(sdcard_r),3001(net_bt_admin),3002(net_bt),3003(inet),3006(net_bw_stats) context=u:r:shell:s0
@@ -133,7 +133,7 @@ Filesystem               Size     Used     Free   Blksize
 
 We noticed from the **/proc/partitions**, mmcblk0 represents the full block device, mmcblk0p22(dm-0) would be userdata.
 
-```sh
+``` shell
 major minor  #blocks  name
 
    7        0       1254 loop0
@@ -172,7 +172,7 @@ major minor  #blocks  name
 What I first tried was insert MicroSD card to dump the block device with dd. But just because it pictured in your head, doesn't mean that it will always be successful.
 The device auto-mounts the FAT32-formated MicroSD, and the file system uses a 32bit field to store the file size in bytes. 4GB is the limit of the sigle file.
 
-```bash
+``` shell
 root@ABCDE: # dd if=/dev/block/mmcblk0 of=/storage/7EA4-5A19/android.dd bs=1024
 dd: /storage/7EA4-5A19/android.dd: File too large
 4194304+0 records in
@@ -184,7 +184,7 @@ To work around this issue, we may install other file system that supports the si
 
 Let's dump the whole block device(mmcblk0) and data partition(dm-0) selectevely.
 
-```bash
+``` shell
 root@ABCDE:/ # dd if=/dev/block/mmcblk0 | toybox nc -l -p 4444
 30539776+0 records in
 30539776+0 records out
