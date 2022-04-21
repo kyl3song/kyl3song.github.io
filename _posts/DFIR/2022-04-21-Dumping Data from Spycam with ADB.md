@@ -89,7 +89,7 @@ List of devices attached
 **adb shell**
 - Get the interactive shell, and the spycam has the root privilege.
 
-``` shell
+``` text
 C:\Users\kylesong\Desktop\platform-tools_r33.0.1-windows\platform-tools>adb shell
 root@ABCDE:/ # id
 uid=0(root) gid=0(root) groups=0(root),1004(input),1007(log),1011(adb),1015(sdcard_rw),1028(sdcard_r),3001(net_bt_admin),3002(net_bt),3003(inet),3006(net_bw_stats) context=u:r:shell:s0
@@ -108,7 +108,7 @@ There are 6 partitions mounted with Ext4 file system in the device. Partitions a
 
 df(disk free) command gives us the mount point with how much used in the partition. Data partition is mounted on **/data**, and the MicroSD inserted for acquisition is on **/storage/7EA4-5A19**.
 
-```bash
+```text
 Filesystem               Size     Used     Free   Blksize
 /dev                     1.4G    76.0K     1.4G   4096
 /sys/fs/cgroup           1.4G    12.0K     1.4G   4096
@@ -133,7 +133,7 @@ Filesystem               Size     Used     Free   Blksize
 
 We noticed from the **/proc/partitions**, mmcblk0 represents the full block device, mmcblk0p22(dm-0) would be userdata.
 
-``` shell
+``` text
 major minor  #blocks  name
 
    7        0       1254 loop0
