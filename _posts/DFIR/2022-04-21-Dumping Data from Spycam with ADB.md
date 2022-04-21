@@ -106,7 +106,7 @@ There are 6 partitions mounted with Ext4 file system in the device. Partitions a
 - /nvdata
 - /data
 
-df(disk free) command gives us the mount point with how much used in the partition. Data partition is mounted on **/data**, and the MicroSD inserted for acquisition is on **/storage/7EA4-5A19**.
+df(disk free) command gives us the mount point and how much storage used in the partition. Data partition is mounted on **/data**, and the MicroSD inserted for acquisition is on **/storage/7EA4-5A19**.
 
 ```text
 Filesystem               Size     Used     Free   Blksize
@@ -131,7 +131,7 @@ Filesystem               Size     Used     Free   Blksize
 /mnt/runtime/write/7EA4-5A19    29.5G   160.0K    29.5G   16384
 ```
 
-We noticed from the **/proc/partitions**, mmcblk0 represents the full block device, mmcblk0p22(dm-0) would be userdata.
+We noticed from the **/proc/partitions** that mmcblk0 represents the full block device, mmcblk0p22(dm-0) would be the userdata.
 
 ``` text
 major minor  #blocks  name
