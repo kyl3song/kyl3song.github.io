@@ -172,7 +172,7 @@ major minor  #blocks  name
 What I first tried was insert MicroSD card to dump the block device with dd. But just because it pictured in your head, doesn't mean that it will always be successful.
 The device auto-mounts the FAT32-formated MicroSD, and the file system uses a 32bit field to store the file size in bytes. 4GB is the limit of the sigle file.
 
-``` shell
+``` text
 root@ABCDE: # dd if=/dev/block/mmcblk0 of=/storage/7EA4-5A19/android.dd bs=1024
 dd: /storage/7EA4-5A19/android.dd: File too large
 4194304+0 records in
@@ -184,7 +184,7 @@ To work around this issue, we may install other file system that supports the si
 
 Let's dump the whole block device(mmcblk0) and data partition(dm-0) selectevely.
 
-``` shell
+``` text
 root@ABCDE:/ # dd if=/dev/block/mmcblk0 | toybox nc -l -p 4444
 30539776+0 records in
 30539776+0 records out
