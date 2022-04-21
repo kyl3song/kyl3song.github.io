@@ -26,6 +26,7 @@ header:
 - **2020. 3.** A Study on Maximizing Data Recovery Rate in Windows Storage Spaces using File System (The Journal of Police Policies)
 - **2020. 9.** Serial Communication Approach of Acquiring IoT devices (Korean National Police Agency)
 - **2020. 9.** Raspberry Pi Approach of Acquiring IoT devices (Korean National Police Agency)
+- **2021. 12.** A Study on Forensic Methods of the VoIP Gateways and Development of Automation Tool (Journal of Digital Forensics)
 
 
 ## Contacts
