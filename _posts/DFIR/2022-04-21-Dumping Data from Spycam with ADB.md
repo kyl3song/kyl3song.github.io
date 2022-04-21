@@ -77,7 +77,7 @@ Here's how physical extraction goes.
 **adb devices**
 - When serial number of the device appears, it means it's ready to use ADB.
 
-``` shell
+``` text
 C:\Users\kylesong\Desktop\platform-tools_r33.0.1-windows\platform-tools>adb devices
 List of devices attached
 0123456789ABCDEF        device
