@@ -210,7 +210,7 @@ When loading the full block device dump(mmcblk0) on FTK Imager, 23 partitions ar
   <img src="https://i.imgur.com/XyWYzIo.png" alt="image"/>
 </p>
 
-userdata(dm-0) dump, however, all folders & files are properly parsed by the tool. Now it's ready for analysis.
+userdata(dm-0) dump, however, all folders & files are properly parsed by the tool. Now by this far it's ready for analysis.
 
 If you want to decrypt FDE, you have to find the crypto footer and do some stuff to brute force to find DEK(Disk Encryption Key) & password.
 
