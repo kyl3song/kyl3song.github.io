@@ -40,7 +40,7 @@ In practice, It’s important to think that the device could be bricked because 
 The result gives us the size of foresic image about 55MB out of 32GB in total.
 
 <p align="center">
-  <img src="https://i.imgur.com/KxT7Y9C.png" alt="image"/>
+  <img src="https://i.imgur.com/KxT7Y9Cm.png" alt="image"/>
 </p>
 
 Next thing I did was to try the Physical extraction by **[Rooting]** acquisition mode, but unfortunately failed saying that it cannot list the partitions.
