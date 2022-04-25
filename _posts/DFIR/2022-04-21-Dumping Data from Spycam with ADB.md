@@ -170,7 +170,7 @@ major minor  #blocks  name
 
 ### Dump the Data
 What I first tried was insert MicroSD card to dump the block device with dd. But just because it pictured in your head, doesn't mean that it will always be successful.
-The device auto-mounts the FAT32-formated MicroSD, and the file system uses a 32bit field to store the file size in bytes. 4GB is the limit of the sigle file.
+The device auto-mounts the FAT32-formated MicroSD, and the file system uses a 32bit field to store the file size in bytes which 4GB is the limit of the sigle file.
 
 ``` text
 root@ABCDE: # dd if=/dev/block/mmcblk0 of=/storage/7EA4-5A19/android.dd bs=1024
@@ -180,10 +180,25 @@ dd: /storage/7EA4-5A19/android.dd: File too large
 4294967295 bytes transferred in 461.530 secs (9305933 bytes/sec)
 ```
 
-To work around this issue, we may install other file system that supports the size limit over 4GB. We could also use the commands **adb pull**, **dd** with **nc** alternatively.
+To work around this issue, we may install other file system in the MicroSD that supports the size limit over 4GB. Another possibility would be use ADB to tranfer the file. This case, we could use the commands **adb pull**, **dd** with **nc** alternatively.
 
 Let's dump the whole block device(mmcblk0) and data partition(dm-0) selectevely.
 
+**On the Spycam:**
+``` text
+root@ABCDE:/ # dd if=/dev/block/mmcblk0 | toybox nc -l -p 4444
+
+root@ABCDE:/ # dd if=/dev/block/dm-0 bs=2048 | toybox nc -l -p 4444
+```
+
+**On the forensic workstation:**
+``` text
+$ nc 127.0.0.1 4444 > Android_M7.dd
+
+$ nc 127.0.0.1 4444 > Android_M7_dm-0.dd
+```
+
+**Result:**
 ``` text
 root@ABCDE:/ # dd if=/dev/block/mmcblk0 | toybox nc -l -p 4444
 30539776+0 records in
@@ -196,9 +211,9 @@ root@ABCDE:/ # dd if=/dev/block/dm-0 bs=2048 | toybox nc -l -p 4444
 27967094784 bytes transferred in 7143.096 secs (3915262 bytes/sec)
 ```
 
-It outputs approximately 26GB for data partition, 30GB for the whole dump.
+The results indicate that it outputs approximately 26GB for data partition, 30GB for the whole dump.
 
-> To use 4444, port forward needs to be configured before ADB connection.  
+> To use the port 4444, port forward needs to be configured before ADB connection.  
 > $ adb forward tcp:4444 tcp:4444
 
 
@@ -216,7 +231,7 @@ If you want to decrypt FDE, you have to find the crypto footer and do some stuff
 
 
 ## Recovery Mode
-FYI. By putting the device in Recovery Mode, we can also get some trivial information of the device, kernel version, model, android version and so on. it is written in chinese, though.
+FYI. by putting the device in Recovery Mode, we might also find some trivial information of the device such as kernel version, model, android version and so on. it is written in chinese, though.
 
 <p align="center">
   <img src="https://i.imgur.com/pBTj0Eh.png" alt="image"/>
@@ -224,9 +239,9 @@ FYI. By putting the device in Recovery Mode, we can also get some trivial inform
 
 
 ## Wrap-up
-There was no big difference between logical and physical extraction in this case, because the photos, video files that are relevant to the crime left intact. Video and photos taken while committing sexual acts also saved in MicroSD card. This case will hopefully give you a little insight when dealing with the similar evidence.
+To be honest, there was no big difference between logical and physical extraction in my case, because the photos, video files that are relevant to the crime left intact. So they are totally sufficient videos and photos taken while committing sexual acts which also saved in MicroSD card.
 
-Maybe in the next post, we should...decrypt FDE userdata partition. I will do it after a wee bit of play with it and do the test.
+This case will hopefully give you a little insight when dealing with the similar evidence. Maybe in the next post, we should...decrypt FDE userdata partition. I will do it after a wee bit of play with it and do the test.
 
 
 ## Reference
