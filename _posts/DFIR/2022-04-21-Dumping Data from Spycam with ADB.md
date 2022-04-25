@@ -239,7 +239,7 @@ FYI. by putting the device in Recovery Mode, we might also find some trivial inf
 
 
 ## Wrap-up
-To be honest, there was no big difference between logical and physical extraction in my case, because the photos, video files that are relevant to the crime left intact. So they are totally sufficient videos and photos taken while committing sexual acts which also saved in MicroSD card.
+To be honest, there was no big difference between logical and physical extraction in my case, because the photos, video files that are relevant to the crime left intact. So they are totally sufficient in order to prove the charges. Videos and photos taken while committing sexual acts were also saved in MicroSD card.
 
 This case will hopefully give you a little insight when dealing with the similar evidence. Maybe in the next post, we should...decrypt FDE userdata partition. I will do it after a wee bit of play with it and do the test.
 
