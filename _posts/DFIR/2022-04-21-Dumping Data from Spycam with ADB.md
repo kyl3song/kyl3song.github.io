@@ -1,7 +1,7 @@
 ---
 title : "Blog #33: Dumping Data from Spycam with ADB"
 category :
-  - Mobile
+  - IoT Forensics
 tag : 
   - Android
   - Spycam
