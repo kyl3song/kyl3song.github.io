@@ -36,8 +36,6 @@ FDE was introduced in Android 4.4(Kitkat) to provide users with the option to en
 FDE uses AES-CBC algorithm with 128-bit key to encrypt its userdata partition. The key is called DEK(Disk Encryption Key) is placed in **Crypto Footer** after it is encrypted by KEK(Key Encryption Key).
 
 
-
-
 ## Terms
 These are the terminologies to be mentioned much in this article.
 
@@ -47,6 +45,8 @@ These are the terminologies to be mentioned much in this article.
 - AES: Advanced Encryption Standard
 - CBC: Cipher Block Chaining
 - ESSIV: One of IV generators. "encrypted sector|salt initial vector", the sector number is encrypted with the bulk cipher using a salt as key. The salt is derived from the bulk cipher's key via hashing.
+
+
 
 ## How Android Full Disk Encryption Works
 Android full disk encryption is based on **dm-crypt**, a kernel feature that works at the block device layer to implement disk encryption for userdata which supports different ciphers. The encryption algorithm for Android FDE is **AES-128 with CBC and ESSIV:SHA256**. The master key is encrypted with 128-bit. (or higher 256-bit optionally)
@@ -118,7 +118,7 @@ Let's check out the full physical dump of spycam below. It's easy to find crypto
   <img src="https://i.imgur.com/oE7UCfi.png" alt="image"/>
 </p>
 
-Now the detaild information about the crypto footer explained as follows:
+Now the detaild information about the crypto footer explained is as follows:
 
 <p align="center">
   <img src="https://i.imgur.com/MjOiQof.png" alt="image"/>
