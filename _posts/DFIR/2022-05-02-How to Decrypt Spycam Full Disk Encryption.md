@@ -37,7 +37,7 @@ FDE uses AES-CBC algorithm with 128-bit key to encrypt its userdata partition. T
 
 
 ## Terms
-These are the terminologies to be mentioned much in this article.
+These are the terminologies that will be mentioned much in this article.
 
 - DEK (Disk Encryption Key): Also called Master Key
 - KEK (Key Encryption Key): User PIN/Password based key to encrypt DEK
