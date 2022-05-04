@@ -44,7 +44,7 @@ These are the terminologies that will be mentioned much in this article.
 - KDF (Key Derivation Function): e.g. PBKDF2/Scrypt/etc
 - AES: Advanced Encryption Standard
 - CBC: Cipher Block Chaining
-- ESSIV: One of IV generators. "encrypted sector|salt initial vector", the sector number is encrypted with the bulk cipher using a salt as key. The salt is derived from the bulk cipher's key via hashing.
+- ESSIV: One of IV generators. 'encrypted sector|salt initial vector', the sector number is encrypted with the bulk cipher using a salt as key. The salt is derived from the bulk cipher's key via hashing.
 
 
 
