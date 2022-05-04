@@ -48,7 +48,7 @@ These are the terminologies that will be mentioned much in this article.
 
 
 
-## How Android Full Disk Encryption Works
+## How Android Full Disk Encryption/Decryption Works
 Android full disk encryption is based on **dm-crypt**, a kernel feature that works at the block device layer to implement disk encryption for userdata which supports different ciphers. The encryption algorithm for Android FDE is **AES-128 with CBC and ESSIV:SHA256**. The master key is encrypted with 128-bit. (or higher 256-bit optionally)
 
 Key points to know.
