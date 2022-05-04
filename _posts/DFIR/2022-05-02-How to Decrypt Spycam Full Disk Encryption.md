@@ -57,7 +57,7 @@ Key points to know.
 - Crypto parameters for encryption/decryption are stored in 'Crypto Footer' located in /metadata(Google), /data(Samsung), /encrypt(LG).
 
 The following describes how decryption works in Android 4.4 through 5.0. (use Scrypt for key derivation function).
-> Android 3.0 - 4.3 uses PDKDF for key derivation function.
+> Android 3.0 - 4.3 uses PBKDF2 for key derivation function.
 > Android 4.4 adds improvements one of which replaced the PBKDF2 with scrypt.
 > Android 5.0 enhances security by adding process of RSA signing with Hardware Bound Key(HBK) to encrypt the DEK which makes harder to brute force.
 
