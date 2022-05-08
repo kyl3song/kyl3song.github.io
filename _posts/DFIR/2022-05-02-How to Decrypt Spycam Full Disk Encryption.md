@@ -31,7 +31,7 @@ Enough of the spec, let's get back to what we're going to do today where we left
 
 ## What is FDE(Full-Disk Encryption) 
 
-FDE was introduced in Android 4.4(Kitkat) to provide users with the option to encrypt the entire user data partition at the flash block level. For devices launching with Android 7.0 or higher, the partition is encrypted by default. From Android 4.4 version up to 9 only support full-disk encryption. Devices that launched with Android 10 or higher must use file-based encryption instead.
+FDE was introduced in Android 4.4(Kitkat) to provide users with the option to encrypt the entire user data partition at the flash block level. As for Samsung Galaxy series, for example, devices launching with Android 7.0 or higher, the partition is encrypted by default. From Android 4.4 version up to 9 only support full-disk encryption. Devices that launched with Android 10 or higher must use file-based encryption instead.
 
 FDE uses AES-CBC algorithm with 128-bit key to encrypt its userdata partition. The key is called DEK(Disk Encryption Key) is placed in **Crypto Footer** after it is encrypted by KEK(Key Encryption Key).
 
