@@ -28,6 +28,10 @@ header:
 - **2020. 9.** Raspberry Pi Approach of Acquiring IoT devices (Korean National Police Agency)
 - **2021. 12.** A Study on Forensic Methods of the VoIP Gateways and Development of Automation Tool (Journal of Digital Forensics)
 
+## CVE Report
+- **CVE-2022-23332** (Command Injection - RCE)  
+  https://nvd.nist.gov/vuln/detail/CVE-2022-23332
+
 
 ## Contacts
 
