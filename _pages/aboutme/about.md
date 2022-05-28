@@ -31,7 +31,7 @@ header:
 
 ## CVE Report
 - **CVE-2022-23332** (Command Injection - RCE)  
-  <https://nvd.nist.gov/vuln/detail/CVE-2022-23332>
+  <https://cve.mitre.org/cgi-bin/cvename.cgi?name=2022-23332>
 
 
 ## Contacts
