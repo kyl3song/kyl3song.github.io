@@ -4,7 +4,7 @@ category :
   - IoT Forensics
 tag : 
   - VoIP Gateway
-  - PBX
+  - Phone Scams
 
 sidebar_main : true
 author_profile : true
