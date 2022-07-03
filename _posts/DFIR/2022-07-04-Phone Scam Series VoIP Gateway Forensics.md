@@ -99,8 +99,6 @@ I tried finding the structure of the sent message from the RAM dump, I could see
 </p>
 
 
-Network packets, protocols, and more information are described in my [paper](https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002801155).
-
 
 ## Reference
 - <https://en.wikipedia.org/wiki/Short_Message_service_center>
