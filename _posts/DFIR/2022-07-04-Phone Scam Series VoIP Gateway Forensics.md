@@ -15,7 +15,7 @@ toc_label: "Table of Contents"
 header:
   overlay_image : /assets/images/post.jpg
   overlay_filter: 0.5
-published : true
+published: true
 ---
 보이스피싱 시리즈: VoIP Gateway 분석
 
