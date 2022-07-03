@@ -19,7 +19,8 @@ published : true
 ---
 보이스피싱 시리즈: VoIP Gateway 분석
 
-## Phone Scams
+
+## Phone Scam
 
 **Phone scam crime** is one of the top of financial crimes in South Korea. It causes cost damages of over $500M per year. Scammers have figured out countless ways to cheat you out of your money over the phone. They pretend to be law enforcement, banks or any other financial agencies, saying there’s been illegal activities on your account so they need to wire the deposit to safer account. Not to mention some unknown telemarketer advise you to change a loan with lower interes rates.
 
