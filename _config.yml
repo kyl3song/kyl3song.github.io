@@ -27,6 +27,7 @@ repository               : "https://github.com/kyl3song"
 teaser                   : #"/assets/photo/bio-photo.jpg" # 한 개의 포스트 맨 아래에 있는 다음글, 이전글 관련된 사진
 logo                     : "/assets/photo/logo.png"
 masthead_title           : "T3cHn1C41 B1o9" # 타이틀 우선순위를 갖음
+future                   : true
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
