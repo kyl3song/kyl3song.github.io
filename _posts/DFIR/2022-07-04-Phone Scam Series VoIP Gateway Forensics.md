@@ -50,7 +50,7 @@ And in early 2022, scammers have started to use USB modems with SIM cards becaus
 
 ## Case Study
 
-### Internals
+### VoIP Gateway Internals
 Let's dissect the device where we can see onsite. VoIP Gateway has an ethernet interface frontside, and multiple PSTN(Public Switched Telephone Network) interfaces backside to inter-connect between individual networks.
 
 <p align="center">
