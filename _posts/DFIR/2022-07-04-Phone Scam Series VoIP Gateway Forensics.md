@@ -48,7 +48,7 @@ And in early 2022, scammers have started to use USB modems with SIM cards becaus
 </p>
 
 
-## Case Study
+## Case Study: VoIP Gateway
 
 ### VoIP Gateway Internals
 Let's dissect the device where we can see onsite. VoIP Gateway has an ethernet interface frontside, and multiple PSTN(Public Switched Telephone Network) interfaces backside to inter-connect between individual networks.
@@ -57,7 +57,7 @@ Let's dissect the device where we can see onsite. VoIP Gateway has an ethernet i
   <img src="https://i.imgur.com/N4Vj1LU.png" alt="image"/>
 </p>
 
-The chip which we need to look into is the Flash Memory. The device has 32MB flash memory mounted on PCB, but with very rare case 16MB flash is also found.
+The chip which we need to look into is the Flash Memory. The device has 32MB flash memory mounted on the PCB, but with very rare case, 16MB flash can also be found.
 
 
 ### Partitions & Data
