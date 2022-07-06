@@ -41,7 +41,7 @@ In 2020-2021, they cunningly changed their method to separate SIM Cards from VoI
   <img src="https://i.imgur.com/hAMOvQE.png" alt="image"/>
 </p>
 
-And in early 2022, scammers have started to use USB modems with SIM cards because it is harder to supply the device after massive crack down on VoIP Gateways by the police and getting harder to import through the customs as well.
+And in early 2022, scammers have started to use USB modems with SIM cards because it is harder to supply the gateways after massive crackdown by the police and getting harder to import through the customs as well.
 
 <p align="center">
   <img src="https://i.imgur.com/Z7OWlB0.png" alt="image"/>
@@ -76,20 +76,19 @@ Forensically rich information is located in the highlighted blocks. ENV partitio
 
 
 ### Received SMS from RAM dump
-What we can get from the RAM dump. Received SMS are temporarily saved in the **RAM**. The GUI of VoIP Gateway shows us the Port(Slot Number), Sender, Receiver, Time, SCTS and Content of SMS. 
+What we can get from the RAM dump. Received SMS are temporarily saved in the RAM. The GUI of VoIP Gateway shows us the Port(Slot Number), Sender, Receiver, Time, SCTS and Content of SMS. The interesting part is we figured out that the **order of received SMS** and **SMSC** which they are not even seen in the GUI.
 
 <p align="center">
   <img src="https://i.imgur.com/jgDEoaE.png" alt="image"/>
 </p>
 
+**[Key Data saved in RAM]**
 
-- SIM slot starts from '0' (zero based index)
-- **Order of Received SMS**
+- SIM slot number: It starts from '0' (zero based index)
+- **Order of received SMS**
 - Date & Time of received SMS (Based on TimeZone)
 - **SMSC(Short Message Service Center)**
 - SCTS(Service Center Time Stamp)
-
-The interesting part is we find that Order of received SMS and SMSC which they are not even found in the GUI.
 
 > A Short Message Service Center is a network element in the mobile telephone network. Its purpose is to store, forward, convert and deliver Short Message Service messages. The full designation of an SMSC according to 3GPP is Short Message Service.
 
@@ -99,6 +98,15 @@ I tried finding the structure of the sent message from the RAM dump, I could see
   <img src="https://i.imgur.com/aMeAfpnm.png" alt="image"/>
 </p>
 
+### Network Traffic Analysis
+
+If we capture the packets between VoIP Gateway and one of the Remote Management Systems the gateway regularly transmit the heatbeat packet that contains its MAC address, SIM slot status, and more information. Moreover, the gateways sends packets when it's triggered by activities such as sending & receiving calls, sms.
+
+<p align="center">
+  <img src="https://i.imgur.com/PFYE65e.png" alt="image"/>
+</p>
+
+Because of the special feature it has, we are so lucky to draw the timeline from call begins to the end.
 
 
 ## Reference
