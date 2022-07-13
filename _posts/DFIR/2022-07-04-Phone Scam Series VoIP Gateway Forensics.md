@@ -41,7 +41,7 @@ In 2020-2021, they cunningly changed their method to separate SIM Cards from VoI
   <img src="https://i.imgur.com/hAMOvQE.png" alt="image"/>
 </p>
 
-And in early 2022, scammers have started to use USB modems with SIM cards because it is harder to supply the gateways after massive crackdown by the police and getting harder to import through the customs as well.
+And from late 2021, scammers have started using USB modems with SIM cards because it is harder to supply the gateways after massive crackdown by the police and getting harder to import through the customs as well.
 
 <p align="center">
   <img src="https://i.imgur.com/Z7OWlB0.png" alt="image"/>
