@@ -129,9 +129,14 @@ We're not even able to get the first few bytes of MMS if the MMS Server IP, Port
 
 Given the fact that I got the MMS push message alerting new MMS is arrived, but not be able to MMS content itself, suggests that any one of the three config are wrong or it's because of telco's some policy to restrict MMS service from non-mobile-phone devices.
 
+## Wrap-up
+
+The limitation of using the Mobile Partner is we only could use one usb modem at a time. Scammers could've realized they need a better way to use multiple modems, so the artifacts above haven't been discovered in recent few months. That Ubuntu virtual machine with Asterisk comes in. Asterisk is an open source framework for building communications applications sponsored by Sangoma.
+
+As commented in the first part of this post, criminal behavior constantly changes overtime.
 
 ## Reference
-- <https://www.filehorse.com/download-huawei-mobile-partner/>
+- <https://www.asterisk.org/>
 
 
 
