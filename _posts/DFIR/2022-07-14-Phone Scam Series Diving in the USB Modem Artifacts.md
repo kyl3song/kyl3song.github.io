@@ -133,7 +133,7 @@ Given the fact that I got the MMS push message alerting new MMS is arrived, but 
 
 The limitation of using the Mobile Partner is we only could use one usb modem at a time. Scammers could've realized they need a better way to use multiple modems, so the artifacts above haven't been discovered in recent few months. That Ubuntu virtual machine with Asterisk comes in. Asterisk is an open source framework for building communications applications sponsored by Sangoma.
 
-As commented in the first part of this post, criminal behavior constantly changes overtime.
+As commented in the first part of this post, criminal behavior constantly changes, and it will be.
 
 ## Reference
 - <https://www.asterisk.org/>
