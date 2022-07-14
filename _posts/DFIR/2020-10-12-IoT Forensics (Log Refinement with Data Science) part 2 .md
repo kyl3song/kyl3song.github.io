@@ -1,7 +1,7 @@
 ---
 title : "Blog #17: IoT Forensics (Log Refinement w/ Data Science) part 2"
 category :
-  - IoT Forensics
+  - IoT & Embedded
   - Data Science
 tag : 
   - DFIR

@@ -1,7 +1,7 @@
 ---
 title : "Phone Scam Series: Diving into the USB Modem Artifacts"
 category :
-  - IoT Forensics
+  - IoT & Embedded
 tag : 
   - USB Modem
   - Phone Scams

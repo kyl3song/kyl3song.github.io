@@ -1,7 +1,7 @@
 ---
 title : "Phone Scam Series: VoIP Gateway Forensics"
 category :
-  - IoT Forensics
+  - IoT & Embedded
 tag : 
   - VoIP Gateway
   - Phone Scams
