@@ -1,7 +1,7 @@
 ---
 title : "Blog #16: IoT Forensics (Acquisition) part 1"
 category :
-  - IoT Forensics
+  - IoT & Embedded
 tag : 
   - DFIR
   - Digital Forensics & Incident Response

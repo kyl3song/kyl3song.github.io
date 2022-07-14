@@ -1,7 +1,7 @@
 ---
 title : "Blog #34: How to Decrypt Spycam Full Disk Encryption"
 category :
-  - IoT Forensics
+  - IoT & Embedded
 tag : 
   - Android
   - Spycam
