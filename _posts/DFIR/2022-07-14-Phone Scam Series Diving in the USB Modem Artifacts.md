@@ -19,7 +19,7 @@ published: true
 ---
 보이스피싱 시리즈: USB Modem Artifacts
 
-Criminal behavior always changes overtime. As stated in the [previous post](https://kyl3song.github.io/iot%20forensics/Phone-Scam-Series-VoIP-Gateway-Forensics/), starting from late 2021, there's been a huge change that the scammers have started using USB modems for the crime.
+Criminal behavior always changes overtime. As stated in the [previous post](https://kyl3song.github.io/iot%20&%20embedded/Phone-Scam-Series-VoIP-Gateway-Forensics/), starting from late 2021, there's been a huge change that the scammers have started using USB modems for the crime.
 
 <p align="center">
   <img src="https://i.imgur.com/Z7OWlB0.png" alt="image"/>
