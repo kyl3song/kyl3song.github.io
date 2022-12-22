@@ -63,6 +63,7 @@ The artifacts are mainly saved in /var/log/asterisk, and config values ​​rem
 
 Master.csv is a file in which logs of incoming and outgoing calls through a USB modem are recorded, and the file is saved in CSV format. The names of each field were not recorded in the logs but the meaning of each field can be found at [asterisk docs](http://www.asteriskdocs.org/en/3rd_Edition/asterisk-book-html-chunk/asterisk-SysAdmin-SECT-1.html) or [cdr_csv.c](https://github.com/asterisk/asterisk/blob/master/cdr/cdr_csv.c).
 
+
 |No| Field Name | Description |
 |:---:|:---:|:---|
 |1|accountcode|account (string, 20 characters)|
@@ -90,7 +91,7 @@ The data in ***dst*** are recorded in the form of src+dst number concatenated.
   <img src="https://i.imgur.com/sdLGbI0.png" alt="image"/>
 </p>
 
-We could also get the calling number from ***lastdata*** field. Asterisk used system timezone by default, so the ***start, answer, end*** timestamps are based on the system time.
+We could also get the caller number from ***lastdata*** field. Asterisk used system timezone by default, so the ***start, answer, end*** timestamps are based on the system time.
 
 <p align="center">
   <img src="https://i.imgur.com/eVKC99b.png" alt="image"/>
