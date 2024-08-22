@@ -19,7 +19,7 @@ toc_label: "Table of Contents"
 header:
   overlay_image : /assets/images/post.jpg
   overlay_filter: 0.5
-#published : true
+published : False
 ---
 디지털포렌식에서의 데이터 과학 (DVR Case) part 1
 
