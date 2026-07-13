@@ -18,7 +18,7 @@ toc_label: "Table of Contents"
 header:
   overlay_image : /assets/images/post.jpg
   overlay_filter: 0.5
-#published : true
+published : False
 ---
 크롬의 새로운 아티팩트 "Media History" part 2
 
